@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 
 public class TextWriter : MonoBehaviour {
     private List<TextWriterSingle> _textWriterSingles;
@@ -50,6 +49,9 @@ public class TextWriter : MonoBehaviour {
 
 
         public bool Update() {
+            if (Input.GetMouseButtonDown(0) ) {
+                timePerCharacter = timePerCharacter / 10;
+            }
             _timer -= Time.deltaTime;
             while (_timer <= 0) {
                 _timer += timePerCharacter;
@@ -69,4 +71,12 @@ public class TextWriter : MonoBehaviour {
 
         public TextMeshProUGUI Uitext => _uitext;
     }
+
+    // public void OnPointerDown(PointerEventData eventData) {
+    //     Debug.Log("qde11111111111111");
+    // }
+    //
+    // public void OnPointerClick(PointerEventData eventData) {
+    //     Debug.Log("Click event !!!!!!!!!!!!!");
+    // }
 }
