@@ -13,31 +13,16 @@ namespace MenuSystemWithZenject.Elements {
         private bool hideLevelNumber;
         
         [Inject] private GameController controller;
-        [Inject] private SignalBus _signalBus;
 
-        private LevelPath level;
 
         private void Start() {
             button.onClick.AddListener(() => {
-                Debug.Log(level);
-                controller.StartGame(level);
+                controller.StartGame(null);
             });
-            _signalBus.Subscribe<LevelCompleteSignal>(OnCompleteLevel);
         }
 
-        public void Init(LevelPath levelPath) {
-            level = levelPath;
-            if (!hideLevelNumber) {
-                text.text = "Уровень " + levelPath.Package + " "+ levelPath.Number;
-            }
+        public void Init(Object levelPath) {
         }
         
-        private void OnCompleteLevel(LevelCompleteSignal obj) {
-            Init(obj.Level.Next());
-        }
-
-        private void OnDestroy() {
-            _signalBus.Unsubscribe<LevelCompleteSignal>(OnCompleteLevel);
-        }
     }
 }

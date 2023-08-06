@@ -88,30 +88,7 @@ public class OptionDialogController : MonoBehaviour {
     }
 
     private void ResetProgress() {
-        foreach (LevelPackage package in Enum.GetValues(typeof(LevelPackage))) {
-            if (package.DefaultStatus() != LevelPachageStatus.NEED_BUY_FOR_REAL_MONEY) {
-                string purchaseKey = PlayerPrefsUtils.PurchasePackageKey(package);
-                if (PlayerPrefs.HasKey(purchaseKey)) {
-                    PlayerPrefs.DeleteKey(purchaseKey);
-                }
-            }
-            
-            for (int i = 50 - 1; i >= 0; i--) {
-                string levelKey = PlayerPrefsUtils.LevelKey(package, i);
-                if (PlayerPrefs.HasKey(levelKey)) {
-                    PlayerPrefs.DeleteKey(levelKey);
-                }
-            }   
-        }
-        
-        if (PlayerPrefs.HasKey(PlayerPrefsUtils.BALANCE)) {
-            PlayerPrefs.DeleteKey(PlayerPrefsUtils.BALANCE);
-        }
-        if (PlayerPrefs.HasKey(PlayerPrefsUtils.WAGON_COUNT)) {
-            PlayerPrefs.DeleteKey(PlayerPrefsUtils.WAGON_COUNT);
-        }
-        //PlayerPrefs.DeleteAll();
-        _signalBus.Fire(new ResetProgressSignal());
+       
     }
     
     public void ReloadScene() {
