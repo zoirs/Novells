@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd643e27309c43c408efed6182b19a54, type: 3}
+  m_Name: GameSettingsInstaller
+  m_EditorClassIdentifier: 
+  Prefabs:
+    Tube1Prefab: {fileID: 5576503969858071273, guid: f4fe895855b80c849a77ac9ae18e82e7,
+      type: 3}
+    Tube2Prefab: {fileID: 5739412149781038218, guid: afed1a3d13994c448b35759424580361,
+      type: 3}
+    Tube3Prefab: {fileID: 3357365151331028421, guid: a3a48af9f20944749b08d2b96104bd8d,
+      type: 3}
+    Tube4Prefab: {fileID: 759746000002427301, guid: 7d05a00834462114f9e90896ae7c3459,
+      type: 3}
+    TubeAngelPrefab: {fileID: 995624511411678973, guid: 0f3789ca13639b14cb9a28d2d080c395,
+      type: 3}
+    Tube1BridgePrefab: {fileID: 4226060462709833898, guid: 9b1485b3baa6eb14cbc7fd6719be04c0,
+      type: 3}
+    Tube2StationPrefab: {fileID: 5475642954913231019, guid: 6baa184bdcd4e1048b50151fae1094fd,
+      type: 3}
+    RockPrefab: {fileID: 811567784838161034, guid: 250e9340b68bf89449d88ed1cbce0472,
+      type: 3}
+    TreePrefab: {fileID: 5855028716847859471, guid: af3f8a505be0b5e41b24e6c90675429d,
+      type: 3}
+    StonePrefab: {fileID: 6021228933351344937, guid: 02ed89c87adb1cb41833dd3ea77a5438,
+      type: 3}
+    PortalPrefab: {fileID: 8867269723360513759, guid: 53cd4b51cfd718446a546d90b5805826,
+      type: 3}
+    PlanePrefab: {fileID: 7411955212751278634, guid: a7772c98797c3da49ba082c6629e247e,
+      type: 3}
+    TrainPrefab: {fileID: 5931089740283710004, guid: e291a64904c15a54bb25928a94542e60,
+      type: 3}
+    VagonPrefab: {fileID: 344719959999867392, guid: c0a4e447d235bfe41a3448c965dc7071,
+      type: 3}
+    pathPrefab: {fileID: 5058599679775956527, guid: de4d080217f65d7438ea1934bb50e060,
+      type: 3}
+    riverPrefab: {fileID: 8029522520754934761, guid: fcf026320c8a17d4999f1389ecba360c,
+      type: 3}
+    riverAngelPrefab: {fileID: 3434715856590029252, guid: e149c3b17570f974dafdfee8c01fa7df,
+      type: 3}
+  PriceSettings:
+    Hint: 5
+    Reward: 5
+    Wagon: 80
+    LevelPackageSimple: 100
+    LevelPackageStatic: 150
+    LevelPackagePortal: 300
+    LevelPackageBridge: 700
+    LevelPackageCrossroad: 0
+    LevelPackageSmall: 2000
+  TubeButton:
+    Line1: {fileID: 2800000, guid: 1513df6daca7da641b04dc69b06f424e, type: 3}
+    Line2: {fileID: 2800000, guid: 2adf5e205c6a51a47aad390b26a61738, type: 3}
+    Line3: {fileID: 2800000, guid: a869d1855355edd43a9511d29f5073c0, type: 3}
+    Line4: {fileID: 2800000, guid: a816ec3980a42e14699a5fc9ae0d538a, type: 3}
+    Station: {fileID: 2800000, guid: 6aa9fe1b231717f4889ac43166c0b320, type: 3}
+    Angle: {fileID: 2800000, guid: 69995d0ca71d9744bb2f1aff207a1176, type: 3}
+    Bridge: {fileID: 2800000, guid: e52515f2078d829408d7ec639f0a9819, type: 3}
+  TextureSettings:
+    Portal: {fileID: 2800000, guid: 1572a5dcd2711204f8a76b0f01d165cf, type: 3}
+    Simple: {fileID: 2800000, guid: 48f239a6cd41dbf4fa8bada23b655070, type: 3}
+    Static: {fileID: 2800000, guid: 97210caec05cba24280f14d5a1107d9a, type: 3}
+    Bridge: {fileID: 2800000, guid: 2b87339e99f014d4f909c6912d1d5cbf, type: 3}
+  MenuButtonSprites:
+    openButton: {fileID: 21300000, guid: a6684cdc6062b864b94e4d4c7a254cf4, type: 3}
+    needBuyVirtualMoneyButton: {fileID: 21300000, guid: 5df8110568d247146b4a6d5facadb13d,
+      type: 3}
+    needBuyRealMoneyButton: {fileID: 21300000, guid: 5df8110568d247146b4a6d5facadb13d,
+      type: 3}
+    developButton: {fileID: 21300000, guid: 5df8110568d247146b4a6d5facadb13d, type: 3}
+  BuyItemsTextureSettings:
+    Wagon: {fileID: 2800000, guid: 65953e1a05330614e9f01a491e665ee4, type: 3}
+    Hint: {fileID: 2800000, guid: f5f568ee64c6f8c4dbea45db09022298, type: 3}
+  OtherItemTexture:
+    Rock: {fileID: 2800000, guid: 64164fba48da9b848828b5e658a6042c, type: 3}
+    Tree: {fileID: 2800000, guid: 5f1cacd11d3b099438dcf0deddcc0e55, type: 3}
+    Stone: {fileID: 2800000, guid: 0562ac083759e2a4d8d38e660632a975, type: 3}
+    Portal: {fileID: 2800000, guid: 1572a5dcd2711204f8a76b0f01d165cf, type: 3}
+    Train: {fileID: 2800000, guid: fdb97e67e5d89a34ab89599c42791b30, type: 3}
+    River: {fileID: 2800000, guid: c6f4299a75a9b4a4f9736b546753d204, type: 3}
+    RiverAngel: {fileID: 2800000, guid: 72b2e0bec632ce1439784e44a02ca162, type: 3}
+  UIPrefab:
+    InventoryItem: {fileID: 4411518698008373311, guid: 65e57af1bc0bcab4c9b0548d8d4f4ca1,
+      type: 3}
+    OtherItem: {fileID: 2104384948895448081, guid: 6463df594268b554295a9b814778a55a,
+      type: 3}
+    ConfirmDialog: {fileID: 8231519572314821881, guid: ddc61f7221a99ed49957b9f0fae3db88,
+      type: 3}
+    PurchaseDialog: {fileID: 5166574657235127235, guid: 9afcc2c386082014ab690a7ba5ba03a3,
+      type: 3}
+    CongradulationDialog: {fileID: 4032068643207685810, guid: b5f784d4b38d595449e5860f6971c6e3,
+      type: 3}
+    BuyHintDialog: {fileID: 3890928691498658526, guid: 655bccf4d5f7e8d47950a7ed789b72b6,
+      type: 3}
+    OptionDialog: {fileID: 7739332250804498723, guid: 70759d2271d28e14daaa7dd99494e406,
+      type: 3}
+    Tutorial: {fileID: 3607591197537202622, guid: 448dc5fea7eb6d043a6282445b6e3433,
+      type: 3}
+    menuButtonPrefab: {fileID: 5746460847515884952, guid: 150ecddac71e36f448f2bd0baf21c525,
+      type: 3}
+    nextFramePrefab: {fileID: 5411179428438364978, guid: ce6da9e57f6750a489e7bdd5b910ac4d,
+      type: 3}
+  audioMicSetting:
+    rotate: {fileID: 8300000, guid: 10dd0e6678f952e47a323c1da08316d4, type: 3}
+    startMove: {fileID: 8300000, guid: 6048acdd5a9d19541a209ffb706a02ff, type: 3}
+    levelComplete: {fileID: 8300000, guid: de4f3410cc2004e42a8833fbff7f7a4d, type: 3}
+    isOn: 1
+  Setting:
+    isDebug: 0
+    loadLevelFromResources: 1

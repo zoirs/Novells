@@ -1,0 +1,17 @@
+{
+"steps":[
+{
+"first": {"movePosition":{"x":"3", "y":"3.5", "z":"0"}},
+"actionType":1,
+"second":{"objectName":"Inv_LINE1_%LI"},
+"completionCondition": {"busyPoint":{"x":"3", "y":"4", "z":"0"}}
+},
+{
+"first":{"objectName":"Obj_LINE1_%LO"},
+"actionType":2,
+"second":{"movePosition":{"x":"2", "y":"2", "z":"0"}},
+"completionCondition": {"levelCompletion":true}
+}
+]
+}
+
