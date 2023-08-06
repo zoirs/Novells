@@ -23,12 +23,12 @@ public class LocalisationSystem {
     public static void Init() {
         RefreshLanguage();
         
-        CSVLoader csvLoader = new CSVLoader();
-        csvLoader.LoadCSV();
+        LocalizationLoader localizationLoader = new LocalizationLoader();
+        localizationLoader.LoadAll();
 
-        localisedEn = csvLoader.GetDictionaryValues("en");
-        localisedRu = csvLoader.GetDictionaryValues("ru");
-        localisedFr = csvLoader.GetDictionaryValues("fr");
+        localisedEn = localizationLoader.GetDictionaryValues("en");
+        localisedRu = localizationLoader.GetDictionaryValues("ru");
+        localisedFr = localizationLoader.GetDictionaryValues("fr");
 
         isInit = true;
     }
@@ -58,13 +58,13 @@ public class LocalisationSystem {
 
         switch (language) {
             case Language.ENGLISH:
-                localisedEn.TryGetValue(key, out value);
+                localisedEn.TryGetValue(key.ToLower(), out value);
                 break;
             case Language.RUSSIAN:
-                localisedRu.TryGetValue(key, out value);
+                localisedRu.TryGetValue(key.ToLower(), out value);
                 break;
             case Language.FRENCH:
-                localisedFr.TryGetValue(key, out value);
+                localisedFr.TryGetValue(key.ToLower(), out value);
                 break;
             default:
                 throw new ArgumentOutOfRangeException();

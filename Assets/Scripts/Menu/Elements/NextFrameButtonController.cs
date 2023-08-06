@@ -9,6 +9,8 @@ public class NextFrameButtonController : MonoBehaviour {
 
     public void Init(NextFrameBtnParam createParam) {
         _nextFrameBtnParam = createParam;
+        Debug.Log(createParam.Caption);
+        _button.GetComponentInChildren<Text>().text = createParam.Caption;
         _button.onClick.AddListener(() => {
             _nextFrameBtnParam.CallBack();
             // Destroy(gameObject);

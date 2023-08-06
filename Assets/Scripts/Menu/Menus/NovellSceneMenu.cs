@@ -34,19 +34,21 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
             back.sprite = Resources.Load<Sprite>("Place/" + place);
         }
 
+        string heroName = frame.hero?.name;
         if (frame.sceneType == SceneType.LEFT) {
-            heroLeft.sprite = Resources.Load<Sprite>("Hero/" + frame.hero.name + "/Base");
+            heroLeft.sprite = Resources.Load<Sprite>("Hero/" + heroName + "/Base");
         }
 
         if (frame.sceneType == SceneType.RIGHT) {
-            heroRight.sprite = Resources.Load<Sprite>("Hero/" + frame.hero.name + "/Base");
+            heroRight.sprite = Resources.Load<Sprite>("Hero/" + heroName + "/Base");
         }
 
         if (frame.sceneType == SceneType.CENTER) {
         }
 
         animator.SetTrigger(frame.sceneType.GetTrigger());
-        _bubleSpeech.SetText(frame.hero.name, frame.text, () => {ShowButtons(room, scene, frameIndex,frame.buttons);});
+        Debug.Log("heroName " + heroName);
+        _bubleSpeech.SetText(heroName, frame.text, () => {ShowButtons(room, scene, frameIndex,frame.buttons);});
     }
 
     private void ShowButtons(int room, int scene, int frameIndex, List<ButtonDto> frameButtons) {
@@ -56,7 +58,7 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
             }
 
             if ("Frame".Equals(button.type)) {
-                _factory.Create(new NextFrameBtnParam(() => LoadNext(room, scene, frameIndex + 1, true)));
+                _factory.Create(new NextFrameBtnParam(() => LoadNext(room, scene, frameIndex + 1, true),button.caption));
             }
 
             if (button.type.StartsWith("room_") && button.type.Contains("_scene_")) {
@@ -69,7 +71,7 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
                 }
 
                 _factory.Create(new NextFrameBtnParam(() =>
-                    LoadNext(Convert.ToInt32(roomIndex), Convert.ToInt32(sceneIndex), 0, true)));
+                    LoadNext(Convert.ToInt32(roomIndex), Convert.ToInt32(sceneIndex), 0, true), button.caption));
             }
         }
     }

@@ -3,42 +3,17 @@
   "place": "Room",
   "frames": [
     {
-      "text": "Анна весело и наивно радовалась возможности путешествовать на таком роскошном лайнере. Она только что закончила первый курс университета и решила сделать себе подарок на каникулах. Поэтому, когда услышала, что кто-то уже забронировал каюту, она согласилась разделить ее с незнакомкой. Когда дверь каюты открылась, она была удивлена увиденному.",
-      "backgroundImg": "girl_student_usual_r.png",
-      "sceneType": "LEFT",
-      "hero": {
-        "name": "Anna",
-        "emotion": "happy"
-      },
-      "buttons": [
-        {
-          "caption": "Далее",
-          "type": "Frame"
-        }
-      ]
-    },
-    {
-      "text": "Женщина, встретившая Анну, была величественна и загадочна. Ее черные волосы скрадывали часть лица, и лишь блеск глаз выдавал, что она пристально смотрит на девушку. Одежда колдуньи казалась выбором из другого времени: черные одеяния, усыпанные серебряными символами и амулетами.",
-      "backgroundImg": "witch_usual.png",
+      "text": "$room_1_scene_2_frame_1",
       "sceneType": "CENTER",
-      "hero": {
-        "name": "Anna",
-        "emotion": "happy"
-      },
       "buttons": [
         {
-          "caption": "Далее",
-          "type": "Frame"
-        },
-        {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "- Привет, - поздоровалась Анна, пытаясь скрыть свое беспокойство за улыбкой. - Я Анна. Ты тоже будешь на этом круизе?",
-      "backgroundImg": "girl_student_scared.png",
+      "text": "$room_1_scene_2_frame_2",
       "sceneType": "LEFT",
       "hero": {
         "name": "Anna",
@@ -46,14 +21,13 @@
       },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "- Да, я тоже путешественница. Меня зовут Лилит.",
-      "backgroundImg": "witch_hight.png",
+      "text": "$room_1_scene_2_frame_3",
       "sceneType": "RIGHT",
       "hero": {
         "name": "Lilit",
@@ -61,29 +35,13 @@
       },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "С первых минут общения Лилит проявила интерес к Анне, спрашивая о ее увлечениях, мечтах и даже о личной жизни. Анна, которая всегда была открытой и общительной, с радостью рассказывала о себе. Но она так и не заметила, что Лилит весьма избирательно выбирала слова и задавала некоторые странные вопросы.",
-      "backgroundImg": "together.png",
-      "sceneType": "CENTER",
-      "hero": {
-        "name": "Anna",
-        "emotion": "happy"
-      },
-      "buttons": [
-        {
-          "caption": "Далее",
-          "type": "Frame"
-        }
-      ]
-    },
-    {
-      "text": "Вечер наступил, и стало холодно. Лилит предложила выпить горячего чая.",
-      "backgroundImg": "sunset.png",
+      "text": "$room_1_scene_2_frame_4",
       "sceneType": "LEFT",
       "hero": {
         "name": "Anna",
@@ -91,12 +49,36 @@
       },
       "buttons": [
         {
-          "caption": "Анна согласилась",
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_2_frame_5",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_2_frame_6",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "happy"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.anna.agree",
           "type": "room_1_scene_3",
           "price": 3
         },
         {
-          "caption": "Анна отказывается",
+          "caption": "$story.btn.anna.disagree",
           "type": "room_1_scene_4"
         }
       ]
