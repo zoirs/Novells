@@ -8,16 +8,22 @@ public class BubleSpeechController : MonoBehaviour {
     [SerializeField] private GameObject background;
     [SerializeField] private TextMeshProUGUI _text;
     [SerializeField] private TextWriter _textWriter;
+    private Coroutine current;
 
     public void SetText(string name, string speech) {
+        if (current != null) {
+            StopCoroutine(current);
+            _textWriter.RemoveWriter(_text);
+        }
+
         string text;
         if (name == null) {
             text = speech;
         } else {
             text = name + ":\n" + speech;
         }
-        StartCoroutine(DoClickAndAction(text));
 
+        current = StartCoroutine(DoClickAndAction(text));
     }
     
     IEnumerator DoClickAndAction(string text) {

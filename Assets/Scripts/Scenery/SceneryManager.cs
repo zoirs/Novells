@@ -20,10 +20,10 @@ public class SceneryManager :IInitializable{
             _scenes.Add(textAsset.name, scene);
         }
         
-        TextAsset levelasset = Resources.Load<TextAsset>("Story/1_room/room_1_scene_1");
-        Debug.Log(levelasset.text);
-        SceneDto fromJson = JsonConvert.DeserializeObject<SceneDto>(levelasset.text);
-        
+        // TextAsset levelasset = Resources.Load<TextAsset>("Story/1_room/room_1_scene_1");
+        // Debug.Log(levelasset.text);
+        // SceneDto fromJson = JsonConvert.DeserializeObject<SceneDto>(levelasset.text);
+        SceneDto fromJson = _scenes["room_1_scene_1"];
         foreach (Frame frame in fromJson.frames) {
             Debug.Log("sceneType " + frame.sceneType);
             if (frame.sceneType == SceneType.LEFT) {
@@ -45,8 +45,13 @@ public class SceneryManager :IInitializable{
         return sceneData;
     }
     
-    public Tuple<string, Frame> next( NextFrameBtnParam param) {
-        SceneDto sceneDto = _scenes[param.getFileName()];
-        return  new Tuple<string, Frame>(sceneDto.place, sceneDto.frames[param.Frame]);
-    }
+    // public Tuple<string, Frame> next( NextFrameBtnParam param) {
+    //     SceneDto sceneDto = _scenes[param.getFileName()];
+    //     return  new Tuple<string, Frame>(sceneDto.place, sceneDto.frames[param.Frame]);
+    // }
+
+    public Tuple<string, Frame> next(int room, int scene, int frameIndex) {
+
+        SceneDto sceneDto = _scenes["room_" + room + "_scene_" + scene];
+        return  new Tuple<string, Frame>(sceneDto.place, sceneDto.frames[frameIndex]);    }
 }

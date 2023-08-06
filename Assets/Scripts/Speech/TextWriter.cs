@@ -15,6 +15,11 @@ public class TextWriter : MonoBehaviour {
         _textWriterSingles.Add(new TextWriterSingle(textMeshProUGUI, textToWrite, timePerCharacter, unknown));
     }
 
+    public void RemoveWriter(TextMeshProUGUI textMeshProUGUI) {
+        TextWriterSingle find = _textWriterSingles.Find(single => single.Uitext == textMeshProUGUI);
+        _textWriterSingles.Remove(find);
+    }
+
     private void Update() {
         for (int i = 0; i < _textWriterSingles.Count; i++) {
             bool destroyInstance = _textWriterSingles[i].Update();
@@ -51,8 +56,7 @@ public class TextWriter : MonoBehaviour {
                 _characterIndex++;
                 string text = _textToWrite.Substring(0, _characterIndex);
                 _uitext.text = text;
-
-
+                
                 if (_characterIndex >= _textToWrite.Length) {
                     return true;
                 }
