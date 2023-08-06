@@ -12,6 +12,7 @@ UnityVS.*
 build.xml
 Library
 Temp
+Logs
 Out
 obj
 target
