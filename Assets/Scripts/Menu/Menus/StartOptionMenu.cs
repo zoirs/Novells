@@ -19,12 +19,12 @@ public class StartOptionMenu : StartMenu {
     [Inject] private DialogManager _dialogManager;
     [Inject] private SignalBus _signalBus;
 
-    private int nextLevel;
+    // private int nextLevel;
 
     private void Start() {
         LevelPackage levelPackage = LevelPackage.SIMPLE; // todo
         LevelBtnParam param = levelManager.FindFirstNotLocked(levelPackage);
-        nextLevel = param.FileName;
+        // nextLevel = param.FileName;
         startBtn.onClick.AddListener(() => { animator.SetTrigger("change"); });
         backBtn.onClick.AddListener(() => { animator.SetTrigger("change"); });
         optionBtn.onClick.AddListener(() => { _dialogManager.OpenOptionDialog(); });
@@ -34,11 +34,11 @@ public class StartOptionMenu : StartMenu {
     }
 
     private void OnResetProgress() {
-        nextLevel = 0;
+        // nextLevel = 0;
     }
 
     private void OnCompleteLevel(LevelCompleteSignal obj) {
-        nextLevel++;
+        // nextLevel++;
     }
 
     private void OnDestroy() {

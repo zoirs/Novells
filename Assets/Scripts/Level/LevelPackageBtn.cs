@@ -37,11 +37,11 @@ public class LevelPackageBtn : MonoBehaviour {
         startBtn.onClick.AddListener(() => {
             Debug.Log(_status);
             if (_status == LevelPachageStatus.OPEN) {
-                LevelBtnParam param = levelLoadManager.FindFirstNotLocked(levelPackage);
-                if (param == null) {
-                    return;
-                }
-                controller.StartGame(new LevelPath(param.FileName, param.LevelPackage));
+                // LevelBtnParam param = levelLoadManager.FindFirstNotLocked(levelPackage);
+                // if (param == null) {
+                    // return;
+                // }
+                controller.StartGame(null);
             }
 
             if (_status == LevelPachageStatus.NEED_BUY_FOR_VIRTUAL_MONEY) {
