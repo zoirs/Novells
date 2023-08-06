@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using MenuSystemWithZenject;
 using UnityEngine;
 using UnityEngine.UI;
@@ -45,10 +46,11 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
         }
 
         animator.SetTrigger(frame.sceneType.GetTrigger());
-        _bubleSpeech.SetText(frame.hero.name, frame.text);
-        
-        foreach (ButtonDto button in frame.buttons) {
-            
+        _bubleSpeech.SetText(frame.hero.name, frame.text, () => {ShowButtons(room, scene, frameIndex,frame.buttons);});
+    }
+
+    private void ShowButtons(int room, int scene, int frameIndex, List<ButtonDto> frameButtons) {
+        foreach (ButtonDto button in frameButtons) {
             if ("End".Equals(button.type)) {
                 // NextFrameButtonController nextFrameButtonController = _factory.Create(new NextFrameBtnParam(frame., 1, 1));
             }
@@ -56,6 +58,7 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
             if ("Frame".Equals(button.type)) {
                 _factory.Create(new NextFrameBtnParam(() => LoadNext(room, scene, frameIndex + 1, true)));
             }
+
             if (button.type.StartsWith("room_") && button.type.Contains("_scene_")) {
                 int parseSceneIndex = button.type.IndexOf("_scene_", StringComparison.Ordinal);
                 string roomIndex = button.type.Substring("room_".Length, parseSceneIndex - "room_".Length);
@@ -64,7 +67,9 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
                 if (button.price > 0) {
                     caption = caption + " (\uD83D\uDC8E" + button.price + ")";
                 }
-                _factory.Create(new NextFrameBtnParam(() => LoadNext(Convert.ToInt32(roomIndex), Convert.ToInt32(sceneIndex), 0, true)));
+
+                _factory.Create(new NextFrameBtnParam(() =>
+                    LoadNext(Convert.ToInt32(roomIndex), Convert.ToInt32(sceneIndex), 0, true)));
             }
         }
     }

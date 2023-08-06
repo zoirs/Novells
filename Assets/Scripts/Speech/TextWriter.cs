@@ -60,6 +60,7 @@ public class TextWriter : MonoBehaviour {
                 _uitext.text = text;
                 
                 if (_characterIndex >= _textToWrite.Length) {
+                    _onSuccess.Invoke();
                     return true;
                 }
             }
