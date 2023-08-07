@@ -10,10 +10,8 @@ public class LevelPackageBtn : MonoBehaviour {
     [SerializeField] private Button startBtn;
     [SerializeField] private IAPButton iapButton;
 
-    [Inject] private GameSettingsInstaller.PriceSetting _priceSetting;
     [Inject] private GameController controller;
     [Inject] private DialogManager dialogManager;
-    [Inject] private GameSettingsInstaller.MenuButtonSpritesSettings buttonSprites;
     [Inject] private SignalBus _signalBus;
 
 

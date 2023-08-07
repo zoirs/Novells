@@ -18,19 +18,9 @@ namespace Main {
 
     public class GameController : IInitializable, IDisposable {
         
-        
-        
         [Inject] private Menu<StartMenu>.Factory _startMenuFactory;
-        [Inject] private Menu<GameMenu>.Factory _gameFactory;
         [Inject] private Menu<NovellSceneMenu>.Factory _novellSceneFactory;
         
-        
-        
-        [Inject] private MicAudioPlayer _audioPlayer;
-        [Inject] private DialogManager _dialogManager;
-        [Inject] readonly GameSettingsInstaller.PriceSetting _priceSetting;
-        [Inject] private SignalBus _signalBus;
-
         GameStates _state = GameStates.WaitingToStart;
 
         private StartMenu startMenu;
@@ -38,6 +28,7 @@ namespace Main {
         private NovellSceneMenu _novellSceneMenu;
 
         public void Initialize() {
+            Debug.Log("GameController");
             startMenu = _startMenuFactory.Create();
             startMenu.Open();
         }

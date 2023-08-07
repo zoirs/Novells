@@ -1,36 +1,31 @@
-﻿using DefaultNamespace;
-using Main;
+﻿using Main;
 using MenuSystemWithZenject;
-using MenuSystemWithZenject.Elements;
-using PathCreation;
-using Plane;
 using UnityEngine;
 using Zenject;
-using Object = System.Object;
 
 // документация https://github.com/modesttree/Zenject
 public class GameInstaller : MonoInstaller {
     
     [Inject] GameSettingsInstaller.UIPrefabs prefabsUI;
-    [Inject] GameSettingsInstaller.PrefabSettings prefabs;
     [Inject] GameSettingsInstaller.GameSetting _setting;
 
-    public GameObject startMoreLevelsMenu;
+    // public GameObject startMoreLevelsMenu;
     public GameObject startOneButtonMenu;
-    public GameObject gameMenu;
+    // public GameObject gameMenu;
     public GameObject novellSceneMenu;
 
     private static int lastTubeNumber = -1;
     private static int lastInventoryNumber = -1;
 
     public override void InstallBindings() {
+        Debug.Log("GameInstaller");
         Container.Bind<ScreenService>().AsSingle();
 
         Container.Bind<MenuManager>().AsSingle();
 
         if (_setting.isDebug) {
-            Container.Bind<GameObject>().FromInstance(startMoreLevelsMenu)
-                .WhenInjectedInto<Menu<StartMenu>.CustomMenuFactory>();
+            // Container.Bind<GameObject>().FromInstance(startMoreLevelsMenu)
+                // .WhenInjectedInto<Menu<StartMenu>.CustomMenuFactory>();
             Container.BindFactory<StartMenu, Menu<StartMenu>.Factory>()
                 .FromFactory<Menu<StartMenu>.CustomMenuFactory>();
         }
@@ -41,7 +36,7 @@ public class GameInstaller : MonoInstaller {
                 .FromFactory<Menu<StartMenu>.CustomMenuFactory>();
         }
 
-        Container.Bind<GameObject>().FromInstance(gameMenu).WhenInjectedInto<Menu<GameMenu>.CustomMenuFactory>();
+        // Container.Bind<GameObject>().FromInstance(gameMenu).WhenInjectedInto<Menu<GameMenu>.CustomMenuFactory>();
         Container.BindFactory<GameMenu, Menu<GameMenu>.Factory>().FromFactory<Menu<GameMenu>.CustomMenuFactory>();
        
         Container.Bind<GameObject>().FromInstance(novellSceneMenu).WhenInjectedInto<Menu<NovellSceneMenu>.CustomMenuFactory>();
@@ -56,7 +51,6 @@ public class GameInstaller : MonoInstaller {
         // Container.BindInterfacesAndSelfTo<MapService>().AsSingle();
         Container.BindInterfacesAndSelfTo<DialogManager>().AsSingle();
         Container.BindInterfacesAndSelfTo<GameMapService>().AsSingle();
-        Container.BindInterfacesAndSelfTo<PlaneManager>().AsSingle();
         Container.BindInterfacesAndSelfTo<CountHintManager>().AsSingle();
         Container.BindInterfacesAndSelfTo<SceneryManager>().AsSingle();
             //Container.BindInterfacesAndSelfTo<Purchaser>().AsSingle();
@@ -73,27 +67,14 @@ public class GameInstaller : MonoInstaller {
         //     .FromComponentInNewPrefab(prefabsUI.menuButtonPrefab)
         //     .UnderTransform(GameObject.Find("StartMoreLevelsMenu(Clone)").transform);
         
-        Container.BindFactory<PathParam, PathCreator, PathFactory>()
-            .FromMethod(CreatePath);
-        Container.BindFactory<PlaneParam, PlaneController, PlaneController.Factory>()
-            .FromMethod(CreatePlane);
 
-        
+        Container.BindFactory<ConfirmDialogParam, YesNoConfirmDialogController, YesNoConfirmDialogController.Factory>()
+            .FromMethod(CreateConfirmDialog);
         
         Container.BindFactory<NextFrameBtnParam, NextFrameButtonController, NextFrameButtonController.Factory>()
             .FromMethod(CreateNextFrameBtn);
         
 
-        Container.BindFactory<ConfirmDialogParam, YesNoConfirmDialogController, YesNoConfirmDialogController.Factory>()
-            .FromMethod(CreateConfirmDialog);
-        
-        Container.BindFactory<PurchaseDialogParam, PurchaseDialogController, PurchaseDialogController.Factory>()
-            .FromMethod(CreatePurchaseDialog);
-        
-        Container.BindFactory<CongradulationDialogParam, CongradulationDialogController, CongradulationDialogController.Factory>()
-            .FromMethod(CreateCongradulationDialog);
-        
-        
         Container.BindFactory<OptionDialogParam, OptionDialogController, OptionDialogController.Factory>()
             .FromMethod(CreateOptionDialog);
 
@@ -103,65 +84,13 @@ public class GameInstaller : MonoInstaller {
     }
 
     private void InstallUI() { }
-
-
-
-
-
-
-
-    PathCreator CreatePath(DiContainer subContainer, PathParam createParam) {
-        PathCreator pathController =
-            subContainer.InstantiatePrefabForComponent<PathCreator>(prefabs.pathPrefab,
-                GameObject.Find("Paths").transform);
-        BezierPath bezierPath = new BezierPath(createParam.Points, false, PathSpace.xy);
-        pathController.bezierPath = bezierPath;
-        return pathController;
-    }
-
-    PlaneController CreatePlane(DiContainer subContainer, PlaneParam createParam) {
-        PlaneController controller =
-            subContainer.InstantiatePrefabForComponent<PlaneController>(createParam.Prefab,
-                GameObject.Find("Planes").transform);
-        controller.transform.position = new Vector3(createParam.Position.x, createParam.Position.y, 7f);
-        return controller;
-    }
-
+    
     YesNoConfirmDialogController CreateConfirmDialog(DiContainer subContainer, ConfirmDialogParam createParam) {
         GameObject gameMenu = GameObject.Find("GameMenu(Clone)");
         GameObject startMenu = GameObject.Find("StartMenu(Clone)");
         YesNoConfirmDialogController controller =
             subContainer.InstantiatePrefabForComponent<YesNoConfirmDialogController>(prefabsUI.ConfirmDialog,
                 startMenu != null ? startMenu.transform : gameMenu.transform);
-        controller.Init(createParam);
-        return controller;
-    }
-    
-    PurchaseDialogController CreatePurchaseDialog(DiContainer subContainer, PurchaseDialogParam createParam) {
-        GameObject gameMenu = GameObject.Find("GameMenu(Clone)");
-        GameObject startMenu = GameObject.Find("StartMenu(Clone)");
-        PurchaseDialogController controller =
-            subContainer.InstantiatePrefabForComponent<PurchaseDialogController>(prefabsUI.PurchaseDialog,
-                startMenu != null ? startMenu.transform : gameMenu.transform);
-        controller.Init(createParam);
-        return controller;
-    }
-    
-    CongradulationDialogController CreateCongradulationDialog(DiContainer subContainer, CongradulationDialogParam createParam) {
-        GameObject gameMenu = GameObject.Find("GameMenu(Clone)");
-        GameObject startMenu = GameObject.Find("StartMenu(Clone)");
-        CongradulationDialogController controller =
-            subContainer.InstantiatePrefabForComponent<CongradulationDialogController>(prefabsUI.CongradulationDialog,
-                startMenu != null ? startMenu.transform : gameMenu.transform);
-        controller.Init(createParam);
-        return controller;
-    }
-    
-    MenuButtonController CreateMenuBtn(DiContainer subContainer, Object createParam) {
-        GameObject gameMenu = GameObject.Find("Content");
-        MenuButtonController controller =
-            subContainer.InstantiatePrefabForComponent<MenuButtonController>(prefabsUI.menuButtonPrefab,
-                gameMenu.transform);
         controller.Init(createParam);
         return controller;
     }

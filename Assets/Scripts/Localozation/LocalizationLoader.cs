@@ -9,7 +9,6 @@ using Object = UnityEngine.Object;
 public class LocalizationLoader {
     // private TextAsset csvFile;
     private char lineSeparator = '\n';
-    private char surround = '"';
     private String[] fieldSeparator = {"\",\""};
     private TextAsset[] _all;
 

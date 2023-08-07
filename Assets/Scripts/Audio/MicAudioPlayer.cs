@@ -27,15 +27,15 @@ public class MicAudioPlayer {
     }
 
     public void DoRotate() {
-        Play(_audioMicSettings.startMove, 1f);
+        // Play(_audioMicSettings.startMove, 1f);
     }
 
     public void DoMove() {
-        Play(_audioMicSettings.startMove, 1f);
+        // Play(_audioMicSettings.startMove, 1f);
     }
 
     public void DoComplete() {
-        Play(_audioMicSettings.levelComplete, 1f);
+        // Play(_audioMicSettings.levelComplete, 1f);
     }
 
     public bool IsOn {

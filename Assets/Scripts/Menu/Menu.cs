@@ -97,7 +97,7 @@ namespace MenuSystemWithZenject
             _menuManager.CloseMenuUntil(instance, shouldCloseAlwaysOnTopMenu);
         }
 
-        public class Factory : Factory<T> {}
+        public class Factory : PlaceholderFactory<T> {}
 
         public class CustomMenuFactory : IFactory<T>, IValidatable
         {

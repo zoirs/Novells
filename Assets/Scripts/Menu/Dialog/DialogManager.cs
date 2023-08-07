@@ -5,13 +5,11 @@ using Zenject;
 
 public class DialogManager {
     [Inject] readonly YesNoConfirmDialogController.Factory confirmDialogFactory;
-    [Inject] readonly CongradulationDialogController.Factory congradulationDialogFactory;
-    [Inject] readonly PurchaseDialogController.Factory purchaseDialogFactory;
+    // [Inject] readonly CongradulationDialogController.Factory congradulationDialogFactory;
+    // [Inject] readonly PurchaseDialogController.Factory purchaseDialogFactory;
     [Inject] readonly OptionDialogController.Factory optionDialogFactory;
     [Inject] readonly GameSettingsInstaller.GameSetting _setting;
     [Inject] readonly GameController gameController;
-    [Inject] private GameSettingsInstaller.PackagesTextureSettings textureSettings;
-    [Inject] private GameSettingsInstaller.BuyItemTextureSettings buyItemTextureSettings;
 
     public void OpenOptionDialog() {
         optionDialogFactory.Create(new OptionDialogParam());
