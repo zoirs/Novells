@@ -1,136 +1,147 @@
 {
   "caption": "Мистическая",
+  "place": "Room",
   "frames": [
     {
-      "text": "- А что привело вас на этот круиз?",
-      "backgroundImg": "witch_hight.png",
-      "sceneType": "LEFT",
-            "hero" : {"name" :  "anna", "emotion": "happy"},
-
+      "text": "$room_1_scene_3_frame_1",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "- Я закончила первый курс университета, и мои друзья сказали, что такое путешествие стоит испытать. Отдохнуть после учебы и узнать что-то новое – моя мечта!",
-      "backgroundImg": "girl_student_usual_r.png",
+      "text": "$room_1_scene_3_frame_2",
       "sceneType": "LEFT",
-            "hero" : {"name" :  "anna", "emotion": "happy"},
-
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "- Интересно, какой у вас основной предмет в университете? Есть ли там что-то, что действительно вас увлекает?",
-      "backgroundImg": "witch_hight.png",
-      "sceneType": "LEFT",
-            "hero" : {"name" :  "anna", "emotion": "happy"},
-
+      "text": "$room_1_scene_3_frame_3",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "- Да, я учусь на кафедре археологии. Меня увлекает история, археологические раскопки, открытия! Я мечтаю стать археологом и путешествовать по всему миру, раскрывая тайны древних цивилизаций!",
-      "backgroundImg": "girl_student_usual_r.png",
+      "text": "$room_1_scene_3_frame_4",
       "sceneType": "LEFT",
-            "hero" : {"name" :  "anna", "emotion": "happy"},
-
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "- Очень интересно! А какие у вас еще есть мечты, помимо карьеры археолога?",
-      "backgroundImg": "witch_hight.png",
-      "sceneType": "LEFT",
-            "hero" : {"name" :  "anna", "emotion": "happy"},
-
+      "text": "$room_1_scene_3_frame_5",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "- Конечно, есть! Я мечтаю о собственном маленьком домике у озера, где я смогу отдыхать и писать. Я люблю писать стихи и заметки о своих путешествиях. Мое сердце просто замирает, когда я вижу красивые пейзажи!",
-      "backgroundImg": "girl_student_usual_r.png",
+      "text": "$room_1_scene_3_frame_6",
       "sceneType": "LEFT",
-            "hero" : {"name" :  "anna", "emotion": "happy"},
-
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "- Писать стихи, интересно. Вы очень романтичны, Анна. А что насчет личной жизни? У вас есть кто-то особенный?",
-      "backgroundImg": "witch_hight.png",
-      "sceneType": "LEFT",
-            "hero" : {"name" :  "anna", "emotion": "happy"},
-
+      "text": "$room_1_scene_3_frame_7",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "- Ну, на данный момент у меня нет парня. Я сосредоточена на учебе и путешествиях, но, конечно, я надеюсь встретить кого-то особенного в будущем.",
-      "backgroundImg": "girl_student_scared.png",
+      "text": "$room_1_scene_3_frame_8",
       "sceneType": "LEFT",
-            "hero" : {"name" :  "anna", "emotion": "happy"},
-
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "Не волнуйтесь, все своё найдет своего. Жизнь полна сюрпризов. Вы, наверное, еще молода, чтобы спешить с такими важными решениями.",
-      "backgroundImg": "witch_evil.png",
-      "sceneType": "LEFT",
-            "hero" : {"name" :  "anna", "emotion": "happy"},
-
+      "text": "$room_1_scene_3_frame_9",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "Слова Лилит прозвучали пугающе для Анны",
-      "backgroundImg": "girl_student_scared.png",
+      "text": "$room_1_scene_3_frame_10",
       "sceneType": "LEFT",
-            "hero" : {"name" :  "anna", "emotion": "happy"},
-
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
       "buttons": [
         {
-          "caption": "Анна хочет заверишть диалог",
+          "caption": "$story.btn.anna.end.conversation",
           "type": "room_1_scene_4"
         },
         {
-          "caption": "Анна продолжает общение",
+          "caption": "$story.btn.anna.continue.conversation",
           "type": "room_1_scene_4"
         }
       ]

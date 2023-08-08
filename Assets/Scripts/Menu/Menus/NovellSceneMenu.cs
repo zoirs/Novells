@@ -35,12 +35,13 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
         }
 
         string heroName = frame.hero?.name;
-        if (frame.sceneType == SceneType.LEFT) {
-            heroLeft.sprite = Resources.Load<Sprite>("Hero/" + heroName + "/Base");
+        string heroEmotion = frame.hero?.emotion;
+        if (frame.sceneType == SceneType.LEFT && heroName != null && heroEmotion != null) {
+            heroLeft.sprite = Resources.Load<Sprite>("Hero/" + heroName + "/" + heroEmotion);
         }
 
-        if (frame.sceneType == SceneType.RIGHT) {
-            heroRight.sprite = Resources.Load<Sprite>("Hero/" + heroName + "/Base");
+        if (frame.sceneType == SceneType.RIGHT && heroName != null && heroEmotion != null) {
+            heroRight.sprite = Resources.Load<Sprite>("Hero/" + heroName + "/" + heroEmotion);
         }
 
         if (frame.sceneType == SceneType.CENTER) {

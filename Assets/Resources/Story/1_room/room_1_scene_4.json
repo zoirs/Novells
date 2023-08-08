@@ -1,74 +1,62 @@
 {
   "caption": "Мистическая",
+  "place": "Room",
   "frames": [
     {
-      "text": "- Анна, я владею древними знаниями и могу выполнить желание каждого человека, с кем пересекусь в своих путешествиях. Скажи мне, есть ли у тебя желание, которое ты бы хотела исполнить?",
-      "backgroundImg": "witch_usual.png",
-      "sceneType": "LEFT",
+      "text": "$room_1_scene_4_frame_1",
+      "sceneType": "RIGHT",
       "hero": {
-        "name": "anna",
-        "emotion": "happy"
+        "name": "Lilit",
+        "emotion": "Base"
       },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "- Я бы хотела, чтобы моя жизнь всегда была связана с путешествиями и исследованиями",
-      "backgroundImg": "girl_student_usual_r.png",
+      "text": "$room_1_scene_4_frame_2",
       "sceneType": "LEFT",
       "hero": {
-        "name": "anna",
-        "emotion": "happy"
+        "name": "Anna",
+        "emotion": "Base"
       },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "Лилит закрыла глаза, прошептала несколько загадочных слов, и в воздухе почувствовалась какая-то странная энергия. Анна не обратила на это внимания и рассмеялась, думая, что Лилит всего лишь разыгрывает колдовство.",
-      "backgroundImg": "witch_evil.png",
-      "sceneType": "LEFT",
-      "hero": {
-        "name": "anna",
-        "emotion": "happy"
-      },
+      "text": "$room_1_scene_4_frame_3",
+      "sceneType": "RIGHT",
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "Но когда она улеглась спать, что-то странное начало происходить. Она почувствовала, что теряет чувство тела и понимает язык кошек. Ее мысли стали гулко отзываться в ее ушах, а мир вокруг приобрел новую, необычную яркость. Анна поняла, что превратилась в кошку!",
-      "backgroundImg": "student_cat_back.png",
+      "text": "$room_1_scene_4_frame_4",
       "sceneType": "LEFT",
       "hero": {
-        "name": "anna",
-        "emotion": "happy"
+        "name": "Anna",
+        "emotion": "FurryLeft"
       },
       "buttons": [
         {
-          "caption": "Далее",
+          "caption": "$story.btn.next",
           "type": "Frame"
         }
       ]
     },
     {
-      "text": "С утра каюта была пуста. Лилит исчезла, и никто не знал, что произошло с Анной. Казалось, что она исчезла без следа",
-      "backgroundImg": "girl_cat_2.png",
-      "sceneType": "LEFT",
-      "hero": {
-        "name": "anna",
-        "emotion": "happy"
-      },
+      "text": "$room_1_scene_4_frame_5",
+      "sceneType": "CENTER",
       "buttons": [
         {
           "caption": "Конец",

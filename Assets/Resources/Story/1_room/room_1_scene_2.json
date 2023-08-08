@@ -17,7 +17,7 @@
       "sceneType": "LEFT",
       "hero": {
         "name": "Anna",
-        "emotion": "happy"
+        "emotion": "Base"
       },
       "buttons": [
         {
@@ -31,7 +31,7 @@
       "sceneType": "RIGHT",
       "hero": {
         "name": "Lilit",
-        "emotion": "happy"
+        "emotion": "Base"
       },
       "buttons": [
         {
@@ -45,7 +45,7 @@
       "sceneType": "LEFT",
       "hero": {
         "name": "Anna",
-        "emotion": "happy"
+        "emotion": "Base"
       },
       "buttons": [
         {
@@ -69,7 +69,20 @@
       "sceneType": "RIGHT",
       "hero": {
         "name": "Lilit",
-        "emotion": "happy"
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_2_frame_7",
+      "sceneType": "LEFT",
+      "hero": {
+        "emotion": "Base"
       },
       "buttons": [
         {
