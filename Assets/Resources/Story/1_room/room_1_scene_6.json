@@ -3,21 +3,7 @@
   "place": "Room",
   "frames": [
     {
-      "text": "$room_1_scene_3_frame_1",
-      "sceneType": "RIGHT",
-      "hero": {
-        "name": "Lilit",
-        "emotion": "Base"
-      },
-      "buttons": [
-        {
-          "caption": "$story.btn.next",
-          "type": "Frame"
-        }
-      ]
-    },
-    {
-      "text": "$room_1_scene_3_frame_2",
+      "text": "$room_1_scene_6_frame_1",
       "sceneType": "LEFT",
       "hero": {
         "name": "Anna",
@@ -31,7 +17,7 @@
       ]
     },
     {
-      "text": "$room_1_scene_3_frame_3",
+      "text": "$room_1_scene_6_frame_2",
       "sceneType": "RIGHT",
       "hero": {
         "name": "Lilit",
@@ -45,7 +31,7 @@
       ]
     },
     {
-      "text": "$room_1_scene_3_frame_4",
+      "text": "$room_1_scene_6_frame_3",
       "sceneType": "LEFT",
       "hero": {
         "name": "Anna",
@@ -59,7 +45,7 @@
       ]
     },
     {
-      "text": "$room_1_scene_3_frame_5",
+      "text": "$room_1_scene_6_frame_4",
       "sceneType": "RIGHT",
       "hero": {
         "name": "Lilit",
@@ -73,7 +59,7 @@
       ]
     },
     {
-      "text": "$room_1_scene_3_frame_6",
+      "text": "$room_1_scene_6_frame_5",
       "sceneType": "LEFT",
       "hero": {
         "name": "Anna",
@@ -87,7 +73,7 @@
       ]
     },
     {
-      "text": "$room_1_scene_3_frame_7",
+      "text": "$room_1_scene_6_frame_6",
       "sceneType": "RIGHT",
       "hero": {
         "name": "Lilit",
@@ -101,7 +87,7 @@
       ]
     },
     {
-      "text": "$room_1_scene_3_frame_8",
+      "text": "$room_1_scene_6_frame_7",
       "sceneType": "LEFT",
       "hero": {
         "name": "Anna",
@@ -110,39 +96,7 @@
       "buttons": [
         {
           "caption": "$story.btn.next",
-          "type": "Frame"
-        }
-      ]
-    },
-    {
-      "text": "$room_1_scene_3_frame_9",
-      "sceneType": "RIGHT",
-      "hero": {
-        "name": "Lilit",
-        "emotion": "Base"
-      },
-      "buttons": [
-        {
-          "caption": "$story.btn.next",
-          "type": "Frame"
-        }
-      ]
-    },
-    {
-      "text": "$room_1_scene_3_frame_10",
-      "sceneType": "LEFT",
-      "hero": {
-        "name": "Anna",
-        "emotion": "Base"
-      },
-      "buttons": [
-        {
-          "caption": "$story.btn.anna.end.conversation",
           "type": "room_1_scene_4"
-        },
-        {
-          "caption": "$story.btn.anna.continue.conversation",
-          "type": "room_1_scene_5"
         }
       ]
     }

@@ -11,7 +11,7 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
     [SerializeField] private Image heroRight;
     [SerializeField] private BubleSpeechController _bubleSpeech;
     [SerializeField] private Animator animator;
-    [SerializeField] private HorizontalLayoutGroup answerButtons;
+    [SerializeField] private LayoutGroup answerButtons;
 
     [Inject] private SceneryManager _sceneryManager;
     [Inject] private NextFrameButtonController.Factory _factory;

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 584356956708295177}
-  - component: {fileID: 3750813793575150004}
+  - component: {fileID: 4153863944625271032}
   m_Layer: 5
   m_Name: CurrentSceneButtons
   m_TagString: Untagged
@@ -32,12 +32,12 @@ RectTransform:
   m_Father: {fileID: 5873262910676701944}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -983}
-  m_SizeDelta: {x: 800, y: 100}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -890.1}
+  m_SizeDelta: {x: -100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &3750813793575150004
+--- !u!114 &4153863944625271032
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46,15 +46,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2295630072346279000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 10
-    m_Right: 10
-    m_Top: 10
-    m_Bottom: 10
-  m_ChildAlignment: 4
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 7
   m_Spacing: 10
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
@@ -265,7 +265,7 @@ MonoBehaviour:
   heroRight: {fileID: 6816976818183470750}
   _bubleSpeech: {fileID: 265673902996748299}
   animator: {fileID: 446162967254469405}
-  answerButtons: {fileID: 3750813793575150004}
+  answerButtons: {fileID: 4153863944625271032}
 --- !u!95 &446162967254469405
 Animator:
   serializedVersion: 4
@@ -322,7 +322,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2252, y: 2252}
+  m_SizeDelta: {x: 2477.2, y: 2477.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6620461047398738692
 CanvasRenderer:
