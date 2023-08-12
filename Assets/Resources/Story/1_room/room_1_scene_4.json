@@ -59,7 +59,7 @@
       "sceneType": "CENTER",
       "buttons": [
         {
-          "caption": "Конец",
+          "caption": "$story.btn.end",
           "type": "End"
         }
       ]
