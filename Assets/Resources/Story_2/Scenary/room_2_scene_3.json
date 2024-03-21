@@ -1,0 +1,102 @@
+﻿{
+  "caption": "Мистическая",
+  "place": "Room",
+  "frames": [
+    {
+      "text": "$room_2_scene_3_frame_1",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_3_frame_2",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_3_frame_3",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_3_frame_4",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_3_frame_5",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_3_frame_6",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_3_frame_7",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_3_frame_8",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "room_2_scene_5"
+        }
+      ]
+    }
+  ]
+}

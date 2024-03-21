@@ -1,5 +1,6 @@
 ﻿using System;
 using Main;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -40,9 +41,9 @@ public class OptionDialogController : MonoBehaviour {
 
         bool isMusicOn = PlayerPrefs.GetInt(PlayerPrefsUtils.MUSIC) > 0;
         music.SetIsOnWithoutNotify(isMusicOn);
-        music.GetComponentInChildren<Text>().text = LocalisationSystem.GetLocalisedValue(isMusicOn ? ON_KEY : OFF_KEY);
+        music.GetComponentInChildren<TextMeshProUGUI>().text = LocalisationSystem.GetLocalisedValue(isMusicOn ? ON_KEY : OFF_KEY, 1);
         music.onValueChanged.AddListener(v => {
-            music.GetComponentInChildren<Text>().text = LocalisationSystem.GetLocalisedValue(v ? ON_KEY : OFF_KEY);
+            music.GetComponentInChildren<TextMeshProUGUI>().text = LocalisationSystem.GetLocalisedValue(v ? ON_KEY : OFF_KEY, 1);
             PlayerPrefs.SetInt(PlayerPrefsUtils.MUSIC, v ? 1 : 0);
         });
 

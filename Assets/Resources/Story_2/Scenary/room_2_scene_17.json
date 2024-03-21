@@ -1,0 +1,116 @@
+﻿{
+  "caption": "Мистическая",
+  "place": "Room",
+  "frames": [
+    {
+      "text": "$room_2_scene_17_frame_1",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_17_frame_2",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_17_frame_3",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_17_frame_4",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_17_frame_5",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_17_frame_6",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_17_frame_7",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_17_frame_8",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_17_frame_9",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "room_2_scene_18"
+        }
+      ]
+    }
+  ]
+}

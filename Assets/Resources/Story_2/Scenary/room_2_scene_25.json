@@ -1,0 +1,54 @@
+﻿{
+  "caption": "Мистическая",
+  "place": "Room",
+  "frames": [
+    {
+      "text": "$room_2_scene_25_frame_1",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_25_frame_2",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_25_frame_3",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_25_frame_4",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "End"
+        }
+      ]
+    }
+  ]
+}

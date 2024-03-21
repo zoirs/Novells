@@ -14,9 +14,9 @@ public class LocalisationSystem {
 
     public static Language language;
 
-    private static Dictionary<string, string> localisedEn;
-    private static Dictionary<string, string> localisedRu;
-    private static Dictionary<string, string> localisedFr;
+    private static Dictionary<int, Dictionary<string, string>> localisedEn = new Dictionary<int, Dictionary<string, string>>();
+    private static Dictionary<int, Dictionary<string, string>> localisedRu = new Dictionary<int, Dictionary<string, string>>();
+    private static Dictionary<int, Dictionary<string, string>> localisedFr = new Dictionary<int, Dictionary<string, string>>();
 
     public static bool isInit;
 
@@ -49,7 +49,7 @@ public class LocalisationSystem {
             .ToList()[lang];
     }
 
-    public static string GetLocalisedValue(string key) {
+    public static string GetLocalisedValue(string key, int story) {
         if (!isInit) {
             Init();
         }
@@ -58,13 +58,13 @@ public class LocalisationSystem {
 
         switch (language) {
             case Language.ENGLISH:
-                localisedEn.TryGetValue(key.ToLower(), out value);
+                localisedEn[story].TryGetValue(key.ToLower(), out value);
                 break;
             case Language.RUSSIAN:
-                localisedRu.TryGetValue(key.ToLower(), out value);
+                localisedRu[story].TryGetValue(key.ToLower(), out value);
                 break;
             case Language.FRENCH:
-                localisedFr.TryGetValue(key.ToLower(), out value);
+                localisedFr[story].TryGetValue(key.ToLower(), out value);
                 break;
             default:
                 throw new ArgumentOutOfRangeException();

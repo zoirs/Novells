@@ -8,11 +8,15 @@ public class DialogManager {
     // [Inject] readonly CongradulationDialogController.Factory congradulationDialogFactory;
     // [Inject] readonly PurchaseDialogController.Factory purchaseDialogFactory;
     [Inject] readonly OptionDialogController.Factory optionDialogFactory;
+    [Inject] readonly InfoDialogController.Factory infoDialogController;
     [Inject] readonly GameSettingsInstaller.GameSetting _setting;
     [Inject] readonly GameController gameController;
 
     public void OpenOptionDialog() {
         optionDialogFactory.Create(new OptionDialogParam());
+    }
+    public void OpenInfoDialog() {
+        infoDialogController.Create(new HelpDialogParam());
     }
 
     public void CongradulationDialog(int wagonCount, int railwayLength, int reward) {

@@ -1,23 +1,28 @@
 ﻿using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Text))]
+[RequireComponent(typeof(TextMeshProUGUI))]
 public class TextLocalized : MonoBehaviour {
     
-    private Text _textField;
+    public TextMeshProUGUI _textField;
 
     private void Awake() {
-        _textField = GetComponent<Text>();
+        _textField = GetComponent<TextMeshProUGUI>();
+        Debug.Log(" ss " + _textField);
+
     }
 
     private void Start() {
+        Debug.Log(_textField);
+        Debug.Log(_textField.text);
         string textValue = _textField.text;
         if (textValue == null || !textValue.StartsWith("$")) {
             return;
         }
 
-        string value = LocalisationSystem.GetLocalisedValue(textValue);
+        string value = LocalisationSystem.GetLocalisedValue(textValue, 0);
         if (value != null) {
             _textField.text = value;
         }
@@ -25,7 +30,7 @@ public class TextLocalized : MonoBehaviour {
 
     public void SetText(string key) {
         if (key != null && key.StartsWith("$")) {
-            string value = LocalisationSystem.GetLocalisedValue(key);
+            string value = LocalisationSystem.GetLocalisedValue(key, 0);// todo передавать номер истории
             if (value != null) {
                 _textField.text = value;
                 return;

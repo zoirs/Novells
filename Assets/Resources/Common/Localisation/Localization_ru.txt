@@ -1,0 +1,47 @@
+﻿$menu.btn.start=Играть
+$menu.btn.setting=Настройки
+$menu.btn.exit=Выход
+$menu.btn.back=Назад
+$menu.btn.next=Далее
+$clue=Улики
+
+$dlg.info.close=Закрыть
+$dlg.info.header=Инфо
+$dlg.info.body=Задав правильные вопрсы герой начинает что то подозревать. Чем больше накопится подозрений - тем сильнее они повлияют на сюжет
+
+$menu.part_1=Круиз
+
+$dlg.buy.yes=Да
+$dlg.buy.no=Нет
+$dlg.rate.desc=Нравится игра?
+$dlg.rate.header=Оценить?
+$dlg.rate.yes=Да
+$dlg.rate.tomenu=В меню
+$dlg.reset.header.text=Подтверждение
+$dlg.reset.body.text=Весь прогресс будет сброшен. Вы уверены?
+$dlg.reset.btn.yes=Да
+$dlg.reset.btn.no=Нет
+
+$dlg.setting.header=Настройки
+$dlg.setting.body.music=Музыка
+$dlg.setting.body.sound=Звуки
+$dlg.setting.btn.on=Вкл
+$dlg.setting.btn.off=Выкл
+$dlg.setting.btn.reset=Сбросить прогресс
+$dlg.setting.btn.rate=Оценить
+$dlg.setting.btn.donat=Донат
+$dlg.setting.body.language=Язык
+$dlg.setting.body.language.ru=Русский
+$dlg.setting.body.language.en=English
+$dlg.setting.btn.back=Назад
+
+$dlg.quit.header=Покинуть игру?
+
+$dlg.level.reset.header.text=Подтверждение
+$dlg.level.reset.body.text=Перезапустить уровень?
+$dlg.level.reset.btn.yes=Да
+$dlg.level.reset.btn.no=Нет
+$dlg.level.leave.header.text=Подтверждение
+$dlg.level.leave.body.text=Покинуть уровень?
+$dlg.level.leave.btn.yes=Да
+$dlg.level.leave.btn.no=Нет

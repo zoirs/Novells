@@ -1,0 +1,36 @@
+{
+  "caption": "Мистическая",
+  "place": "Port",
+  "frames": [
+    {
+      "text": "$room_2_scene_1_frame_1",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_1_frame_2",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_1_frame_3",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "room_2_scene_2"
+        }
+      ]
+    }
+  ]
+}

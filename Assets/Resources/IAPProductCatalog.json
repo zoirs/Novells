@@ -1,1 +1,241 @@
-{"appleSKU":"","appleTeamID":"","enableCodelessAutoInitialization":true,"products":[{"id":"money_100","type":0,"storeIDs":[],"defaultDescription":{"googleLocale":4,"title":"100","description":"Buy 100 coins"},"screenshotPath":"","applePriceTier":0,"googlePrice":{"data":[50,0,0,0],"num":50.0},"pricingTemplateID":"","descriptions":[{"googleLocale":16,"title":"100","description":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c 100 \\u043c\\u043e\\u043d\\u0435\\u0442"}],"udpPrice":{"data":[0,0,0,0],"num":0.0},"payouts":[]},{"id":"money_250","type":0,"storeIDs":[],"defaultDescription":{"googleLocale":4,"title":"250","description":"Buy 250 coins"},"screenshotPath":"","applePriceTier":0,"googlePrice":{"data":[100,0,0,0],"num":100.0},"pricingTemplateID":"","descriptions":[{"googleLocale":16,"title":"250","description":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c 250 \\u043c\\u043e\\u043d\\u0435\\u0442"}],"udpPrice":{"data":[0,0,0,0],"num":0.0},"payouts":[]},{"id":"donat","type":0,"storeIDs":[],"defaultDescription":{"googleLocale":4,"title":"Donat","description":"Donat for developer"},"screenshotPath":"","applePriceTier":0,"googlePrice":{"data":[50,0,0,0],"num":50.0},"pricingTemplateID":"","descriptions":[{"googleLocale":16,"title":"\\u0414\\u043e\\u043d\\u0430\\u0442","description":"\\u0414\\u043e\\u043d\\u0430\\u0442 \\u0434\\u043b\\u044f \\u0440\\u0430\\u0437\\u0440\\u0430\\u0431\\u043e\\u0442\\u0447\\u0438\\u043a\\u0430"}],"udpPrice":{"data":[0,0,0,0],"num":0.0},"payouts":[]},{"id":"money_1000","type":0,"storeIDs":[],"defaultDescription":{"googleLocale":4,"title":"1000 ","description":"Buy 1000 coins"},"screenshotPath":"","applePriceTier":0,"googlePrice":{"data":[200,0,0,0],"num":200.0},"pricingTemplateID":"","descriptions":[{"googleLocale":16,"title":"1000 ","description":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c 1000 \\u043c\\u043e\\u043d\\u0435\\u0442"}],"udpPrice":{"data":[0,0,0,0],"num":0.0},"payouts":[]},{"id":"brige_package","type":1,"storeIDs":[],"defaultDescription":{"googleLocale":4,"title":"Brige","description":"Brige package"},"screenshotPath":"","applePriceTier":0,"googlePrice":{"data":[100,0,0,0],"num":100.0},"pricingTemplateID":"","descriptions":[{"googleLocale":16,"title":"\\u041c\\u043e\\u0441\\u0442\\u044b","description":"\\u041e\\u0442\\u043a\\u0440\\u044b\\u0442\\u044c \\u043f\\u0430\\u043a\\u0435\\u0442 \\u0443\\u0440\\u043e\\u0432\\u0435\\u043d\\u0435\\u0439 \\u043c\\u043e\\u0441\\u0442\\u044b"}],"udpPrice":{"data":[0,0,0,0],"num":0.0},"payouts":[]},{"id":"tunnel_package","type":0,"storeIDs":[],"defaultDescription":{"googleLocale":4,"title":"Tunnel","description":"Tunnel level package"},"screenshotPath":"","applePriceTier":0,"googlePrice":{"data":[100,0,0,0],"num":100.0},"pricingTemplateID":"","descriptions":[{"googleLocale":16,"title":"\\u0422\\u0443\\u043d\\u043d\\u0435\\u043b\\u0438","description":"\\u041e\\u0442\\u043a\\u0440\\u044b\\u0442\\u044c \\u043f\\u0430\\u043a\\u0435\\u0442 \\u0443\\u0440\\u043e\\u0432\\u043d\\u0435\\u0439 \\u0442\\u0443\\u043d\\u043d\\u0435\\u043b\\u0438"}],"udpPrice":{"data":[0,0,0,0],"num":0.0},"payouts":[]}]}
+{
+  "appleSKU": "",
+  "appleTeamID": "",
+  "enableCodelessAutoInitialization": false,
+  "products": [
+    {
+      "id": "money_100",
+      "type": 0,
+      "storeIDs": [],
+      "defaultDescription": {
+        "googleLocale": 4,
+        "title": "100",
+        "description": "Buy 100 coins"
+      },
+      "screenshotPath": "",
+      "applePriceTier": 0,
+      "googlePrice": {
+        "data": [
+          50,
+          0,
+          0,
+          0
+        ],
+        "num": 50.0
+      },
+      "pricingTemplateID": "",
+      "descriptions": [
+        {
+          "googleLocale": 16,
+          "title": "100",
+          "description": "\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c 100 \\u043c\\u043e\\u043d\\u0435\\u0442"
+        }
+      ],
+      "udpPrice": {
+        "data": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "num": 0.0
+      },
+      "payouts": []
+    },
+    {
+      "id": "money_250",
+      "type": 0,
+      "storeIDs": [],
+      "defaultDescription": {
+        "googleLocale": 4,
+        "title": "250",
+        "description": "Buy 250 coins"
+      },
+      "screenshotPath": "",
+      "applePriceTier": 0,
+      "googlePrice": {
+        "data": [
+          100,
+          0,
+          0,
+          0
+        ],
+        "num": 100.0
+      },
+      "pricingTemplateID": "",
+      "descriptions": [
+        {
+          "googleLocale": 16,
+          "title": "250",
+          "description": "\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c 250 \\u043c\\u043e\\u043d\\u0435\\u0442"
+        }
+      ],
+      "udpPrice": {
+        "data": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "num": 0.0
+      },
+      "payouts": []
+    },
+    {
+      "id": "donat",
+      "type": 0,
+      "storeIDs": [],
+      "defaultDescription": {
+        "googleLocale": 4,
+        "title": "Donat",
+        "description": "Donat for developer"
+      },
+      "screenshotPath": "",
+      "applePriceTier": 0,
+      "googlePrice": {
+        "data": [
+          50,
+          0,
+          0,
+          0
+        ],
+        "num": 50.0
+      },
+      "pricingTemplateID": "",
+      "descriptions": [
+        {
+          "googleLocale": 16,
+          "title": "\\u0414\\u043e\\u043d\\u0430\\u0442",
+          "description": "\\u0414\\u043e\\u043d\\u0430\\u0442 \\u0434\\u043b\\u044f \\u0440\\u0430\\u0437\\u0440\\u0430\\u0431\\u043e\\u0442\\u0447\\u0438\\u043a\\u0430"
+        }
+      ],
+      "udpPrice": {
+        "data": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "num": 0.0
+      },
+      "payouts": []
+    },
+    {
+      "id": "money_1000",
+      "type": 0,
+      "storeIDs": [],
+      "defaultDescription": {
+        "googleLocale": 4,
+        "title": "1000 ",
+        "description": "Buy 1000 coins"
+      },
+      "screenshotPath": "",
+      "applePriceTier": 0,
+      "googlePrice": {
+        "data": [
+          200,
+          0,
+          0,
+          0
+        ],
+        "num": 200.0
+      },
+      "pricingTemplateID": "",
+      "descriptions": [
+        {
+          "googleLocale": 16,
+          "title": "1000 ",
+          "description": "\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c 1000 \\u043c\\u043e\\u043d\\u0435\\u0442"
+        }
+      ],
+      "udpPrice": {
+        "data": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "num": 0.0
+      },
+      "payouts": []
+    },
+    {
+      "id": "brige_package",
+      "type": 1,
+      "storeIDs": [],
+      "defaultDescription": {
+        "googleLocale": 4,
+        "title": "Brige",
+        "description": "Brige package"
+      },
+      "screenshotPath": "",
+      "applePriceTier": 0,
+      "googlePrice": {
+        "data": [
+          100,
+          0,
+          0,
+          0
+        ],
+        "num": 100.0
+      },
+      "pricingTemplateID": "",
+      "descriptions": [
+        {
+          "googleLocale": 16,
+          "title": "\\u041c\\u043e\\u0441\\u0442\\u044b",
+          "description": "\\u041e\\u0442\\u043a\\u0440\\u044b\\u0442\\u044c \\u043f\\u0430\\u043a\\u0435\\u0442 \\u0443\\u0440\\u043e\\u0432\\u0435\\u043d\\u0435\\u0439 \\u043c\\u043e\\u0441\\u0442\\u044b"
+        }
+      ],
+      "udpPrice": {
+        "data": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "num": 0.0
+      },
+      "payouts": []
+    },
+    {
+      "id": "tunnel_package",
+      "type": 0,
+      "storeIDs": [],
+      "defaultDescription": {
+        "googleLocale": 4,
+        "title": "Tunnel",
+        "description": "Tunnel level package"
+      },
+      "screenshotPath": "",
+      "applePriceTier": 0,
+      "googlePrice": {
+        "data": [
+          100,
+          0,
+          0,
+          0
+        ],
+        "num": 100.0
+      },
+      "pricingTemplateID": "",
+      "descriptions": [
+        {
+          "googleLocale": 16,
+          "title": "\\u0422\\u0443\\u043d\\u043d\\u0435\\u043b\\u0438",
+          "description": "\\u041e\\u0442\\u043a\\u0440\\u044b\\u0442\\u044c \\u043f\\u0430\\u043a\\u0435\\u0442 \\u0443\\u0440\\u043e\\u0432\\u043d\\u0435\\u0439 \\u0442\\u0443\\u043d\\u043d\\u0435\\u043b\\u0438"
+        }
+      ],
+      "udpPrice": {
+        "data": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "num": 0.0
+      },
+      "payouts": []
+    }
+  ]
+}

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
 
@@ -10,7 +11,7 @@ public class NextFrameButtonController : MonoBehaviour {
     public void Init(NextFrameBtnParam createParam) {
         _nextFrameBtnParam = createParam;
         Debug.Log(createParam.Caption);
-        _button.GetComponentInChildren<Text>().text = createParam.Caption;
+        _button.GetComponentInChildren<TextMeshProUGUI>().text = createParam.Caption;
         _button.onClick.AddListener(() => {
             _nextFrameBtnParam.CallBack();
             // Destroy(gameObject);

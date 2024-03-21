@@ -14,6 +14,7 @@ public class GameSettingsInstaller : ScriptableObjectInstaller<GameSettingsInsta
     public class UIPrefabs {
         public GameObject ConfirmDialog;
         public GameObject OptionDialog;
+        public GameObject InfoDialog;
 
         public GameObject nextFramePrefab;
     }   

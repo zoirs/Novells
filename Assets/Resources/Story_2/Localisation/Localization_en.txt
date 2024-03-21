@@ -1,0 +1,2 @@
+$story.btn.next=Далее
+$story.btn.end=Конец

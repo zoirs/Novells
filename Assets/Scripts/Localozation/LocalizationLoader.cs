@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
@@ -10,26 +11,43 @@ public class LocalizationLoader {
     // private TextAsset csvFile;
     private char lineSeparator = '\n';
     private String[] fieldSeparator = {"\",\""};
-    private TextAsset[] _all;
+    private Dictionary<int, TextAsset[]> _all = new Dictionary<int, TextAsset[]>();
+    private static readonly string STORY_PREFIX = "Story_";
+    private static readonly string COMMON_PREFIX = "Common";
 
     public void LoadAll() {
-        Debug.Log("load ==== ");
-        // csvFile = Resources.Load<TextAsset>("Localisation/Localization");
-        _all = Resources.LoadAll<TextAsset>("Localisation/");
-        Debug.Log("all: " + _all);
-        // Object o = Resources.Load("Localisation/Localization");
-        // Debug.Log("load ==== " + o);
-        // Object load = Resources.Load("Sprite/move");
-        // Debug.Log("load ==== " + load);
+        string resourcsPath = Application.dataPath + "/Resources";
+
+        string[] fileNames = Directory.GetDirectories(resourcsPath).ToArray();
+        foreach (string fileName in fileNames) {
+            Debug.Log(fileName);
+            string folder = fileName.Substring(resourcsPath.Length + 1);
+            if (folder.StartsWith(STORY_PREFIX)) {
+                short storyNumber = Int16.Parse(folder.Substring(STORY_PREFIX.Length));
+                TextAsset[] textAssets = Resources.LoadAll<TextAsset>(folder +"/Localisation/");
+                _all.Add(storyNumber, textAssets);
+            }
+            if (folder.StartsWith(COMMON_PREFIX)) {
+                short storyNumber = 0;
+                TextAsset[] textAssets = Resources.LoadAll<TextAsset>(folder +"/Localisation/");
+                _all.Add(storyNumber, textAssets);
+            }
+        }
     }
 
-    public Dictionary<string, string> GetDictionaryValues(string attributeId) {
-        // Debug.Log(csvFile);
-        // Debug.Log(csvFile.text);
-        Dictionary<string, string> dictionary = new Dictionary<string, string>();
-        foreach (TextAsset asset in _all) { }
+    public Dictionary<int, Dictionary<string, string>> GetDictionaryValues(string attributeId) {
+        Dictionary<int, Dictionary<string, string>> result = new Dictionary<int, Dictionary<string, string>>();
+        foreach (var keyValuePair in _all) {
+            result.Add(keyValuePair.Key, loadStory(attributeId, keyValuePair.Key));
+        }
 
-        TextAsset textAsset = _all.First(q => q.name.Equals("Localization_" + attributeId));
+        return result;
+    }
+
+    private Dictionary<string, string> loadStory(string attributeId, int story) {
+        Dictionary<string, string> dictionary = new Dictionary<string, string>();
+        Debug.Log(attributeId+ " 11 " + story);
+        TextAsset textAsset = _all[story].First(q => q.name.Equals("Localization_" + attributeId));
 
         string[] lines = textAsset.text.Split(lineSeparator);
         // int attributeIndex = -1;
@@ -44,36 +62,6 @@ public class LocalizationLoader {
             Debug.Log("was loaded : " + strings[1]);
             dictionary.Add(strings[0], strings[1]);
         }
-
-        // if (true) {
-        //     return dictionary;
-        // }
-        //
-        // // string[] headers = lines[0].Split(fieldSeparator, StringSplitOptions.None);
-        // for (int i = 0; i < headers.Length; i++) {
-        //     if (headers[i].Contains(attributeId)) {
-        //         attributeIndex = i;
-        //         break;
-        //     }
-        // }
-        //
-        // Regex csvParser = new Regex(",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))");
-        // for (int i = 0; i < lines.Length; i++) {
-        //     string line = lines[i];
-        //     string[] fields = csvParser.Split(line);
-        //     for (int j = 0; j < fields.Length; j++) {
-        //         fields[j] = fields[j].TrimStart(' ', surround);
-        //         fields[j] = fields[j].TrimEnd(surround);
-        //     }
-        //
-        //     if (fields.Length > attributeIndex) {
-        //         string key = fields[0];
-        //         if (dictionary.ContainsKey(key)) { continue;}
-        //
-        //         string value = fields[attributeIndex];
-        //         dictionary.Add(key, value);
-        //     }
-        // }
 
         return dictionary;
     }

@@ -1,0 +1,37 @@
+﻿{
+  "caption": "Мистическая",
+  "place": "Paluba",
+  "frames": [
+    {
+      "text": "$room_2_scene_12_frame_1",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_12_frame_2",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_2_scene_12_frame_3",
+      "sceneType": "CENTER",
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "room_2_scene_13"
+        }
+      ]
+    }
+    
+  ]
+}
