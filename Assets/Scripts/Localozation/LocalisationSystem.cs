@@ -35,6 +35,8 @@ public class LocalisationSystem {
 
     public static void RefreshLanguage() {
         int lang = PlayerPrefs.GetInt(PlayerPrefsUtils.LANGUAGE);
+        Debug.Log("RefreshLanguage " + lang + "; " + Application.systemLanguage);
+
         if (lang == (int) Language.UNKNOWN) {
             if (Application.systemLanguage == SystemLanguage.Russian) {
                 lang = (int) Language.RUSSIAN;
@@ -50,6 +52,7 @@ public class LocalisationSystem {
     }
 
     public static string GetLocalisedValue(string key, int story) {
+        Debug.Log("Check init " + isInit);
         if (!isInit) {
             Init();
         }

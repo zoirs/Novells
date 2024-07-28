@@ -17,11 +17,11 @@ public class SceneryManager :IInitializable{
 
     public void Initialize() {
 
-        string resourcsPath = Application.dataPath + "/Resources";
+        // string resourcsPath = Application.dataPath + "/Resources";
 
-        string[] fileNames = Directory.GetDirectories(resourcsPath).ToArray();
+        string[] fileNames = {"Common", "Story_1", "Story_2"};
         foreach (string fileName in fileNames) {
-            string folder = fileName.Substring(resourcsPath.Length + 1);
+            string folder = fileName;
             if (folder.StartsWith(STORY_PREFIX)) {
                 short storyNumber = Int16.Parse(folder.Substring(STORY_PREFIX.Length));
                 TextAsset[] all = Resources.LoadAll<TextAsset>(folder + "/Scenary/");

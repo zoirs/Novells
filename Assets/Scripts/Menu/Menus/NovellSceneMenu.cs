@@ -18,13 +18,13 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
     [Inject] private NextFrameButtonController.Factory _factory;
     
     private static readonly string STORY_PREFIX = "Story_";
-    private int current = 3;
+    private int current = 0;
     private int lastScene;
 
 
     private void Start() {
         // LoadNext(2,1,0, true);
-        LoadNext(2,18,0, true);
+        LoadNext(2,1,0, true);
     }
 
     private void LoadNext(int story, int scene, int frameIndex, bool isNewScene) {

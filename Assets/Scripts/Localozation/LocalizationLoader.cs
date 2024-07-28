@@ -16,12 +16,16 @@ public class LocalizationLoader {
     private static readonly string COMMON_PREFIX = "Common";
 
     public void LoadAll() {
-        string resourcsPath = Application.dataPath + "/Resources";
-
-        string[] fileNames = Directory.GetDirectories(resourcsPath).ToArray();
+        // string resourcsPath = Application.dataPath + "/Resources";
+        // Debug.Log("LoadAll " + resourcsPath);
+        // Resources.LoadAll<>()
+        // string[] fileNames = Directory.GetDirectories(resourcsPath).ToArray();
+        string[] fileNames = {"Common", "Story_1", "Story_2"};
+        Debug.Log("fileNames " + fileNames);
         foreach (string fileName in fileNames) {
             Debug.Log(fileName);
-            string folder = fileName.Substring(resourcsPath.Length + 1);
+            string folder = fileName;
+            Debug.Log("Try load " + folder);
             if (folder.StartsWith(STORY_PREFIX)) {
                 short storyNumber = Int16.Parse(folder.Substring(STORY_PREFIX.Length));
                 TextAsset[] textAssets = Resources.LoadAll<TextAsset>(folder +"/Localisation/");
