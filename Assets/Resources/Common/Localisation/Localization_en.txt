@@ -1,0 +1,52 @@
+
+$menu.btn.start=Play
+$menu.btn.setting=Setting
+$menu.btn.exit=Exit
+$menu.btn.back=Back
+$menu.btn.next=Next
+
+$dlg.info.close=Close
+$dlg.info.header=Info
+$dlg.info.body=desc desc desc desc desc 
+
+$menu.part_1=Cruise
+
+$dlg.buy.yes=Yes
+$dlg.buy.no=No
+
+
+$dlg.rate.desc=Like a game?
+$dlg.rate.header=Rate
+$dlg.rate.yes=Yes
+$dlg.rate.tomenu=To menu
+$clue=Улики
+
+$dlg.reset.header.text=Confirm
+$dlg.reset.body.text=The progress will be lost. Are you sure?
+$dlg.reset.btn.yes=Yes
+$dlg.reset.btn.no=No
+
+$dlg.setting.header=Setting
+$dlg.setting.body.music=Music
+$dlg.setting.body.sound=Sound
+$dlg.setting.btn.on=On
+$dlg.setting.btn.off=Off
+$dlg.setting.btn.reset=Reset progress
+$dlg.setting.btn.rate=Rate
+$dlg.setting.btn.donat=Donat
+$dlg.setting.body.language=Language
+$dlg.setting.body.language.ru=Русский
+$dlg.setting.body.language.en=English
+$dlg.setting.btn.back=Back
+
+$dlg.quit.header=Quit?
+
+$dlg.level.reset.header.text=Confirm
+$dlg.level.reset.body.text=Restart level?
+$dlg.level.reset.btn.yes=Yes
+$dlg.level.reset.btn.no=No
+
+$dlg.level.leave.header.text=Confirm
+$dlg.level.leave.body.text=Leave the level?
+$dlg.level.leave.btn.yes=Yes
+$dlg.level.leave.btn.no=No

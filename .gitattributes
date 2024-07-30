@@ -1,0 +1,3 @@
+*.unity text eol=crlf
+*.cs text eol=crlf
+*.shader text eol=crlf

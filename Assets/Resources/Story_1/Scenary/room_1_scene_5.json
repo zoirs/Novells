@@ -1,0 +1,192 @@
+{
+  "caption": "Мистическая",
+  "place": "Room",
+  "frames": [
+    {
+      "text": "$room_1_scene_5_frame_1",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_2",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_3",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_4",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_5",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_6",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_7",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_8",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_9",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_10",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_11",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_12",
+      "sceneType": "RIGHT",
+      "hero": {
+        "name": "Lilit",
+        "emotion": "Base"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.next",
+          "type": "Frame"
+        }
+      ]
+    },
+    {
+      "text": "$room_1_scene_5_frame_13",
+      "sceneType": "LEFT",
+      "hero": {
+        "name": "Anna",
+        "emotion": "Scared"
+      },
+      "buttons": [
+        {
+          "caption": "$story.btn.anna.give.into.argument",
+          "type": "room_1_scene_6"
+        },
+        {
+          "caption": "$story.btn.anna.not.give.into.argument",
+          "type": "room_1_scene_4"
+        }
+      ]
+    }
+  ]
+}
