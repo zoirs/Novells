@@ -1,0 +1,135 @@
+$story.btn.next=Weiter
+$story.btn.end=Ende
+
+$hero.name.anna=Anna
+$hero.name.lilit=Lilith
+
+$room_2_scene_1_frame_1=Außerhalb des Fensters glitzerte das Meer ungeduldig in den Wellen. Anna musste die Augen zusammenkneifen, um weiter auf den Hafen schauen zu können.
+$room_2_scene_1_frame_2= Draußen war die Verladung in vollem Gange, und die Passagiere standen Schlange, um den Angestellten des Schiffes ihre Tickets zu zeigen. Dinge, wie ihre eigenen, waren im Voraus an Bord gebracht worden.
+$room_2_scene_1_frame_3= Eine Möwe schrie auf.
+
+$room_2_scene_2_frame_1=Amazing. Wenn die Aussicht nicht wäre, würde es sich nicht von einem Hotelzimmer unterscheiden.
+$room_2_scene_2_frame_2=Das Fenster lässt sich nicht öffnen...
+$room_2_scene_2_frame_3=Natürlich, du Genie! Ich wünschte, Linienschiffe hätten Bullaugen, die sich öffnen lassen!
+$room_2_scene_2_frame_4=Das Mädchen klopfte nervös mit den Nägeln auf den Rahmen und sah sich wieder in der Kabine um. Sie wollte sich die Zeit irgendwie vertreiben.
+$room_2_scene_2_frame_5=Sollen wir auspacken?
+$room_2_scene_2_frame_6= Ihr Koffer, den sie sich von ihrer Tante geliehen hatte, stand bescheiden neben dem nächsten Bett.
+$room_2_scene_2_frame_7=Der andere hatte einen Berg von Gepäck.
+
+$story.btn.anna.see.things=Siehe.
+$story.btn.anna.take.things.apart=Dinge.auseinandernehmen.
+
+$room_2_scene_3_frame_1=Anna öffnete ihren Koffer.
+$room_2_scene_3_frame_2=Ein Fotorahmen lag hastig hineingeworfen obenauf. Eine glückliche Familie schaute aus dem baumumrahmten Bild heraus: zwei Kinder, ein älteres Mädchen und ein kleiner Junge, und eine Mutter.
+$room_2_scene_3_frame_3=Es tut mir leid. Ich hätte nicht vor meinen Problemen weglaufen sollen.
+$room_2_scene_3_frame_4=Und genau das tue ich jetzt gerade.
+$room_2_scene_3_frame_5=Anna drehte das Foto um und versuchte, die schweren Gedanken hinter sich zu lassen. Doch der Rand des Rahmens verfing sich im Stoff und ihre Unterwäsche fiel auf den Kabinenboden.
+$room_2_scene_3_frame_6=Instinktiv griff sie nach den Sachen und steckte sie zurück in ihre Tasche. Ihre Wangen färbten sich rosa.
+$room_2_scene_3_frame_7=Wie peinlich! Was, wenn jemand hereingekommen wäre?
+$room_2_scene_3_frame_8=Ich habe meinen Kabinenkollegen immer noch nicht gesehen.
+
+$room_2_scene_4_frame_1=Koffer, Korb, Tasche, Tasche... Gott, es ist, als würde mein Reisebegleiter für immer hierher ziehen!
+$room_2_scene_4_frame_2=Ich schätze, er liebt Flüge - es gibt eine Menge Aufkleber. Einige von ihnen sehen alt aus. Vielleicht sammelt er Flüge?
+$room_2_scene_4_frame_3=Was ist das?
+$room_2_scene_4_frame_4=Anna trat näher und ein seltsames Symbol erschien an der Seite des Koffers. Mehrere Blütenblätter, die ineinander übergingen.
+$room_2_scene_4_frame_5=Wie ungewöhnlich. Muss ein interessanter Gesprächspartner sein!
+
+$room_2_scene_5_frame_1=Es wäre schön, einen süßen Kerl zu bekommen. Oder jemand Ruhiges...
+$room_2_scene_5_frame_2=Die Intrige währte nicht lange - die Tür schwang abrupt auf.
+$room_2_scene_5_frame_3=Каюта 28?
+$room_2_scene_5_frame_4=Да…
+$room_2_scene_5_frame_5=Das stimmt, der Stoff ist da. Lasst uns einander kennenlernen.
+$room_2_scene_5_frame_6=Die Fremde stellte einen Topf mit blauen Blumen auf den Tisch und streckte ihre Hand aus, um sie zu schütteln. Sie schien zu kräftig für einen so schmalen und trockenen Pinsel.
+$room_2_scene_5_frame_7=Minute - und schon durchwühlte die Nachbarin die Eingeweide ihres Koffers.
+$room_2_scene_5_frame_8=Schön, Sie kennenzulernen. Bringen Sie Blumen mit?
+$room_2_scene_5_frame_9=Das Mädchen murmelte etwas, ohne den Kopf zu heben.
+$room_2_scene_5_frame_10=Что?
+$room_2_scene_5_frame_11=Eisenhüte, sagte ich. Nicht nur irgendwelche Blumen.
+room_2_scene_5_frame_12=Sie sind so... hübsch.
+$room_2_scene_5_frame_13=Schön, dass sie dir gefallen. Aber fass sie nicht an, sie sind sehr pingelig.
+$room_2_scene_5_frame_14=Eine unangenehme Pause ist entstanden....
+
+$story.btn.anna.2_5.1=Vorstellen.
+$story.btn.anna.2_5.2=Fragen Sie nach Blumen.
+$story.btn.anna.2_5.3=Erkundigen Sie sich nach einer Route
+$story.btn.anna.2_5.4=Diskutieren Sie das Wetter
+
+$room_2_scene_6_frame_1=Da wir Kabinenkollegen sind, denke ich, wir sollten uns vorstellen. Я...
+$room_2_scene_6_frame_2=Anna, ich weiß.
+$room_2_scene_6_frame_3=Знаете? Wie?
+$room_2_scene_6_frame_4=Das Mädchen winkte mit ihrer beringten Hand, ohne sich abzulenken:
+$room_2_scene_6_frame_5=Eine Liste mit Namen hängt an der Wand im Korridor.
+$room_2_scene_6_frame_6=Oh, wirklich?
+$room_2_scene_6_frame_7=Ich kann manchmal so geistesabwesend sein... Wie heißt du?
+$room_2_scene_6_frame_8=Nennen Sie mich... Sarah.
+$room_2_scene_6_frame_9=Die Pause war Anna nicht entgangen. Aber es gab nichts zu tun - nicht, um sie mit Fragen zu löchern.
+$room_2_scene_6_frame_10=Sie war seltsam!
+
+$room_2_scene_7_frame_1=Die Eisenhüte scheinen giftig zu sein. Wie kann man so etwas in seiner Kabine mit sich führen?
+$room_2_scene_7_frame_2=Das Mädchen schaute Anna zum ersten Mal direkt in die Augen. Der Blick in ihren dunklen Augen brachte sie dazu, sich verstecken zu wollen.
+$room_2_scene_7_frame_3=Wenn du vorhast, die Blumen zu essen, vielleicht.
+$room_2_scene_7_frame_4=Und in Töpfen sind sie völlig sicher.
+
+room_2_scene_8_frame_1=Anna versuchte, lässig zu klingen.
+$room_2_scene_8_frame_2=Ich habe ein Ticket für das Ende der Kreuzfahrt. Ich wollte schon lange mal so richtig ausspannen, kein Telefon, keine ständigen Anrufe....
+$room_2_scene_8_frame_3=Ha! Sie arbeiten mit Menschen?
+$room_2_scene_8_frame_4=Ja. Sind Sie auch ein Vollzeitreisender?
+$room_2_scene_8_frame_5=Full. Ich muss... jemanden treffen.
+
+$room_2_scene_9_frame_1=De voorspelling beloofde de hele week mooie wind en zonneschijn! Geweldig om te gaan sightseeën....
+$room_2_scene_9_frame_2=Dat denk ik niet. Tegen de avond trekt de bewolking samen en gaat het regenen.
+$room_2_scene_9_frame_3=Anna was verrast door dit abrupte antwoord.
+$room_2_scene_9_frame_4=Waarom denk je dat? Er hangt een barometer aan de muur, de druk is hoog.
+$room_2_scene_9_frame_5=Hij heeft het mis. Het gaat zeker regenen, ik weet het gewoon.
+$room_2_scene_9_frame_6=Ah, jij bent gevoelig voor het weer, hè?
+$room_2_scene_9_frame_7=Sort of.
+
+$room_2_scene_10_frame_1=Anna wilde het gesprek voortzetten, maar het geconcentreerde gezicht van het meisje zei één ding - dit was niet het beste moment. Er hing een gespannen sfeer in de cabine.
+$room_2_scene_10_frame_2=Ik ga aan dek, ik zal je niet storen.
+$room_2_scene_10_frame_3=Угу.
+$room_2_scene_10_frame_4=Anna verliet de kamer en haar schouders ontspanden onwillekeurig.
+$room_2_scene_10_frame_5=Wat een dame!
+
+$story.btn.anna.2_10.1=Ik mag haar niet!
+$story.btn.anna.2_10.2=Misschien kunnen we later vrienden worden?
+
+$room_2_scene_11_frame_1=Het duurde een paar minuten om de trap op te komen. Zodra ze op het dek stapte, blies de zilte wind Anna's haar en de kreten van meeuwen haalden haar uit haar mijmeringen. De zee klotste en schuimde tot aan de horizon.
+$room_2_scene_11_frame_2=Wat een schoonheid! Ik kan niet geloven dat ik op een cruise ga!
+$room_2_scene_11_frame_3=Onder zulke moeilijke omstandigheden. En met zo'n reisgenoot.
+$room_2_scene_11_frame_4=Ze draaide zich naar de haven.
+$room_2_scene_11_frame_5=Er stonden mensen opeengepakt op de oever bij de kade. Ze zagen er somber uit.
+$room_2_scene_11_frame_6=Sommigen van de bemanning zwaaiden met hun armen en probeerden plaats te maken voor de verhuizers.
+$room_2_scene_11_frame_7=Что это?
+$room_2_scene_11_frame_8=Дельфин. Dood.
+$room_2_scene_11_frame_9=Bad luck. Een van de passagiers is in moeilijkheden.
+$room_2_scene_11_frame_10=Een onvriendelijke buurman verscheen zo plotseling dat Anna ineenkromp. Ze ging echter helemaal op in het tafereel in de haven en keek bezorgd toe alsof de dood van de dolfijn haar persoonlijk had geraakt.
+$room_2_scene_11_frame_11=Вы уверены?
+$room_2_scene_11_frame_12=Lees erover. Trouwens, laten we voor “jij” gaan - gewoon Sarah
+
+$room_2_scene_12_frame_1=Niet in de buurt van haar vreemde buurvrouw te willen zijn, bracht Anna een paar uur door op het dek met de andere passagiers. De golven, de meeuwen en het uitzicht op de haven achter haar roerden haar ziel en smeekten om gefotografeerd te worden.
+$room_2_scene_12_frame_2=Het meisje had de tijd om over het hele schip te lopen. Het leek van binnen groter dan van buiten, en de architecten hadden elke meter verstandig gebruikt.
+$room_2_scene_12_frame_3=Na haar nieuwsgierigheid bevredigd te hebben, ging Anna terug naar haar kamer.
+
+$room_2_scene_13_frame_1=Vraag je je niet af wat er buiten is?
+$room_2_scene_13_frame_2=Sarah sloeg de bladzijde om van het boek dat ze vasthield. De steen van de ring fonkelde onder de lamp.
+$room_2_scene_13_frame_3=Niet bijzonder. De zee is altijd hetzelfde.
+$room_2_scene_13_frame_4=Sarahs blik was niet goed, en Anna ahhed.
+$room_2_scene_13_frame_5=Mijn God, ben je... ben je in orde? Kijk - helemaal bleek!
+$room_2_scene_13_frame_6=Sarah trok een wenkbrauw op, maar zuchtte zwaar na een paar seconden.
+$room_2_scene_13_frame_7=Ik word zeeziek. Ik weet dat het schommelen hier geminimaliseerd wordt door allerlei mechanismen, maar ik ben gevoelig voor grondtrillingen.
+$room_2_scene_13_frame_8=Het is geen schande! Je kunt wat medicijnen nemen of jezelf afleiden, dat maakt het makkelijker.
+
+$story.btn.anna.2_13.1=Vraag om een verbanddoos.
+$story.btn.anna.2_13.2=Probeer te slapen.
+$story.btn.anna.2_13.3=Ga naar buiten op het dek, de frisse lucht is verkwikkend.
+$story.btn.anna.2_13.4=Verzamel je gedachten.
+
+$room_2_scene_14_frame_1=Таблетки? Nee, ik ga mezelf niet vergiftigen met chemicaliën.
+$room_2_scene_14_frame_2=Er is iets beters.
+$room_2_scene_14_frame_3=Ze liet me een stoffen zakje zien dat ze onder haar neus hield.
+$room_2_scene_14_frame_4=Gember, citroen, kardemom. Mijn oma heeft het me geleerd.
+$room_2_scene_14_frame_5=Je ziet er niet uit alsof je veel goed doet.
+$room_2_scene_14_frame_6=Sarah snoof, maar zonder woede - ze had er de kracht niet voor.
+
+$room_2_scene_15_frame_1=De buurvrouw schudde vermoeid haar hoofd.
+$room_2_scene_15_frame_2=Het helpt niet. Zelfs in mijn slaap heb ik het gevoel dat er geen betrouwbare steun is.

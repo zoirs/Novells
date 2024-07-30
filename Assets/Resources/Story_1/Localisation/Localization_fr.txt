@@ -1,0 +1,90 @@
+$story.btn.next=Suivant
+$story.btn.end=Fin
+
+$hero.name.anna=Anna
+$hero.name.lilit=Lilith
+
+$room_1_scene_1_frame_1=Le paquebot se balance lentement sur les vagues, transportant les passagers dans un monde de beauté et de luxe. Parmi eux, deux femmes, totalement étrangères l'une à l'autre, mais que le destin a réunies dans la même cabine. Une jeune étudiante nommée Anna et une mystérieuse femme aux vêtements gothiques.
+
+$room_1_scene_2_frame_1=Anna était joyeusement et naïvement excitée à l'idée de voyager sur un paquebot aussi luxueux. Elle venait de terminer sa première année d'université et avait décidé de s'offrir un cadeau de vacances. Aussi, lorsqu'elle a appris que quelqu'un avait déjà réservé une cabine, elle a accepté de la partager avec un inconnu.
+$room_1_scene_2_frame_2=Salut, je m'appelle Anna. Tu vas faire cette croisière toi aussi ?
+$room_1_scene_2_frame_3=Oui, je suis aussi une voyageuse. Je m'appelle Lilith. Qu'est-ce qui vous amène sur cette croisière ?
+$room_1_scene_2_frame_4=J'ai terminé ma première année d'université, mes amis m'ont dit que ce genre de voyage valait la peine d'être vécu. Prendre des vacances après avoir étudié et appris quelque chose de nouveau, c'est mon rêve !
+$room_1_scene_2_frame_5=Dès les premières minutes d'interaction, Lilith s'est intéressée à Anna, lui posant des questions sur ses loisirs, ses rêves et même sa vie privée. Anna, qui a toujours été ouverte et extravertie, était heureuse de parler d'elle. Mais elle n'avait jamais remarqué que Lilith était très sélective dans le choix de ses mots et qu'elle posait des questions étranges.
+$room_1_scene_2_frame_6=Le crépuscule approche et il commence à faire froid. Voulez-vous un thé chaud ?
+$room_1_scene_2_frame_7=Anna se demande si elle doit boire du thé avec un inconnu, ou si elle doit refuser ?
+
+$story.btn.anna.agree=Anna est d'accord.
+$story.btn.anna.disagree=Anna refuse.
+
+$room_1_scene_3_frame_1=Qu'est-ce qui vous a amené à faire cette croisière ?
+$room_1_scene_3_frame_2=Je terminais ma première année d'université et mes amis m'ont dit qu'un tel voyage valait la peine d'être vécu. Prendre des vacances après avoir étudié et appris quelque chose de nouveau, c'est mon rêve !
+$room_1_scene_3_frame_3=Je suis curieuse, quelle est votre matière principale à l'université ? Y a-t-il quelque chose qui vous passionne vraiment ?
+$room_1_scene_3_frame_4=Oui, j'étudie dans le département d'archéologie. Je suis fascinée par l'histoire, les fouilles archéologiques, les découvertes ! Je rêve de devenir archéologue et de voyager dans le monde entier pour révéler les secrets des anciennes civilisations !
+$room_1_scene_3_frame_5=Très intéressant ! Quels sont tes autres rêves en dehors d'une carrière d'archéologue ?
+$room_1_scene_3_frame_6=Bien sûr ! Je rêve d'avoir ma propre petite maison au bord d'un lac où je pourrais me détendre et écrire. J'adore écrire des poèmes et des notes sur mes voyages. Mon cœur se serre lorsque je vois de beaux paysages !
+$room_1_scene_3_frame_7=Écrire des poèmes, c'est intéressant. Vous êtes très romantique, Anna. Qu'en est-il de votre vie privée ? Avez-vous quelqu'un de spécial ?
+$room_1_scene_3_frame_8=Eh bien, je n'ai pas de petit ami pour le moment. Je me concentre sur mes études et mes voyages, mais j'espère bien sûr rencontrer quelqu'un de spécial à l'avenir.
+$room_1_scene_3_frame_9=Ne vous inquiétez pas, tout se fera tout seul. La vie est pleine de surprises. Vous êtes probablement encore jeune pour prendre des décisions aussi importantes.
+$room_1_scene_3_frame_10=Les paroles de Lilith ont semblé effrayantes à Anna.
+
+$story.btn.anna.end.conversation=Anna veut clore le dialogue
+$story.btn.anna.continue.conversation=Anna continue le dialogue.
+
+$room_1_scene_4_frame_1=Tu sais, Anna, je possède un savoir ancien et je peux exaucer le souhait de chaque personne que je croise au cours de mes voyages. Dites-moi, avez-vous un vœu que vous aimeriez exaucer ?
+$room_1_scene_4_frame_2=Je souhaite que ma vie soit toujours faite de voyages et d'explorations.
+$room_1_scene_4_frame_3=Lilith ferma les yeux, murmura quelques mots énigmatiques et une étrange énergie se répandit dans l'air. Anna se sentit mal à l'aise, pensant que Lilith était en train de faire de la sorcellerie.
+$room_1_scene_4_frame_4=Il commença à se passer quelque chose d'étrange pour Anna. Elle avait l'impression de perdre le sens du corps et de ne plus comprendre le langage des chats. Ses pensées ont commencé à gronder dans ses oreilles et le monde autour d'elle a pris une nouvelle luminosité inhabituelle. Anna se rendit compte qu'elle était en train de se transformer en chat !
+$room_1_scene_4_frame_5=Le matin, la cabane était vide. Lilith était partie, et personne ne savait ce qui était arrivé à Anna. Elle semblait avoir disparu sans laisser de traces
+
+$room_1_scene_5_frame_1=Et bien, vous savez, j'ai toujours admiré l'architecture gothique. Tous ces vieux châteaux et cathédrales, c'est comme s'ils venaient d'un autre monde.
+$room_1_scene_5_frame_2=Tout à fait d'accord. Le style gothique a une magie particulière. Mais j'ai toujours préféré les formes plus minimalistes.
+$room_1_scene_5_frame_3=Le minimalisme est bien sûr intéressant, mais l'architecture gothique a une telle profondeur et un tel niveau de détail qu'on a l'impression qu'elle raconte sa propre histoire.
+$room_1_scene_5_frame_4=Mais le minimalisme a aussi sa profondeur, dans sa pureté et son élégance. Vous ne trouvez pas ?
+$room_1_scene_5_frame_5=Je pense que le style gothique exprime des sentiments plus intenses. Il est en quelque sorte plus proche de mon âme.
+$room_1_scene_5_frame_6=Et bien, chacun ses goûts. Mais je pense que le minimalisme accorde plus d'attention à l'essentiel, et qu'il est plus universel.
+$room_1_scene_5_frame_7=Je ne suis pas d'accord. L'architecture gothique a de la personnalité. Le minimalisme semble trop froid et détaché.
+$room_1_scene_5_frame_8=Il semble donc que votre passion pour l'archéologie influence votre vision de l'art.
+$room_1_scene_5_frame_9=Et si c'est le cas ? Il vaut mieux être passionné par quelque chose que d'être indifférent à tout !
+$room_1_scene_5_frame_10=N'édulcorez rien. Être trop émotif peut conduire à un mauvais jugement.
+$room_1_scene_5_frame_11=Неверным? Peut-être que nous n'avons rien d'autre à nous mettre sous la dent.
+$room_1_scene_5_frame_12=whatever.
+$room_1_scene_5_frame_13=Anna se sent mal à l'aise.
+
+$story.btn.anna.give.into.argument=Étouffer un argument.
+$story.btn.anna.not.give.into.argument=Rester à sa place
+
+$room_1_scene_6_frame_1=Attendez, Lilith. Nous pouvons avoir des opinions différentes, mais cela ne doit pas conduire à une dispute. Ne laissons pas cette dispute ruiner notre voyage.
+$room_1_scene_6_frame_2=Peut-être que tu as raison. Nous pensons simplement différemment.
+$room_1_scene_6_frame_3=Et c'est très bien. Nous pouvons apprendre à mieux nous connaître en discutant d'autre chose que de culture et d'art.
+$room_1_scene_6_frame_4=Suggèrez-vous une trêve ?
+$room_1_scene_6_frame_5=Nous sommes d'accord sur le fait que la diversité des opinions est ce qui rend nos voyages intéressants. Et même si nous ne sommes pas toujours d'accord, cela ne doit pas nous empêcher d'apprécier cette croisière.
+$room_1_scene_6_frame_6=Agree. Après tout, notre capacité à voir le monde différemment est ce qui nous rend uniques.
+$room_1_scene_6_frame_7=Il est tard, je vais me coucher.
+
+$room_1_scene_7_frame_1=*Des étincelles magiques scintillent sur les doigts de Lilith*.
+$room_1_scene_7_frame_2=Qu'est-ce que c'était ?
+$room_1_scene_7_frame_3=C'était juste un jeu de lumière. Rien d'extraordinaire.
+$room_1_scene_7_frame_4=Un phénomène étrange commence à se produire dans la cabine - les lumières scintillent, les objets bougent.
+$room_1_scene_7_frame_5=Qu'est-ce qui se passe ? S'agit-il de fantômes ou de quelque chose d'autre ?
+$room_1_scene_7_frame_6=Calme-toi, Anna. Tu peux le contrôler.
+$room_1_scene_7_frame_7=К-как?
+$room_1_scene_7_frame_8=Écoutez attentivement.
+$room_1_scene_7_frame_9=Fermez les yeux, Anna. Concentrez-vous sur votre respiration. Imaginez que vous êtes au milieu d'une forêt, entourée par la nature.
+$room_1_scene_7_frame_10=Ладно... Je vous écoute.
+$room_1_scene_7_frame_11=Sentez la puissance de la nature qui vous traverse. Vous faites partie de cette force. Vous pouvez influencer le monde qui vous entoure.
+$room_1_scene_7_frame_12=Я... Je ressens quelque chose d'étrange.
+$room_1_scene_7_frame_13=C'est votre essence magique. Vous pouvez l'utiliser pour créer et changer. Concentrez-vous sur ce que vous voulez changer.
+$room_1_scene_7_frame_14=Je veux que les choses redeviennent normales comme elles l'étaient avant.
+$room_1_scene_7_frame_15=Concentration
+$room_1_scene_7_frame_16=*Des étincelles magiques commencent à s'accumuler autour d'Anna, puis s'évanouissent lentement.
+$room_1_scene_7_frame_17=Bien, Anna. Tu as réussi. Tu as réveillé le pouvoir magique qui est en toi.
+$room_1_scene_7_frame_18=Je n'arrive pas à y croire. Я... J'ai vraiment fait quelque chose ?
+$room_1_scene_7_frame_19=Oui, et ce n'est que le début. Vous êtes une sorcière capable de lancer des sorts puissants.
+$room_1_scene_7_frame_20=Но... Comment est-ce possible ?
+$room_1_scene_7_frame_21=Il y a beaucoup de mystères dans le monde qui attendent d'être découverts. J'ai vu quelque chose de spécial en vous lorsque nous nous sommes rencontrés.
+$room_1_scene_7_frame_22=Cela signifie... vous êtes un... Vous êtes un magicien ?
+$room_1_scene_7_frame_23=Да, Анна. Je suis un mage. Et je vais vous aider à apprendre vos pouvoirs.
+$room_1_scene_7_frame_24=Mais pourquoi avez-vous décidé de m'aider ?
+$room_1_scene_7_frame_25=Parce que j'ai vu en toi le potentiel pour devenir un mage. Et parce que je sais à quel point il est important d'avoir un mentor.
+$room_1_scene_7_frame_26=C'est ainsi que débuta l'amitié insolite d'Anna et sa formation à l'art de la magie. Chaque jour, la jeune fille découvre de nouvelles capacités en elle-même, dévoilant les secrets du monde magique en compagnie de Morgane. Leur cabane devint un lieu où se mêlaient vie quotidienne et magie, où les filles apprenaient l'une de l'autre et découvraient des mondes magiques à l'intérieur d'elles-mêmes.

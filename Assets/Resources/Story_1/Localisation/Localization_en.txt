@@ -1,3 +1,90 @@
-story.btn.next=Далее
+$story.btn.next=Next
+$story.btn.end=End
 
-room_1_scene_1_frame_1=Лайнер медленно покачивался на волнах, перенося пассажиров в мир красоты и роскоши. Среди них были две женщины, совершенно незнакомые друг с другом, но предназначение свело их вместе в одной каюте. Молодая студентка по имени Анна и таинственная женщина в готической одежде.",""
+$hero.name.anna=Anna
+$hero.name.lilit=Lilith
+
+$room_1_scene_1_frame_1=The liner swayed slowly on the waves, transporting the passengers to a world of beauty and luxury. Among them were two women, complete strangers to each other, but destiny had brought them together in the same cabin. A young student named Anna and a mysterious woman in gothic clothing.
+
+$room_1_scene_2_frame_1=Anna was cheerfully and naively excited to be traveling on such a luxurious liner. She had just finished her first year of university and decided to give herself a vacation gift. So when she heard that someone had already booked a cabin, she agreed to share it with a stranger.
+$room_1_scene_2_frame_2=Hello, I'm Anna. Are you going to be on this cruise too?
+$room_1_scene_2_frame_3=Yes, I'm a traveler too. My name is Lilith. What brings you to this cruise?
+$room_1_scene_2_frame_4=I finished my first year of university, my friends told me that this kind of traveling is worth experiencing. Taking a vacation after studying and learning something new is my dream!
+$room_1_scene_2_frame_5=From the first minutes of communication, Lilith showed interest in Anna, asking about her hobbies, dreams and even her personal life. Anna, who had always been open and outgoing, was happy to talk about herself. But she never noticed that Lilith was very selective in her choice of words and asked some strange questions.
+$room_1_scene_2_frame_6=It's getting dusk, and it's getting chilly. Would you like to drink some hot tea?
+$room_1_scene_2_frame_7=Anna wondered if she should drink tea with a stranger, or should she refuse?
+
+$story.btn.anna.agree=Anna agrees.
+$story.btn.anna.disagree=Anna refuses.
+
+$room_1_scene_3_frame_1=What brought you to this cruise?
+$room_1_scene_3_frame_2=I finished my first year of university and my friends told me that a cruise like this was worth experiencing. Taking a vacation after studying and learning something new is my dream!
+$room_1_scene_3_frame_3=I'm curious, what is your main subject at university? Is there anything there that you are really passionate about?
+$room_1_scene_3_frame_4=Yes, I'm studying in the archaeology department. I am fascinated by history, archaeological digs, and discovery! I dream to become an archaeologist and travel all over the world, revealing the secrets of ancient civilizations!
+$room_1_scene_3_frame_5=Very interesting! What other dreams do you have besides a career as an archaeologist?
+$room_1_scene_3_frame_6=Of course I do! I dream of having my own little lake house where I can relax and write. I love writing poetry and notes about my travels. My heart just sinks when I see beautiful scenery!
+$room_1_scene_3_frame_7=Writing poetry, interesting. You are very romantic, Anna. What about your personal life? Do you have someone special in your life?
+$room_1_scene_3_frame_8=Well, I don't have a boyfriend at the moment. I'm focused on studying and traveling, but of course I hope to meet someone special in the future.
+$room_1_scene_3_frame_9=Don't worry, everything will find its own. Life is full of surprises. You are probably still young to rush into such important decisions.
+$room_1_scene_3_frame_10=Lilith's words sounded frightening to Anna
+
+$story.btn.anna.end.conversation=Anna wants to end the dialog.
+$story.btn.anna.continue.conversation=Anna continues the dialog.
+
+$room_1_scene_4_frame_1=You know, Anna, I possess ancient knowledge and can fulfill the wish of every person I cross paths with in my travels. Tell me, do you have a wish you would like to fulfill?
+$room_1_scene_4_frame_2=I wish my life would always be about traveling and exploring
+$room_1_scene_4_frame_3=Lilith closed her eyes, whispered some cryptic words, and some strange energy was felt in the air. Anna felt uneasy, thinking that Lilith was just playing out sorcery.
+$room_1_scene_4_frame_4=Something strange began to happen to Anna. She felt like she was losing her body senses and understanding cat language. Her thoughts began to rumble in her ears, and the world around her took on a new, unusual brightness. Anna realized that she was turning into a cat!
+$room_1_scene_4_frame_5=The cabin was empty in the morning. Lilith was gone, and no one knew what had happened to Anna. She seemed to have vanished without a trace
+
+$room_1_scene_5_frame_1=Well, you know, I've always admired Gothic architecture. All those old castles and cathedrals, it's like they're from another world.
+$room_1_scene_5_frame_2=Absolutely agree. Gothic style has a special magic. But I've always preferred more minimalist forms.
+$room_1_scene_5_frame_3=Minimalism is of course interesting too, but Gothic architecture has such depth and detail, it's like it's telling its own story.
+$room_1_scene_5_frame_4=But minimalism has its depth too, in its purity and elegance. Don't you think?
+$room_1_scene_5_frame_5=I think that gothic style expresses more intense feelings. It is somehow closer to my soul.
+$room_1_scene_5_frame_6=Well, to each his own. But I think that minimalism pays more attention to the essence, and it is more universal.
+$room_1_scene_5_frame_7=I disagree. Gothic architecture has personality. Minimalism seems too cold and detached.
+$room_1_scene_5_frame_8=So it seems like your archaeological passion influences your view of art.
+$room_1_scene_5_frame_9=Well, so what if it does? It's better to have a passion for something than to be indifferent to everything!
+$room_1_scene_5_frame_10=Don't sugarcoat anything. Being too emotional can lead to poor judgment.
+$room_1_scene_5_frame_11=Неверным? Maybe we just don't have anything else to talk about.
+$room_1_scene_5_frame_12=whatever.
+$room_1_scene_5_frame_13=Anna feels uncomfortable.
+
+$story.btn.anna.give.into.argument=To stifle an argument.
+$story.btn.anna.not.give.into.argument=Stay in your own way
+
+$room_1_scene_6_frame_1=Wait, Lilith. We may have different opinions, but it doesn't have to lead to a fight. Let's not let this argument ruin our journey.
+$room_1_scene_6_frame_2=Maybe you're right. We just think differently.
+$room_1_scene_6_frame_3=And that's fine. We can get to know each other better by discussing more than just culture and art.
+$room_1_scene_6_frame_4=Are you suggesting a truce?
+$room_1_scene_6_frame_5=Let's agree that diversity of opinion is what makes our travels interesting. And even if we don't always agree, that shouldn't stop us from enjoying this cruise.
+$room_1_scene_6_frame_6=Agree. After all, our ability to see the world differently is what makes us unique.
+$room_1_scene_6_frame_7=It's late, I'm going to bed.
+
+$room_1_scene_7_frame_1=*Magical sparks flicker on Lilith's fingers*.
+$room_1_scene_7_frame_2=What was that?
+$room_1_scene_7_frame_3=It was just a play of light. No big deal.
+$room_1_scene_7_frame_4=A strange phenomena begins to happen in the cabin - lights flicker, objects move.
+$room_1_scene_7_frame_5=What's going on?! Is it ghosts or something else?!
+$room_1_scene_7_frame_6=Calm down, Anna. You can control it.
+$room_1_scene_7_frame_7=К-как?
+$room_1_scene_7_frame_8=Listen carefully.
+$room_1_scene_7_frame_9=Close your eyes, Anna. Focus on your breathing. Imagine you're in the middle of a forest, surrounded by the natural world.
+$room_1_scene_7_frame_10=Ладно... I'm listening.
+$room_1_scene_7_frame_11=Feel the power of nature as it flows through you. You are part of that force. You can influence the world around you.
+$room_1_scene_7_frame_12=Я... I feel something strange.
+$room_1_scene_7_frame_13=This is your magical essence. You can use it to create and change. Focus on what you want to change.
+$room_1_scene_7_frame_14=I want things to go back to normal like they were before.
+$room_1_scene_7_frame_15=Center yourself.
+$room_1_scene_7_frame_16=*Magical sparks begin to gather around Anna, then slowly fade away.
+$room_1_scene_7_frame_17=Fine, Anna. You did it. You've awakened the magical power within you.
+$room_1_scene_7_frame_18=I can't believe it. Я... I actually did something?
+$room_1_scene_7_frame_19=Yes, and this is just the beginning. You are a sorceress with the potential for powerful spells.
+$room_1_scene_7_frame_20=Но... how is that possible?
+$room_1_scene_7_frame_21=There are many mysteries in the world waiting to be uncovered. I saw something special in you when we first met.
+$room_1_scene_7_frame_22=This means... you're a... you're a magician?
+$room_1_scene_7_frame_23=Да, Анна. I am a mage. And I will help you learn your powers.
+$room_1_scene_7_frame_24=But why did you decide to help me?
+$room_1_scene_7_frame_25=Because I saw the potential in you to become a mage. And because I know how important it is to have a mentor.
+$room_1_scene_7_frame_26=That's how Anna's unusual friendship and training in the art of magic began. Every day the girl discovered new abilities in herself, unlocking the secrets of the magical world together with Morgana. Their cabin became a place where everyday life and magic mingled, where the girls learned from each other and discovered magical worlds within themselves.

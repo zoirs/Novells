@@ -1,2 +1,136 @@
-$story.btn.next=Далее
-$story.btn.end=Конец
+
+$story.btn.next=Next
+$story.btn.end=End
+
+$hero.name.anna=Anna
+$hero.name.lilit=Lilith
+
+$room_2_scene_1_frame_1=Beyond the window, the sea glistened impatiently with waves. Anna had to squint her eyes to continue looking at the harbor.
+$room_2_scene_1_frame_2= Outside, loading was in full swing, with a line of passengers showing tickets to the liner's staff. Things, like her own, had been brought on board in advance.
+$room_2_scene_1_frame_3=A seagull cried out.
+
+$room_2_scene_2_frame_1=Amazing. If it weren't for this view, it wouldn't be any different from a hotel room.
+$room_2_scene_2_frame_2=The window won't open...
+$room_2_scene_2_frame_3=Of course, genius! I wish airliners had portholes that opened!
+$room_2_scene_2_frame_4=The girl tapped her fingernails nervously on the frame and looked around the cabin again. She wanted to pass the time somehow.
+$room_2_scene_2_frame_5=Should we unpack?
+$room_2_scene_2_frame_6=Her suitcase, borrowed from her aunt, stood modestly by the nearest bed.
+$room_2_scene_2_frame_7=The other had a mountain of luggage.
+
+$story.btn.anna.see.things=see.
+$story.btn.anna.take.things.apart=Take.things.apart.
+
+$room_2_scene_3_frame_1=Anna opened her suitcase.
+$room_2_scene_3_frame_2=A photo frame lay hastily thrown inside on top. A happy family, two children, an older girl and a little boy, and a mother, looked out from the tree framed picture.
+$room_2_scene_3_frame_3=I'm sorry. I shouldn't have run away from my problems.
+$room_2_scene_3_frame_4=And that's exactly what I'm doing right now.
+$room_2_scene_3_frame_5=Anna turned the photo over, trying to leave the heavy thoughts behind. However, the edge of the frame caught on the fabric and her underwear fell out onto the cabin floor.
+$room_2_scene_3_frame_6=Instinctively, she grabbed the items and shoved them back into her pocket. Her cheeks turned pink.
+$room_2_scene_3_frame_7=How embarrassing! What if someone had walked in?
+$room_2_scene_3_frame_8=I still haven't seen my cabin mate.
+
+$room_2_scene_4_frame_1=Suitcase, basket, bag, bag... Gosh, it's like my traveling companion is moving here for life!
+$room_2_scene_4_frame_2=I guess he loves flights - there's a lot of stickers. Some of them look old. Maybe he collects flights?
+$room_2_scene_4_frame_3=What's this?
+$room_2_scene_4_frame_4=Anna stepped closer, and a strange symbol appeared on the side of the suitcase. Several petals entering one into the other.
+$room_2_scene_4_frame_5=How unusual. Must be an interesting conversationalist!
+
+$room_2_scene_5_frame_1=It would be nice to get a cute guy in here. Or someone quiet...
+$room_2_scene_5_frame_2=The intrigue didn't last long - the door swung open abruptly.
+$room_2_scene_5_frame_3=Каюта 28?
+$room_2_scene_5_frame_4=Да…
+$room_2_scene_5_frame_5=That's right-- the stuff's here. Let's get acquainted.
+$room_2_scene_5_frame_6=The stranger placed a pot of blue flowers on the table and extended her hand for a shake. It seemed too strong for such narrow and dry brush.
+$room_2_scene_5_frame_7=Minute - and here was the neighbor already rummaging through the bowels of her suitcase.
+$room_2_scene_5_frame_8=Nice to meet you. Are you bringing flowers?
+$room_2_scene_5_frame_9=The girl mumbled something without raising her head.
+$room_2_scene_5_frame_10=Что?
+$room_2_scene_5_frame_11=Aconites, I said. Not just any flowers.
+$room_2_scene_5_frame_12=The kind that are... pretty.
+$room_2_scene_5_frame_13=Glad you like them. But don't touch them, they're very finicky.
+$room_2_scene_5_frame_14=An awkward pause has occurred....
+
+$story.btn.anna.2_5.1=Represent.
+$story.btn.anna.2_5.2=Ask about flowers.
+$story.btn.anna.2_5.3=Ask for directions
+$story.btn.anna.2_5.4=Discuss the weather
+
+$room_2_scene_6_frame_1=Since we're cabin mates, I think it's worth introducing ourselves. Я...
+$room_2_scene_6_frame_2=Anna, I know.
+$room_2_scene_6_frame_3=Знаете? How?
+$room_2_scene_6_frame_4=The girl waved her ringed hand without distraction:
+$room_2_scene_6_frame_5=A list of names hangs on the wall in the hallway.
+$room_2_scene_6_frame_6=Oh, really?
+$room_2_scene_6_frame_7=I can be so absent-minded sometimes... What's your name?
+$room_2_scene_6_frame_8=Call me... Sarah.
+$room_2_scene_6_frame_9=The pause did not escape Anna. However, there was nothing to do - not to pester her with questions.
+$room_2_scene_6_frame_10=She was strange!
+
+$room_2_scene_7_frame_1=The aconites seem to be poisonous. How can you bring something like that into the cabin?
+$room_2_scene_7_frame_2=The girl looked directly into Anna's eyes for the first time. The look in her dark eyes made her want to hide.
+$room_2_scene_7_frame_3=If you plan on eating the flowers, maybe.
+$room_2_scene_7_frame_4=And they're perfectly safe in pots.
+
+$room_2_scene_8_frame_1=Anna tried to sound nonchalant.
+$room_2_scene_8_frame_2=I have a ticket to the end of the cruise. Been wanting to unwind like this for a long time, no phone, no constant calls....
+$room_2_scene_8_frame_3=Ha! You work with people?
+$room_2_scene_8_frame_4=Yes. Are you a full-time traveler too?
+$room_2_scene_8_frame_5=Full. Need to... meet someone.
+
+$room_2_scene_9_frame_1=The forecast promised nice wind and sunshine all week! Great to go sightseeing....
+$room_2_scene_9_frame_2=I don't think so. The clouds will gather by evening and it will rain.
+$room_2_scene_9_frame_3=Anna was taken aback by this abrupt answer.
+$room_2_scene_9_frame_4=Why do you think that? There's a barometer on the wall, the pressure is high.
+$room_2_scene_9_frame_5=He's wrong. It's definitely going to rain, I just know it.
+$room_2_scene_9_frame_6=Ah, you're weather sensitive, aren't you?
+$room_2_scene_9_frame_7=Sort of.
+
+$room_2_scene_10_frame_1=Anna wanted to continue the conversation, but the girl's concentrated face said one thing: now was not the best time. A tense atmosphere hung in the cabin.
+$room_2_scene_10_frame_2=I'll go on deck, I won't disturb you.
+$room_2_scene_10_frame_3=Угу.
+$room_2_scene_10_frame_4=Anna left the room, and her shoulders relaxed involuntarily.
+$room_2_scene_10_frame_5=What a lady!
+
+$story.btn.anna.2_10.1=I don't like her!
+$story.btn.anna.2_10.2=Maybe we can be friends later?
+
+$room_2_scene_11_frame_1=It took a couple minutes to walk up the stairs. As soon as she stepped onto the deck, the salty wind blew Anna's hair and the cries of seagulls snapped her out of her reverie. The sea was splashing and foaming all the way to the horizon.
+$room_2_scene_11_frame_2=What a beauty! I can't believe I'm going on a cruise!
+$room_2_scene_11_frame_3=Albeit under such difficult circumstances. And with such a traveling companion.
+$room_2_scene_11_frame_4=She turned toward the harbor.
+$room_2_scene_11_frame_5=There were people crowded on the shore near the docks. They looked gloomy.
+$room_2_scene_11_frame_6=Some of the crew were waving their arms, trying to make way for the movers.
+$room_2_scene_11_frame_7=Что это?
+$room_2_scene_11_frame_8=Дельфин. Dead.
+$room_2_scene_11_frame_9=Bad luck. One of the passengers is in trouble.
+$room_2_scene_11_frame_10=An unfriendly neighbor appeared so suddenly that Anna flinched. She was completely absorbed in the scene at the docks, however, and looked on with such concern as if the dolphin's demise had touched her personally.
+$room_2_scene_11_frame_11=Вы уверены?
+$room_2_scene_11_frame_12=I've read about it. By the way, let's go with “you” just Sarah.
+
+$room_2_scene_12_frame_1=Not wanting to be around her strange neighbor, Anna spent a couple of hours on deck with other passengers. The waves, the seagulls and the views of the harbor behind her stirred her soul and begged to be photographed.
+$room_2_scene_12_frame_2=The girl had time to walk all over the ship. It seemed bigger inside than outside, and the architects used every meter wisely.
+$room_2_scene_12_frame_3=After satisfying her curiosity, Anna gathered herself back to her room.
+
+$room_2_scene_13_frame_1=Don't you wonder what's outside?
+$room_2_scene_13_frame_2=Sarah turned the page of the book she was holding. The stone of the ring sparkled under the lamp.
+$room_2_scene_13_frame_3=Not particularly. The sea is always the same.
+$room_2_scene_13_frame_4=Sarah's look was not good, and Anna ahhed.
+$room_2_scene_13_frame_5=My God, are you... are you okay? Look at you - completely pale!
+$room_2_scene_13_frame_6=Sarah twitched an eyebrow, but sighed heavily after a couple seconds.
+$room_2_scene_13_frame_7=I get seasick. I know the rocking is minimized by all sorts of mechanisms here, but I'm sensitive to ground shaking.
+$room_2_scene_13_frame_8=There's no shame in it! You can take some medicine or distraction, it'll make it easier.
+
+$story.btn.anna.2_13.1=Ask for a first aid kit.
+$story.btn.anna.2_13.2=Try to sleep.
+$story.btn.anna.2_13.3=Go out on deck, the fresh air is invigorating.
+$story.btn.anna.2_13.4=Take your mind off things.
+
+$room_2_scene_14_frame_1=Таблетки? No, I'm not poisoning myself with chemicals.
+$room_2_scene_14_frame_2=There's a better way.
+$room_2_scene_14_frame_3=She showed me a cloth baggie that she held under her nose.
+$room_2_scene_14_frame_4=Ginger, lemon, cardamom. My grandmother taught me.
+$room_2_scene_14_frame_5=You don't look like you're doing much good.
+$room_2_scene_14_frame_6=Sarah snorted, but without anger - she didn't have the strength.
+
+$room_2_scene_15_frame_1=The neighbor shook her head tiredly.
+$room_2_scene_15_frame_2=It doesn't help. Even in my sleep, I feel like there's no reliable support.

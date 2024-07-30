@@ -1,52 +1,47 @@
-
 $menu.btn.start=Play
-$menu.btn.setting=Setting
+$menu.btn.setting=Settings
 $menu.btn.exit=Exit
 $menu.btn.back=Back
 $menu.btn.next=Next
+$clue=Clue
 
 $dlg.info.close=Close
 $dlg.info.header=Info
-$dlg.info.body=desc desc desc desc desc 
+$dlg.info.body=By asking the right questions the hero begins to suspect something. The more suspicions accumulate - the more they will affect the plot.
 
 $menu.part_1=Cruise
 
 $dlg.buy.yes=Yes
 $dlg.buy.no=No
-
-
-$dlg.rate.desc=Like a game?
-$dlg.rate.header=Rate
+$dlg.rate.desc=Do you like the game?
+$dlg.rate.header=Rating?
 $dlg.rate.yes=Yes
-$dlg.rate.tomenu=To menu
-$clue=Улики
-
-$dlg.reset.header.text=Confirm
-$dlg.reset.body.text=The progress will be lost. Are you sure?
+$dlg.rate.tomenu=On menu
+$dlg.reset.header.text=Confirmation
+$dlg.reset.body.text=All progress will be reset. Are you sure?
 $dlg.reset.btn.yes=Yes
 $dlg.reset.btn.no=No
 
-$dlg.setting.header=Setting
+$dlg.setting.header=Settings
 $dlg.setting.body.music=Music
-$dlg.setting.body.sound=Sound
+$dlg.setting.body.sound=Sounds
 $dlg.setting.btn.on=On
 $dlg.setting.btn.off=Off
 $dlg.setting.btn.reset=Reset progress
 $dlg.setting.btn.rate=Rate
-$dlg.setting.btn.donat=Donat
+$dlg.setting.btn.donat=Donate
 $dlg.setting.body.language=Language
-$dlg.setting.body.language.ru=Русский
+$dlg.setting.body.language.ru=Russian
 $dlg.setting.body.language.en=English
-$dlg.setting.btn.back=Back
+$dlg.setting.btn.back=Backward
 
-$dlg.quit.header=Quit?
+$dlg.quit.header=Leave the game?
 
-$dlg.level.reset.header.text=Confirm
+$dlg.level.reset.header.text=Confirmation
 $dlg.level.reset.body.text=Restart level?
 $dlg.level.reset.btn.yes=Yes
 $dlg.level.reset.btn.no=No
-
-$dlg.level.leave.header.text=Confirm
-$dlg.level.leave.body.text=Leave the level?
+$dlg.level.leave.header.text=Confirmation
+$dlg.level.leave.body.text=Leave level?
 $dlg.level.leave.btn.yes=Yes
 $dlg.level.leave.btn.no=No

@@ -1,0 +1,47 @@
+$menu.btn.start=Jouer
+$menu.btn.setting=Réglages
+$menu.btn.exit=Sortir
+$menu.btn.back=Retour
+$menu.btn.next=Suivant
+$clue=Preuve
+
+$dlg.info.close=Fermer
+$dlg.info.header=Info
+$dlg.info.body=En posant les bonnes questions, le héros commence à avoir des soupçons. Plus les soupçons s'accumulent, plus ils affecteront l'intrigue.
+
+$menu.part_1=Croisière
+
+$dlg.buy.yes=Oui
+$dlg.buy.no=Non
+$dlg.rate.desc=Aimez-vous le jeu ?
+$dlg.rate.header=Evaluez-le ?
+$dlg.rate.yes=Oui
+$dlg.rate.tomenu=Dans le menu
+$dlg.reset.header.text=Confirmation
+$dlg.reset.body.text=Toute la progression sera réinitialisée. Êtes-vous sûr ?
+$dlg.reset.btn.yes=Oui
+$dlg.reset.btn.no=Non
+
+$dlg.setting.header=Réglages
+$dlg.setting.body.music=Musique
+$dlg.setting.body.sound=Sons
+$dlg.setting.btn.on=On
+$dlg.setting.btn.off=Off
+$dlg.setting.btn.reset=Réinitialiser la progression
+$dlg.setting.btn.rate=Rate
+$dlg.setting.btn.donat=Donation
+$dlg.setting.body.language=Langue
+$dlg.setting.body.language.ru=Russe
+$dlg.setting.body.language.en=Anglais
+$dlg.setting.btn.back=Retour en arrière
+
+$dlg.quit.header=Quitter le jeu ?
+
+$dlg.level.reset.header.text=Confirmation
+$dlg.level.reset.body.text=Redémarrer le niveau ?
+$dlg.level.reset.btn.yes=Oui
+$dlg.level.reset.btn.no=Non
+$dlg.level.leave.header.text=Confirmation
+$dlg.level.leave.body.text=Quitter le niveau ?
+$dlg.level.leave.btn.yes=Oui
+$dlg.level.leave.btn.no=No

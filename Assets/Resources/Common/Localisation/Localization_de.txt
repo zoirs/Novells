@@ -1,0 +1,47 @@
+$menu.btn.start=Wiedergeben
+$menu.btn.setting=Einstellungen
+$menu.btn.exit=Beenden
+$menu.btn.back=Zurück
+$menu.btn.next=Weiter
+$clue=Beweis
+
+$dlg.info.close=Schließen
+$dlg.info.header=Info
+$dlg.info.body=Durch das Stellen der richtigen Fragen beginnt der Held, einen Verdacht zu haben. Je mehr Verdachtsmomente sich häufen, desto mehr werden sie die Handlung beeinflussen.
+
+$menu.part_1=Kreuzfahrt
+
+$dlg.buy.yes=Ja
+$dlg.buy.no=Nein
+$dlg.rate.desc=Findet ihr das Spiel gut?
+$dlg.rate.header=Bewerten Sie es?
+$dlg.rate.yes=Ja
+$dlg.rate.tomenu=Im Menü
+$dlg.reset.header.text=Bestätigung
+$dlg.reset.body.text=Alle Fortschritte werden zurückgesetzt. Sind Sie sicher?
+$dlg.reset.btn.yes=Ja
+$dlg.reset.btn.no=Nein
+
+$dlg.setting.header=Einstellungen
+$dlg.einstellung.body.musik=Musik
+$dlg.einstellung.body.sound=Töne
+$dlg.einstellung.btn.on=Ein
+$dlg.einstellung.btn.off=Aus
+$dlg.setting.btn.reset=Fortschritt zurücksetzen
+$dlg.einstellung.btn.rate=Rate
+$dlg.einstellung.btn.donat=Spenden
+$dlg.setting.body.language=Sprache
+$dlg.einstellung.body.sprache.ru=Russisch
+$dlg.einstellung.body.sprache.en=Englisch
+$dlg.einstellung.btn.back=Rückwärts
+
+$dlg.quit.header=Das Spiel verlassen?
+
+$dlg.level.reset.header.text=Bestätigung
+$dlg.level.reset.body.text=Level neu starten?
+$dlg.level.reset.btn.yes=Ja
+$dlg.level.reset.btn.no=Nein
+$dlg.level.leave.header.text=Bestätigung
+$dlg.level.leave.body.text=Leave level?
+$dlg.level.leave.btn.yes=Ja
+$dlg.level.leave.btn.no=Nein

@@ -17,8 +17,9 @@ public class BubleSpeechController : MonoBehaviour {
         }
 
         caption.text = name != null ? LocalisationSystem.GetLocalisedValue("$hero.name." + name, story) : "";
-
-        current = StartCoroutine(DoClickAndAction(LocalisationSystem.GetLocalisedValue(speech, story), callBack));
+        var localisedValue = LocalisationSystem.GetLocalisedValue(speech, story);
+        // Debug.Log("key text " + speech + "; value " + localisedValue+";");
+        current = StartCoroutine(DoClickAndAction(localisedValue, callBack));
     }
 
     IEnumerator DoClickAndAction(string text, Action callBack) {

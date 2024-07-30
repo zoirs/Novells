@@ -1,2 +1,135 @@
-$story.btn.next=Далее
-$story.btn.end=Конец
+$story.btn.next=Suivant
+$story.btn.end=Fin
+
+$hero.name.anna=Anna
+$hero.name.lilit=Lilith
+
+$room_2_scene_1_frame_1=De l'autre côté de la fenêtre, la mer scintillait de vagues impatientes. Anna dut plisser les yeux pour continuer à regarder le port.
+$room_2_scene_1_frame_2=Dehors, l'embarquement battait son plein, une file de passagers montrant leurs billets au personnel du paquebot. Les objets, comme le sien, ont été apportés à bord à l'avance.
+$room_2_scene_1_frame_3=Un cri de mouette.
+
+$room_2_scene_2_frame_1=Surprenant. S'il n'y avait pas cette vue, ce ne serait pas différent d'une chambre d'hôtel.
+$room_2_scene_2_frame_2=La fenêtre ne s'ouvre pas...
+$room_2_scene_2_frame_3=Bien sûr, c'est un génie ! J'aimerais que les paquebots aient des hublots qui s'ouvrent !
+$room_2_scene_2_frame_4=La jeune fille tapa nerveusement ses ongles sur le cadre et regarda à nouveau autour d'elle. Elle voulait passer le temps d'une manière ou d'une autre.
+$room_2_scene_2_frame_5=Devons-nous défaire nos valises ?
+$room_2_scene_2_frame_6= Sa valise, empruntée à sa tante, se tenait modestement près du lit le plus proche.
+$room_2_scene_2_frame_7=L'autre avait une montagne de bagages.
+
+$story.btn.anna.see.things=voir.
+$story.btn.anna.take.things.apart=Démonter.les.choses.
+
+$room_2_scene_3_frame_1=Anna ouvre sa valise.
+$room_2_scene_3_frame_2=Un cadre photo était posé sur le dessus, jeté à la hâte à l'intérieur. Une famille heureuse regardait la photo encadrée dans un arbre : deux enfants, une grande fille et un petit garçon, et une mère.
+$room_2_scene_3_frame_3=Je suis désolé. Je n'aurais pas dû fuir mes problèmes.
+$room_2_scene_3_frame_4=Et c'est exactement ce que je fais en ce moment.
+$room_2_scene_3_frame_5=Anna retourna la photo, essayant de laisser les pensées lourdes derrière elle. Cependant, le bord du cadre s'accrocha au tissu et ses sous-vêtements tombèrent sur le sol de la cabine.
+$room_2_scene_3_frame_6=Instinctivement, elle attrapa les objets et les remit dans sa poche. Ses joues sont devenues roses.
+$room_2_scene_3_frame_7=Elle se mit à rosir. $room_2_scene_3_frame_7=Comme c'est embarrassant ! Et si quelqu'un était entré ?
+$room_2_scene_3_frame_8=Je n'ai toujours pas vu mon compagnon de cabine.
+
+$room_2_scene_4_frame_1=Valise, panier, sac, sac... Mon Dieu, c'est comme si mon compagnon de voyage s'installait ici pour la vie !
+$room_2_scene_4_frame_2=Je suppose qu'il aime les vols - il y a beaucoup d'autocollants. Certains ont l'air vieux. Peut-être qu'il collectionne les vols ?
+$room_2_scene_4_frame_3=Qu'est-ce que c'est que ça ?
+$room_2_scene_4_frame_4=Anna s'est approchée et un étrange symbole est apparu sur le côté de la valise. Plusieurs pétales s'emboîtent les uns dans les autres.
+$room_2_scene_4_frame_5=Comme c'est inhabituel. Ce doit être un interlocuteur intéressant !
+
+$room_2_scene_5_frame_1=Ce serait bien de faire entrer un beau garçon. Ou quelqu'un de calme...
+$room_2_scene_5_frame_2=L'intrigue n'a pas duré longtemps - la porte s'est ouverte brusquement.
+$room_2_scene_5_frame_3=Каюта 28?
+$room_2_scene_5_frame_4=Да…
+$room_2_scene_5_frame_5=C'est vrai... les affaires sont là. Faisons connaissance.
+$room_2_scene_5_frame_6=L'inconnue posa un pot de fleurs bleues sur la table et tendit la main pour la serrer. Elle semblait trop forte pour un pinceau aussi étroit et sec.
+$room_2_scene_5_frame_7=Minute - et voilà que la voisine fouille déjà dans les entrailles de sa valise.
+$room_2_scene_5_frame_8=Enchanté de faire votre connaissance. Vous apportez des fleurs ?
+$room_2_scene_5_frame_9=La jeune fille marmonne quelque chose sans lever la tête.
+$room_2_scene_5_frame_10=Что?
+$room_2_scene_5_frame_11=Je lui ai dit qu'il s'agissait de fleurs d'aconit. Pas n'importe quelles fleurs.
+$room_2_scene_5_frame_12=Elles sont si... jolies.
+$room_2_scene_5_frame_13=Je suis content que vous les aimiez. Mais ne les touchez pas, ils sont très difficiles.
+$room_2_scene_5_frame_14=Une pause gênante s'est produite....
+
+$story.btn.anna.2_5.1=Représenter.
+$story.btn.anna.2_5.2=Demande de fleurs.
+$story.btn.anna.2_5.3=Demander un itinéraire.
+$story.btn.anna.2_5.4=Discuter du temps qu'il fait
+
+$room_2_scene_6_frame_1=Puisque nous sommes des compagnons de cabine, je pense qu'il vaut la peine de nous présenter. Я...
+$room_2_scene_6_frame_2=Anna, je sais.
+$room_2_scene_6_frame_3=Знаете? Comment ?
+$room_2_scene_6_frame_4=La jeune fille agita sa main baguée sans se laisser distraire :
+$room_2_scene_6_frame_5=Une liste de noms est accrochée au mur du couloir.
+$room_2_scene_6_frame_6=Oh, vraiment ?
+$room_2_scene_6_frame_7=Je suis parfois si distraite... Quel est votre nom ?
+$room_2_scene_6_frame_8=Appellez-moi... Sarah.
+$room_2_scene_6_frame_9=La pause n'a pas échappé à Anna. Mais il n'y avait rien à faire, pas à la harceler de questions.
+$room_2_scene_6_frame_10=Elle était étrange !
+
+$room_2_scene_7_frame_1=Les aconites semblent être toxiques. Comment pouvez-vous transporter une telle chose dans votre cabine ?
+$room_2_scene_7_frame_2=La jeune fille regarda Anna dans les yeux pour la première fois. Le regard de cette dernière lui donne envie de se cacher.
+$room_2_scene_7_frame_3=Si tu as l'intention de manger les fleurs, peut-être...
+$room_2_scene_7_frame_4=Et elles sont parfaitement sûres dans des pots.
+
+$room_2_scene_8_frame_1=Anna essaya de prendre un air nonchalant.
+$room_2_scene_8_frame_2=J'ai un billet pour la fin de la croisière. Cela fait longtemps que je veux me détendre comme ça, sans téléphone, sans appels incessants....
+$room_2_scene_8_frame_3=Ha ! Vous travaillez avec des gens ?
+$room_2_scene_8_frame_4=Vous êtes aussi un voyageur à plein temps ?
+$room_2_scene_8_frame_5=Full. Besoin de... rencontrer quelqu'un.
+
+$room_2_scene_9_frame_1=Les prévisions annonçaient du vent et du soleil toute la semaine ! Idéal pour faire du tourisme....
+$room_2_scene_9_frame_2=Je ne pense pas. Les nuages vont s'accumuler dans la soirée et il va pleuvoir.
+$room_2_scene_9_frame_3=Anna a été déconcertée par cette réponse abrupte.
+$room_2_scene_9_frame_4=Pourquoi penses-tu cela ? Il y a un baromètre sur le mur, la pression est élevée.
+$room_2_scene_9_frame_5=Il se trompe. Il va certainement pleuvoir, je le sais.
+$room_2_scene_9_frame_6=Ah, vous êtes sensible à la météo, n'est-ce pas ?
+$room_2_scene_9_frame_7=Sort of.
+
+$room_2_scene_10_frame_1=Anna voulait poursuivre la conversation, mais le visage concentré de la jeune fille disait une chose : ce n'était pas le meilleur moment. Une atmosphère tendue régnait dans la cabine.
+$room_2_scene_10_frame_2=Je vais aller sur le pont, je ne vous dérangerai pas.
+$room_2_scene_10_frame_3=Угу.
+$room_2_scene_10_frame_4=Anna quitta la pièce et ses épaules se détendirent involontairement.
+$room_2_scene_10_frame_5=Quelle dame !
+
+$story.btn.anna.2_10.1=PJe ne l'aime pas !
+$story.btn.anna.2_10.2=Peut-être qu'on pourra être amis plus tard ?
+
+$room_2_scene_11_frame_1=Il lui a fallu quelques minutes pour monter les escaliers. Dès qu'elle a posé le pied sur le pont, le vent salé a fait voler les cheveux d'Anna et les cris des mouettes l'ont tirée de sa rêverie. La mer clapote et écume jusqu'à l'horizon.
+$room_2_scene_11_frame_2=Quelle beauté ! Je n'arrive pas à croire que je vais faire une croisière !
+$room_2_scene_11_frame_3=Mais dans des circonstances si difficiles. Et avec un tel compagnon de voyage.
+$room_2_scene_11_frame_4=Elle se tourna vers le port.
+$room_2_scene_11_frame_5=Il y avait des gens entassés sur le rivage, sur les quais mêmes. Ils avaient l'air lugubre.
+$room_2_scene_11_frame_6=Certains membres de l'équipage agitaient les bras, essayant de faire de la place aux déménageurs.
+$room_2_scene_11_frame_7=Что это?
+$room_2_scene_11_frame_8=Дельфин. Mort.
+$room_2_scene_11_frame_9=Bad luck. L'un des passagers est en difficulté.
+$room_2_scene_11_frame_10=Un voisin inamical est apparu si soudainement qu'Anna a sursauté. Cependant, elle était complètement absorbée par la scène qui se déroulait sur les quais et la regardait avec une telle inquiétude, comme si la mort du dauphin l'avait touchée personnellement.
+$room_2_scene_11_frame_11=Вы уверены?
+$room_2_scene_11_frame_12=Lisez à ce sujet. D'ailleurs, on va dire « vous » - juste Sarah.
+
+$room_2_scene_12_frame_1=N'ayant pas envie de côtoyer son étrange voisine, Anna a passé quelques heures sur le pont avec les autres passagers. Les vagues, les mouettes et la vue sur le port derrière elle l'ont émue et l'ont poussée à se faire photographier.
+$room_2_scene_12_frame_2=La jeune fille a eu le temps de se promener dans tout le navire. Il semblait plus grand à l'intérieur qu'à l'extérieur, et les architectes avaient utilisé chaque mètre à bon escient.
+$room_2_scene_12_frame_3=Après avoir satisfait sa curiosité, Anna se rassembla dans sa chambre.
+
+$room_2_scene_13_frame_1=Tu ne te demandes pas ce qu'il y a dehors ?
+$room_2_scene_13_frame_2=Sarah tourna la page du livre qu'elle tenait. La pierre de la bague scintille sous la lampe.
+$room_2_scene_13_frame_3=Pas particulièrement. La mer est toujours la même.
+$room_2_scene_13_frame_4=Le regard de Sarah n'était pas bon, et Anna soupira.
+$room_2_scene_13_frame_5=Mon Dieu, est-ce que tu... est-ce que tu vas bien ? Regarde - complètement pâle !
+$room_2_scene_13_frame_6=Sarah haussa un sourcil, mais soupira lourdement après quelques secondes.
+$room_2_scene_13_frame_7=J'ai le mal de mer. Je sais que le balancement ici est minimisé par toutes sortes de mécanismes, mais je suis sensible aux secousses du sol.
+$room_2_scene_13_frame_8=Il n'y a pas de honte à avoir ! Tu peux prendre des médicaments ou te distraire, ça te facilitera la tâche.
+
+$story.btn.anna.2_13.1=Demandez une trousse de premiers secours.
+$story.btn.anna.2_13.2=Essayer de dormir.
+$story.btn.anna.2_13.3=Sortir sur le pont, l'air frais est revigorant.
+$story.btn.anna.2_13.4=Détournez-vous l'esprit.
+
+$room_2_scene_14_frame_1=Таблетки? Non, je ne m'empoisonne pas avec des produits chimiques.
+$room_2_scene_14_frame_2=Il y a quelque chose de mieux.
+$room_2_scene_14_frame_3=Elle m'a montré un sac en tissu qu'elle tenait sous son nez.
+$room_2_scene_14_frame_4=Gingembre, citron, cardamome. C'est ma grand-mère qui me l'a appris.
+$room_2_scene_14_frame_5=Tu n'as pas l'air de faire grand-chose de bon.
+$room_2_scene_14_frame_6=Sarah renifla, mais sans colère - elle n'en avait pas la force.
+
+$room_2_scene_15_frame_1=La voisine secoua la tête d'un air fatigué.
+$room_2_scene_15_frame_2=Cela ne sert à rien. Même dans mon sommeil, j'ai l'impression qu'il n'y a pas de soutien fiable.

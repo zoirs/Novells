@@ -1,0 +1,90 @@
+$story.btn.next=Weiter
+$story.btn.end=Ende
+
+$hero.name.anna=Anna
+$hero.name.lilit=Lilith
+
+$room_1_scene_1_frame_1=Das Schiff schaukelte langsam auf den Wellen und entführte die Passagiere in eine Welt voller Schönheit und Luxus. Unter ihnen befanden sich zwei Frauen, die sich völlig fremd waren, aber das Schicksal hatte sie in derselben Kabine zusammengeführt. Eine junge Studentin namens Anna und eine geheimnisvolle Frau in gotischer Kleidung.
+
+$room_1_scene_2_frame_1=Anna war fröhlich und naiv aufgeregt, auf einem so luxuriösen Schiff zu reisen. Sie hatte gerade ihr erstes Jahr an der Universität beendet und beschlossen, sich selbst ein Urlaubsgeschenk zu machen. Als sie hörte, dass bereits jemand eine Kabine gebucht hatte, willigte sie ein, diese mit einem Fremden zu teilen.
+$room_1_scene_2_frame_2=Hallo, ich bin Anna. Nimmst du auch an dieser Kreuzfahrt teil?
+$room_1_scene_2_frame_3=Ja, ich bin auch ein Reisender. Mein Name ist Lilith. Was führt dich zu dieser Kreuzfahrt?
+$room_1_scene_2_frame_4=Ich habe mein erstes Jahr an der Universität beendet und meine Freunde haben mir gesagt, dass diese Art von Reisen eine Erfahrung wert ist. Nach dem Studium Urlaub zu machen und etwas Neues zu lernen, ist mein Traum!
+$room_1_scene_2_frame_5=Bereits in den ersten Minuten des Gesprächs zeigte Lilith Interesse an Anna und erkundigte sich nach ihren Hobbys, Träumen und sogar nach ihrem Privatleben. Anna, die schon immer offen und kontaktfreudig war, erzählte gerne von sich. Aber sie hatte nie bemerkt, dass Lilith bei der Wahl ihrer Worte sehr wählerisch war und einige seltsame Fragen stellte.
+$room_1_scene_2_frame_6=Es dämmert schon und es wird kühl. Möchten Sie einen heißen Tee trinken?
+$room_1_scene_2_frame_7=Anna fragte sich, ob sie mit einem Fremden Tee trinken sollte, oder ob sie ablehnen sollte.
+
+$story.btn.anna.agree=Anna stimmt zu.
+$story.btn.anna.disagree=Anna lehnt ab.
+
+$room_1_scene_3_frame_1=Was hat dich zu dieser Kreuzfahrt gebracht?
+$room_1_scene_3_frame_2=Ich beendete gerade mein erstes Studienjahr und meine Freunde sagten mir, dass so eine Reise eine Erfahrung wert sei. Nach dem Studium Urlaub zu machen und etwas Neues zu lernen, ist mein Traum!
+$room_1_scene_3_frame_3=Ich bin neugierig, was ist dein Hauptfach an der Universität? Gibt es etwas, das dich wirklich begeistert?
+$room_1_scene_3_frame_4=Ja, ich studiere im Fachbereich Archäologie. Ich bin fasziniert von Geschichte, archäologischen Ausgrabungen und Entdeckungen! Ich träume davon, Archäologin zu werden und um die ganze Welt zu reisen, um die Geheimnisse alter Zivilisationen zu lüften!
+$room_1_scene_3_frame_5=Sehr interessant! Welche anderen Träume hast du außer einer Karriere als Archäologe?
+$room_1_scene_3_frame_6=Natürlich habe ich welche! Ich träume davon, mein eigenes kleines Haus am See zu haben, wo ich mich entspannen und schreiben kann. Ich liebe es, Gedichte und Notizen über meine Reisen zu schreiben. Mir geht das Herz auf, wenn ich schöne Landschaften sehe!
+$room_1_scene_3_frame_7=Gedichte schreiben, interessant. Du bist sehr romantisch, Anna. Was ist mit deinem Privatleben? Hast du jemand Besonderen?
+$room_1_scene_3_frame_8=Nun, im Moment habe ich keinen Freund. Ich konzentriere mich auf das Studium und das Reisen, aber natürlich hoffe ich, in der Zukunft jemand Besonderen zu treffen.
+$room_1_scene_3_frame_9=Keine Sorge, alles wird sich von selbst finden. Das Leben ist voller Überraschungen. Du bist wahrscheinlich noch zu jung, um so wichtige Entscheidungen zu überstürzen.
+$room_1_scene_3_frame_10=Liliths Worte klangen beängstigend für Anna
+
+$story.btn.anna.end.conversation=Anna will den Dialog beenden
+$story.btn.anna.continue.conversation=Anna setzt den Dialog fort.
+
+$room_1_scene_4_frame_1=Wisst Ihr, Anna, ich besitze uraltes Wissen und kann jedem Menschen, dem ich auf meinen Reisen begegne, einen Wunsch erfüllen. Sag mir, hast du einen Wunsch, den du gerne erfüllen würdest?
+$room_1_scene_4_frame_2=Ich wünsche mir, dass mein Leben immer aus Reisen und Entdeckungen besteht.
+$room_1_scene_4_frame_3=Lilith schloss ihre Augen, flüsterte ein paar kryptische Worte, und eine seltsame Energie lag in der Luft. Anna fühlte sich unbehaglich und dachte, dass Lilith nur Zauberei ausübte.
+$room_1_scene_4_frame_4=Etwas Seltsames begann mit Anna zu geschehen. Sie hatte das Gefühl, ihr Körpergefühl zu verlieren und die Katzensprache nicht mehr zu verstehen. Ihre Gedanken begannen in ihren Ohren zu dröhnen und die Welt um sie herum nahm eine neue, ungewöhnliche Helligkeit an. Anna wurde klar, dass sie sich in eine Katze verwandelt hatte!
+$room_1_scene_4_frame_5=Am Morgen war die Hütte leer. Lilith war verschwunden, und niemand wusste, was mit Anna geschehen war. Sie schien spurlos verschwunden zu sein.
+
+$room_1_scene_5_frame_1=Nun, wissen Sie, ich habe die gotische Architektur immer bewundert. All diese alten Schlösser und Kathedralen, sie sind wie aus einer anderen Welt.
+$room_1_scene_5_frame_2=Absolut einverstanden. Der gotische Stil hat eine besondere Magie. Aber ich habe immer eher minimalistische Formen bevorzugt.
+$room_1_scene_5_frame_3=Minimalismus ist natürlich auch interessant, aber die gotische Architektur hat eine solche Tiefe und Detailgenauigkeit, dass es so ist, als würde sie ihre eigene Geschichte erzählen.
+$room_1_scene_5_frame_4=Aber auch der Minimalismus hat seine Tiefe, in seiner Reinheit und Eleganz. Finden Sie nicht auch?
+$room_1_scene_5_frame_5=Ich glaube, der Gothic-Stil drückt intensivere Gefühle aus. Er ist irgendwie näher an meiner Seele.
+$room_1_scene_5_frame_6=Nun, jedem das Seine. Aber ich denke, dass der Minimalismus mehr auf das Wesentliche achtet, und er ist universeller.
+$room_1_scene_5_frame_7=Ich bin da anderer Meinung. Gotische Architektur hat Persönlichkeit. Der Minimalismus wirkt zu kalt und distanziert.
+$room_1_scene_5_frame_8=Es scheint so, als ob deine archäologische Leidenschaft deinen Blick auf die Kunst beeinflusst.
+$room_1_scene_5_frame_9=Nun, was soll's, wenn es so ist? Es ist besser, eine Leidenschaft für etwas zu haben, als gleichgültig gegenüber allem zu sein!
+$room_1_scene_5_frame_10=Verschönern Sie nichts. Zu viel Emotion kann zu einem schlechten Urteilsvermögen führen.
+$room_1_scene_5_frame_11=Неверным? Vielleicht haben wir einfach nichts anderes, worüber wir reden können.
+$room_1_scene_5_frame_12=whatever.
+$room_1_scene_5_frame_13=Anna fühlt sich unbehaglich.
+
+$story.btn.anna.give.into.argument=Einen Streit im Keim ersticken.
+$story.btn.anna.not.give.into.argument=Sich selbst im Weg stehen
+
+$room_1_scene_6_frame_1=Warte, Lilith. Wir haben vielleicht unterschiedliche Meinungen, aber das muss nicht zu einem Streit führen. Lass uns nicht zulassen, dass dieser Streit unsere Reise ruiniert.
+$room_1_scene_6_frame_2=Vielleicht hast du recht. Wir denken nur anders.
+$room_1_scene_6_frame_3=Und das ist in Ordnung. Wir können uns besser kennenlernen, wenn wir über mehr als nur Kultur und Kunst reden.
+room_1_scene_6_frame_4=Sie schlagen einen Waffenstillstand vor?
+$room_1_scene_6_frame_5=Einigen wir uns darauf, dass die Meinungsvielfalt unsere Reisen interessant macht. Und auch wenn wir nicht immer einer Meinung sind, sollte uns das nicht davon abhalten, diese Kreuzfahrt zu genießen.
+$room_1_scene_6_frame_6=Agree. Schließlich ist es unsere Fähigkeit, die Welt anders zu sehen, die uns einzigartig macht.
+room_1_scene_6_frame_7=Es ist spät, ich gehe ins Bett.
+
+$room_1_scene_7_frame_1=*Magische Funken flackern auf Liliths Fingern*.
+$room_1_scene_7_frame_2=Was war das?
+$room_1_scene_7_frame_3=Es war nur ein Lichtspiel. Keine große Sache.
+$room_1_scene_7_frame_4=Ein seltsames Phänomen beginnt in der Kabine - Lichter flackern, Gegenstände bewegen sich.
+$room_1_scene_7_frame_5=Was ist hier los?! Sind es Geister oder etwas anderes?!
+$room_1_scene_7_frame_6=Beruhige dich, Anna. Du kannst es kontrollieren.
+$room_1_scene_7_frame_7=К-как?
+$room_1_scene_7_frame_8=Hören Sie gut zu.
+$room_1_scene_7_frame_9=Schließe deine Augen, Anna. Konzentriere dich auf deine Atmung. Stell dir vor, du bist mitten im Wald, umgeben von der Natur.
+$room_1_scene_7_frame_10=Ладно... Ich höre zu.
+$room_1_scene_7_frame_11=Spüre die Kraft der Natur, wenn sie dich durchströmt. Du bist ein Teil dieser Kraft. Du kannst die Welt um dich herum beeinflussen.
+$room_1_scene_7_frame_12=Я... Ich fühle etwas Seltsames.
+$room_1_scene_7_frame_13=Das ist deine magische Essenz. Du kannst sie benutzen, um zu erschaffen und zu verändern. Konzentriere dich auf das, was du verändern willst.
+$room_1_scene_7_frame_14=Ich möchte, dass die Dinge wieder so werden, wie sie vorher waren.
+$room_1_scene_7_frame_15=Konzentrieren
+$room_1_scene_7_frame_16=*Magische Funken beginnen, sich um Anna zu sammeln, und verblassen dann langsam.
+$room_1_scene_7_frame_17=Gut, Anna. Du hast es geschafft. Du hast die magische Kraft in dir erweckt.
+$room_1_scene_7_frame_18=Ich kann es nicht glauben. Я... Ich habe tatsächlich etwas getan?
+$room_1_scene_7_frame_19=Ja, und das ist erst der Anfang. Du bist eine Zauberin mit dem Potenzial für mächtige Zaubersprüche.
+$room_1_scene_7_frame_20=Но... wie ist das möglich?
+$room_1_scene_7_frame_21=Es gibt viele Geheimnisse auf der Welt, die darauf warten, entdeckt zu werden. Ich habe etwas Besonderes in dir gesehen, als wir uns das erste Mal trafen.
+$room_1_scene_7_frame_22=Das bedeutet... du bist ein... Du bist ein Magier?
+$room_1_scene_7_frame_23=Да, Анна. Ich bin ein Magier. Und ich werde dir helfen, deine Kräfte zu erlernen.
+$room_1_scene_7_frame_24=Aber warum hast du beschlossen, mir zu helfen?
+$room_1_scene_7_frame_25=Weil ich das Potenzial in dir gesehen habe, ein Magier zu werden. Und weil ich weiß, wie wichtig es ist, einen Mentor zu haben.
+$room_1_scene_7_frame_26=So begann Annas ungewöhnliche Freundschaft und Ausbildung in der Kunst der Magie. Jeden Tag entdeckte das Mädchen neue Fähigkeiten an sich und entschlüsselte gemeinsam mit Morgana die Geheimnisse der magischen Welt. Ihre Hütte wurde zu einem Ort, an dem sich Alltag und Magie vermischten, an dem die Mädchen voneinander lernten und magische Welten in sich selbst entdeckten.
