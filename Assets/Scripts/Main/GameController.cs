@@ -86,7 +86,7 @@ namespace Main {
         }
 
         public void GoToMenu() {
-            gameMenu.OnBackPressed();
+            _novellSceneMenu.OnBackPressed();
             // _levelManager.ClearLevel();
             _state = GameStates.WaitingToStart;
         }

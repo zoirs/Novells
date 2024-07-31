@@ -11,6 +11,12 @@ public class TextWriter : MonoBehaviour {
     }
 
     public void AddWriter(TextMeshProUGUI textMeshProUGUI, string textToWrite, float timePerCharacter, Action unknown) {
+        if (string.IsNullOrEmpty(textToWrite))
+        {
+            Debug.Log("Text is empty");
+            return;
+        }
+
         _textWriterSingles.Add(new TextWriterSingle(textMeshProUGUI, textToWrite, timePerCharacter, unknown));
     }
 
