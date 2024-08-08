@@ -89,7 +89,10 @@ public class OptionDialogController : MonoBehaviour {
     }
 
     private void ResetProgress() {
-       
+        for (int i = 0; i < 10; i++)
+        {
+            PlayerPrefs.DeleteKey(PlayerPrefsUtils.STORY_PREFIX + i);
+        }
     }
     
     public void ReloadScene() {

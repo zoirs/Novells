@@ -23,8 +23,14 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
 
 
     private void Start() {
-        // LoadNext(2,1,0, true);
-        LoadNext(2,1,0, true);
+        var story = 2;
+        var scene = 1;
+        if (PlayerPrefs.HasKey(PlayerPrefsUtils.STORY_PREFIX + story))
+        {
+            scene = PlayerPrefs.GetInt(PlayerPrefsUtils.STORY_PREFIX + story);
+        }
+
+        LoadNext(story, scene,0, true);
     }
 
     private void LoadNext(int story, int scene, int frameIndex, bool isNewScene) {
@@ -60,6 +66,7 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
             clue.SetText(current, 4);
             lastScene = scene;
         }
+        PlayerPrefs.SetInt(PlayerPrefsUtils.STORY_PREFIX + story, scene);
     }
 
     private void ShowButtons(int room, int scene, int frameIndex, List<ButtonDto> frameButtons) {

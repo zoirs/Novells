@@ -11,12 +11,9 @@ public class TextLocalized : MonoBehaviour {
     private void Awake() {
         _textField = GetComponent<TextMeshProUGUI>();
         Debug.Log(" ss " + _textField);
-
     }
 
     private void Start() {
-        Debug.Log(_textField);
-        Debug.Log(_textField.text);
         string textValue = _textField.text;
         if (textValue == null || !textValue.StartsWith("$")) {
             return;

@@ -25,10 +25,4 @@ public class StartOptionMenu : StartMenu {
         optionBtn.onClick.AddListener(() => { _dialogManager.OpenOptionDialog(); });
         // exitGameBtn.onClick.AddListener(() => { _dialogManager.OpenOptionDialog(); });
     }
-
-    private void OnResetProgress() {
-        // nextLevel = 0;
-    }
-
-
 }
