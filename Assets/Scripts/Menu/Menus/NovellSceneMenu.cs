@@ -28,6 +28,7 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
         var scene = 23;
         if (PlayerPrefs.HasKey(PlayerPrefsUtils.STORY_PREFIX + story))
         {
+            //
             // scene = PlayerPrefs.GetInt(PlayerPrefsUtils.STORY_PREFIX + story);
         }
 
