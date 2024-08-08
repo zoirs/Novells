@@ -8,6 +8,7 @@ $clue=Clue
 $dlg.info.close=Close
 $dlg.info.header=Info
 $dlg.info.body=By asking the right questions the hero begins to suspect something. The more suspicions accumulate - the more they will affect the plot.
+$dlg.info.about=About me
 
 $menu.part_1=Cruise
 

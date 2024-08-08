@@ -8,6 +8,7 @@ $clue=Preuve
 $dlg.info.close=Fermer
 $dlg.info.header=Info
 $dlg.info.body=En posant les bonnes questions, le héros commence à avoir des soupçons. Plus les soupçons s'accumulent, plus ils affecteront l'intrigue.
+$dlg.info.about=About me
 
 $menu.part_1=Croisière
 

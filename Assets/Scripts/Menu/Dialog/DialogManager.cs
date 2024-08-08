@@ -16,7 +16,11 @@ public class DialogManager {
         optionDialogFactory.Create(new OptionDialogParam());
     }
     public void OpenInfoDialog() {
-        infoDialogController.Create(new HelpDialogParam());
+        infoDialogController.Create(new InfoDialogParam("$dlg.info.body", () => { }));
+    }
+    
+    public void OpenAboutDialog() {
+        infoDialogController.Create(new InfoDialogParam("$dlg.info.about", () => {gameController.GoToMenu(); }));
     }
 
     public void CongradulationDialog(int wagonCount, int railwayLength, int reward) {

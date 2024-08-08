@@ -8,6 +8,7 @@ $clue=Beweis
 $dlg.info.close=Schließen
 $dlg.info.header=Info
 $dlg.info.body=Durch das Stellen der richtigen Fragen beginnt der Held, einen Verdacht zu haben. Je mehr Verdachtsmomente sich häufen, desto mehr werden sie die Handlung beeinflussen.
+$dlg.info.about=About me
 
 $menu.part_1=Kreuzfahrt
 

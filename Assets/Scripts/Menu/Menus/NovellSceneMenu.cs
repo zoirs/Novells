@@ -16,6 +16,7 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
 
     [Inject] private SceneryManager _sceneryManager;
     [Inject] private NextFrameButtonController.Factory _factory;
+    [Inject] private DialogManager _dialogManager;
     
     private static readonly string STORY_PREFIX = "Story_";
     private int current = 0;
@@ -24,10 +25,10 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
 
     private void Start() {
         var story = 2;
-        var scene = 1;
+        var scene = 23;
         if (PlayerPrefs.HasKey(PlayerPrefsUtils.STORY_PREFIX + story))
         {
-            scene = PlayerPrefs.GetInt(PlayerPrefsUtils.STORY_PREFIX + story);
+            // scene = PlayerPrefs.GetInt(PlayerPrefsUtils.STORY_PREFIX + story);
         }
 
         LoadNext(story, scene,0, true);
@@ -70,9 +71,16 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
     }
 
     private void ShowButtons(int room, int scene, int frameIndex, List<ButtonDto> frameButtons) {
-        foreach (ButtonDto button in frameButtons) {
-            if ("End".Equals(button.type)) {
-                // NextFrameButtonController nextFrameButtonController = _factory.Create(new NextFrameBtnParam(frame., 1, 1));
+        foreach (ButtonDto button in frameButtons)
+        {
+            if ("End".Equals(button.type))
+            {
+                _factory.Create(new NextFrameBtnParam(() =>
+                    {
+                        _dialogManager.OpenAboutDialog();
+                    },
+                    LocalisationSystem.GetLocalisedValue("$story.btn.end", room)
+                ));
             }
 
             string buttonCaption = LocalisationSystem.GetLocalisedValue(button.caption, room);

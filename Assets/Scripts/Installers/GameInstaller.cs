@@ -79,7 +79,7 @@ public class GameInstaller : MonoInstaller {
             .FromMethod(CreateOptionDialog);
 
 
-        Container.BindFactory<HelpDialogParam, InfoDialogController, InfoDialogController.Factory>()
+        Container.BindFactory<InfoDialogParam, InfoDialogController, InfoDialogController.Factory>()
             .FromMethod(CreateHelpDialog);
 
 
@@ -118,7 +118,7 @@ public class GameInstaller : MonoInstaller {
         return controller;
     }    
     
-    InfoDialogController CreateHelpDialog(DiContainer subContainer, HelpDialogParam createParam) {
+    InfoDialogController CreateHelpDialog(DiContainer subContainer, InfoDialogParam createParam) {
         GameObject startMenu = GameObject.Find("NovellScene(Clone)");
         InfoDialogController controller =
             subContainer.InstantiatePrefabForComponent<InfoDialogController>(prefabsUI.InfoDialog,

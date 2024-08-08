@@ -1,5 +1,5 @@
 $story.btn.next=Suivant
-$story.btn.end=Fin
+$story.btn.end=La fin.
 
 $hero.name.anna=Anna
 $hero.name.lilit=Lilith

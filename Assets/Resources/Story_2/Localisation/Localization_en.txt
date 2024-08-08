@@ -1,6 +1,6 @@
 
 $story.btn.next=Next
-$story.btn.end=End
+$story.btn.end=The end
 
 $hero.name.anna=Anna
 $hero.name.lilit=Lilith

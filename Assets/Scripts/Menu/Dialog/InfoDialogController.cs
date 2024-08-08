@@ -4,18 +4,24 @@ using Zenject;
 
 public class InfoDialogController : MonoBehaviour {
     [SerializeField] private Button close;
+    [SerializeField] private TextLocalized body;
 
-    public class Factory : PlaceholderFactory<HelpDialogParam, InfoDialogController> { }
+    public class Factory : PlaceholderFactory<InfoDialogParam, InfoDialogController> { }
 
-    public void Init(HelpDialogParam createParam) {
-        close.GetComponent<Button>().onClick.AddListener(Close);
+    public void Init(InfoDialogParam param) {
+        if (body != null)
+        {
+            body.SetText(param.Body);
+        }
+
+        close.onClick.AddListener(() =>
+        {
+            param.Close.Invoke();
+            Close();
+        });
     }
 
     public void Close() {
-        // if (needReload) {
-        //     ReloadScene();
-        // }
-
         Destroy(gameObject);
     }
 }
