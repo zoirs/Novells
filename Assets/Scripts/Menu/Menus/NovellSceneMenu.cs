@@ -25,11 +25,10 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
 
     private void Start() {
         var story = 2;
-        var scene = 23;
+        var scene = 1;
         if (PlayerPrefs.HasKey(PlayerPrefsUtils.STORY_PREFIX + story))
         {
-            //
-            // scene = PlayerPrefs.GetInt(PlayerPrefsUtils.STORY_PREFIX + story);
+            scene = PlayerPrefs.GetInt(PlayerPrefsUtils.STORY_PREFIX + story);
         }
 
         LoadNext(story, scene,0, true);
