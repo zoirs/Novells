@@ -57,7 +57,7 @@ $story.btn.anna.2_5.4=Discuss the weather
 
 $room_2_scene_6_frame_1=Since we're cabin mates, I think it's worth introducing ourselves. Я...
 $room_2_scene_6_frame_2=Anna, I know.
-$room_2_scene_6_frame_3=Знаете? How?
+$room_2_scene_6_frame_3=You know? How?
 $room_2_scene_6_frame_4=The girl waved her ringed hand without distraction:
 $room_2_scene_6_frame_5=A list of names hangs on the wall in the hallway.
 $room_2_scene_6_frame_6=Oh, really?
@@ -87,7 +87,7 @@ $room_2_scene_9_frame_7=Sort of.
 
 $room_2_scene_10_frame_1=Anna wanted to continue the conversation, but the girl's concentrated face said one thing: now was not the best time. A tense atmosphere hung in the cabin.
 $room_2_scene_10_frame_2=I'll go on deck, I won't disturb you.
-$room_2_scene_10_frame_3=Угу.
+$room_2_scene_10_frame_3=Uh-huh.
 $room_2_scene_10_frame_4=Anna left the room, and her shoulders relaxed involuntarily.
 $room_2_scene_10_frame_5=What a lady!
 
@@ -100,11 +100,11 @@ $room_2_scene_11_frame_3=Albeit under such difficult circumstances. And with suc
 $room_2_scene_11_frame_4=She turned toward the harbor.
 $room_2_scene_11_frame_5=There were people crowded on the shore near the docks. They looked gloomy.
 $room_2_scene_11_frame_6=Some of the crew were waving their arms, trying to make way for the movers.
-$room_2_scene_11_frame_7=Что это?
-$room_2_scene_11_frame_8=Дельфин. Dead.
+$room_2_scene_11_frame_7=What is it?
+$room_2_scene_11_frame_8=The dolphin. Dead.
 $room_2_scene_11_frame_9=Bad luck. One of the passengers is in trouble.
 $room_2_scene_11_frame_10=An unfriendly neighbor appeared so suddenly that Anna flinched. She was completely absorbed in the scene at the docks, however, and looked on with such concern as if the dolphin's demise had touched her personally.
-$room_2_scene_11_frame_11=Вы уверены?
+$room_2_scene_11_frame_11=Are you sure?
 $room_2_scene_11_frame_12=I've read about it. By the way, let's go with “you” just Sarah.
 
 $room_2_scene_12_frame_1=Not wanting to be around her strange neighbor, Anna spent a couple of hours on deck with other passengers. The waves, the seagulls and the views of the harbor behind her stirred her soul and begged to be photographed.
@@ -125,7 +125,7 @@ $story.btn.anna.2_13.2=Try to sleep.
 $story.btn.anna.2_13.3=Go out on deck, the fresh air is invigorating.
 $story.btn.anna.2_13.4=Take your mind off things.
 
-$room_2_scene_14_frame_1=Таблетки? No, I'm not poisoning myself with chemicals.
+$room_2_scene_14_frame_1=Pills? No, I'm not poisoning myself with chemicals.
 $room_2_scene_14_frame_2=There's a better way.
 $room_2_scene_14_frame_3=She showed me a cloth baggie that she held under her nose.
 $room_2_scene_14_frame_4=Ginger, lemon, cardamom. My grandmother taught me.
@@ -134,3 +134,68 @@ $room_2_scene_14_frame_6=Sarah snorted, but without anger - she didn't have the 
 
 $room_2_scene_15_frame_1=The neighbor shook her head tiredly.
 $room_2_scene_15_frame_2=It doesn't help. Even in my sleep, I feel like there's no reliable support.
+
+$room_2_scene_16_frame_1=
+$room_2_scene_16_frame_2=
+
+$room_2_scene_17_frame_1=Sarah pointed to the book.
+$room_2_scene_17_frame_2=So your letters are jumping in front of your eyes! Is that any way to be distracted?
+$room_2_scene_17_frame_3=Let me show you something...
+$room_2_scene_17_frame_4=Anna pulled out her smartphone and tried to open a fresh snapshot of the harbor and birds.
+$room_2_scene_17_frame_5=The screen flickered convulsively. The girl tried again and again - to no avail.
+$room_2_scene_17_frame_6=It had never glitched like this before...
+$room_2_scene_17_frame_7=Doesn't any machinery break down near you by any chance?
+$room_2_scene_17_frame_8=breaking down.
+$room_2_scene_17_frame_9=Pause. Trying to make a joke and smooth over the awkwardness only exacerbated it.
+
+$room_2_scene_18_frame_1=Thank you for trying to help. Usually nothing helps me.
+$room_2_scene_18_frame_2=Oh, I remember! The brochure says you can ask for board games in the room. Would that distract you?
+$room_2_scene_18_frame_3=Okay, roomie. Let's give it a try.
+$room_2_scene_18_frame_4=Although there was a casino on board, the workers had a deck of cards. 
+$room_2_scene_18_frame_5=After an hour, Anna was already regretting to herself that she had suggested such an entertainment - the girl had not won a single game that she could remember.
+$room_2_scene_18_frame_6=But Sarah's face was once again flushed and her symptoms of seasickness had receded.
+$room_2_scene_18_frame_7=And once again you get to fulfill my wish! Let me see...
+$room_2_scene_18_frame_8=Anna gave a pretend groan.
+
+$room_2_scene_19_frame_1=How do you do that? What are you, a witch?
+$room_2_scene_19_frame_2=The words came out faster than Anna could think them through.
+$room_2_scene_19_frame_3=Sarah laughed. Something subtly changed in her gaze, however.
+$room_2_scene_19_frame_4=Anything lucky enough to be a witch?
+
+$room_2_scene_20_frame_1=I made a wish! Walk on the liner with my pet in your arms!
+$room_2_scene_20_frame_2=Anna picked up a pot of aconites. It turned out to be surprisingly bulky.
+$room_2_scene_20_frame_3=I'm definitely not playing after this!
+$room_2_scene_20_frame_4=Come on, come on, come on!
+$room_2_scene_20_frame_5=Sarah opened the door in front of her, and Anna stepped over the threshold.
+$room_2_scene_20_frame_6= Her foot immediately went sideways. The girl swayed, trying to keep her balance on the wet floor, but failed and flew to the floor.
+$room_2_scene_20_frame_7=Ouch!
+$room_2_scene_20_frame_8=The hand was sore. The pot was somehow miraculously still intact.
+$room_2_scene_20_frame_9=Feet stomping was heard in the hallway. Anna had time to see two boys fleeing in the back.
+$room_2_scene_20_frame_10=Sarah immediately realized everything.
+$room_2_scene_20_frame_11=With evil you have come, you will be repaid twice!
+$room_2_scene_20_frame_12=At that moment, the unexpected happened. The boys, as if some force had pushed them, lost their running speed and fell to the floor, making a pile-up. 
+$room_2_scene_20_frame_13=Sarah's eyes flashed red and immediately went out.
+$room_2_scene_20_frame_14=She lifted Anna to her feet with a single jerk and intercepted the ill-fated flower. The girls were back in the room, the door slammed.
+
+$room_2_scene_21_frame_1=What a coincidence! Instant karma, huh?
+$room_2_scene_21_frame_2=In the morning Anna saw no trace of her traveling companion in the cabin-not her, not her luggage, not the strange potted flower.
+$room_2_scene_21_frame_3=Dream. Just a dream.
+
+$room_2_scene_22_frame_1=Anna looked at Sarah with all eyes.
+$room_2_scene_22_frame_2=Good guess, right?
+$room_2_scene_22_frame_3=If you can so...
+
+$story.btn.anna.2_22.1=Should I be afraid of you?
+$story.btn.anna.2_22.2=Can you teach me...please?
+$story.btn.anna.2_22.3=If you are a witch...can you help me?
+
+$room_2_scene_23_frame_1=You've been good to me. I won't harm you.
+$room_2_scene_23_frame_2=If you don't start talking.
+
+$room_2_scene_24_frame_1=We'll see.
+$room_2_scene_24_frame_2=We need to check your potential first.
+
+$room_2_scene_25_frame_1=You're my last chance!
+$room_2_scene_25_frame_2=This is why I don't like liners. More beggars!
+$room_2_scene_25_frame_3=Sarah's eyes turned red again. Anna covered her face with the palm of her hand, but didn't have time to do anything.
+$room_2_scene_25_frame_4=The world faded in and out.
