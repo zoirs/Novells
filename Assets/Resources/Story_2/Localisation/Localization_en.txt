@@ -17,8 +17,8 @@ $room_2_scene_2_frame_5=Should we unpack?
 $room_2_scene_2_frame_6=Her suitcase, borrowed from her aunt, stood modestly by the nearest bed.
 $room_2_scene_2_frame_7=The other had a mountain of luggage.
 
-$story.btn.anna.see.things=see.
-$story.btn.anna.take.things.apart=Take.things.apart.
+$story.btn.anna.see.things=See.
+$story.btn.anna.take.things.apart=Unpack your things
 
 $room_2_scene_3_frame_1=Anna opened her suitcase.
 $room_2_scene_3_frame_2=A photo frame lay hastily thrown inside on top. A happy family, two children, an older girl and a little boy, and a mother, looked out from the tree framed picture.
@@ -37,7 +37,7 @@ $room_2_scene_4_frame_5=How unusual. Must be an interesting conversationalist!
 
 $room_2_scene_5_frame_1=It would be nice to get a cute guy in here. Or someone quiet...
 $room_2_scene_5_frame_2=The intrigue didn't last long - the door swung open abruptly.
-$room_2_scene_5_frame_3=Каюта 28?
+$room_2_scene_5_frame_3=Cabin 28?
 $room_2_scene_5_frame_4=Да…
 $room_2_scene_5_frame_5=That's right-- the stuff's here. Let's get acquainted.
 $room_2_scene_5_frame_6=The stranger placed a pot of blue flowers on the table and extended her hand for a shake. It seemed too strong for such narrow and dry brush.

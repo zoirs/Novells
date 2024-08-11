@@ -9,7 +9,8 @@ public class LocalisationSystem {
         UNKNOWN,
         ENGLISH,
         RUSSIAN,
-        FRENCH
+        FRENCH,
+        DEUTSCHE
     }
 
     public static Language language;
@@ -17,6 +18,7 @@ public class LocalisationSystem {
     private static Dictionary<int, Dictionary<string, string>> localisedEn = new Dictionary<int, Dictionary<string, string>>();
     private static Dictionary<int, Dictionary<string, string>> localisedRu = new Dictionary<int, Dictionary<string, string>>();
     private static Dictionary<int, Dictionary<string, string>> localisedFr = new Dictionary<int, Dictionary<string, string>>();
+    private static Dictionary<int, Dictionary<string, string>> localisedDe = new Dictionary<int, Dictionary<string, string>>();
 
     public static bool isInit;
 
@@ -29,6 +31,7 @@ public class LocalisationSystem {
         localisedEn = localizationLoader.GetDictionaryValues("en");
         localisedRu = localizationLoader.GetDictionaryValues("ru");
         localisedFr = localizationLoader.GetDictionaryValues("fr");
+        localisedDe = localizationLoader.GetDictionaryValues("de");
 
         isInit = true;
     }
@@ -40,6 +43,10 @@ public class LocalisationSystem {
         if (lang == (int) Language.UNKNOWN) {
             if (Application.systemLanguage == SystemLanguage.Russian) {
                 lang = (int) Language.RUSSIAN;
+            } else if (Application.systemLanguage == SystemLanguage.French) {
+                lang = (int) Language.FRENCH;
+            }else if (Application.systemLanguage == SystemLanguage.German) {
+                lang = (int) Language.DEUTSCHE;
             } else {
                 lang = (int) Language.ENGLISH;
             }
@@ -68,6 +75,9 @@ public class LocalisationSystem {
                 break;
             case Language.FRENCH:
                 localisedFr[story].TryGetValue(key.ToLower(), out value);
+                break;
+            case Language.DEUTSCHE:
+                localisedDe[story].TryGetValue(key.ToLower(), out value);
                 break;
             default:
                 throw new ArgumentOutOfRangeException();

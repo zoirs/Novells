@@ -36,7 +36,7 @@ $room_2_scene_4_frame_5=Wie ungewöhnlich. Muss ein interessanter Gesprächspart
 
 $room_2_scene_5_frame_1=Es wäre schön, einen süßen Kerl zu bekommen. Oder jemand Ruhiges...
 $room_2_scene_5_frame_2=Die Intrige währte nicht lange - die Tür schwang abrupt auf.
-$room_2_scene_5_frame_3=Каюта 28?
+$room_2_scene_5_frame_3=Kabine 28?
 $room_2_scene_5_frame_4=Да…
 $room_2_scene_5_frame_5=Das stimmt, der Stoff ist da. Lasst uns einander kennenlernen.
 $room_2_scene_5_frame_6=Die Fremde stellte einen Topf mit blauen Blumen auf den Tisch und streckte ihre Hand aus, um sie zu schütteln. Sie schien zu kräftig für einen so schmalen und trockenen Pinsel.

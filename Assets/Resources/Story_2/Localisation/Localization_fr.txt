@@ -36,7 +36,7 @@ $room_2_scene_4_frame_5=Comme c'est inhabituel. Ce doit être un interlocuteur i
 
 $room_2_scene_5_frame_1=Ce serait bien de faire entrer un beau garçon. Ou quelqu'un de calme...
 $room_2_scene_5_frame_2=L'intrigue n'a pas duré longtemps - la porte s'est ouverte brusquement.
-$room_2_scene_5_frame_3=Каюта 28?
+$room_2_scene_5_frame_3=Cabine 28?
 $room_2_scene_5_frame_4=Да…
 $room_2_scene_5_frame_5=C'est vrai... les affaires sont là. Faisons connaissance.
 $room_2_scene_5_frame_6=L'inconnue posa un pot de fleurs bleues sur la table et tendit la main pour la serrer. Elle semblait trop forte pour un pinceau aussi étroit et sec.

@@ -24,17 +24,17 @@ $dlg.reset.btn.yes=Ja
 $dlg.reset.btn.no=Nein
 
 $dlg.setting.header=Einstellungen
-$dlg.einstellung.body.musik=Musik
-$dlg.einstellung.body.sound=Töne
-$dlg.einstellung.btn.on=Ein
-$dlg.einstellung.btn.off=Aus
+$dlg.setting.body.musik=Musik
+$dlg.setting.body.sound=Töne
+$dlg.setting.btn.on=Ein
+$dlg.setting.btn.off=Aus
 $dlg.setting.btn.reset=Fortschritt zurücksetzen
-$dlg.einstellung.btn.rate=Rate
-$dlg.einstellung.btn.donat=Spenden
+$dlg.setting.btn.rate=Rate
+$dlg.setting.btn.donat=Spenden
 $dlg.setting.body.language=Sprache
-$dlg.einstellung.body.sprache.ru=Russisch
-$dlg.einstellung.body.sprache.en=Englisch
-$dlg.einstellung.btn.back=Rückwärts
+$dlg.setting.body.sprache.ru=Russisch
+$dlg.setting.body.sprache.en=Englisch
+$dlg.setting.btn.back=Rückwärts
 
 $dlg.quit.header=Das Spiel verlassen?
 
