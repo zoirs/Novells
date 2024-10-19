@@ -61,7 +61,7 @@ $room_2_scene_6_frame_4=La jeune fille agita sa main baguée sans se laisser dis
 $room_2_scene_6_frame_5=Une liste de noms est accrochée au mur du couloir.
 $room_2_scene_6_frame_6=Oh, vraiment ?
 $room_2_scene_6_frame_7=Je suis parfois si distraite... Quel est votre nom ?
-$room_2_scene_6_frame_8=Appellez-moi... Sarah.
+$room_2_scene_6_frame_8=Appellez-moi... Lilit.
 $room_2_scene_6_frame_9=La pause n'a pas échappé à Anna. Mais il n'y avait rien à faire, pas à la harceler de questions.
 $room_2_scene_6_frame_10=Elle était étrange !
 
@@ -104,18 +104,18 @@ $room_2_scene_11_frame_8=Un dauphin. Mort.
 $room_2_scene_11_frame_9=Bad luck. L'un des passagers est en difficulté.
 $room_2_scene_11_frame_10=Un voisin inamical est apparu si soudainement qu'Anna a sursauté. Cependant, elle était complètement absorbée par la scène qui se déroulait sur les quais et la regardait avec une telle inquiétude, comme si la mort du dauphin l'avait touchée personnellement.
 $room_2_scene_11_frame_11=Vous êtes sûrs ?
-$room_2_scene_11_frame_12=Lisez à ce sujet. D'ailleurs, on va dire « vous » - juste Sarah.
+$room_2_scene_11_frame_12=Lisez à ce sujet. D'ailleurs, on va dire « vous » - juste Lilit.
 
 $room_2_scene_12_frame_1=N'ayant pas envie de côtoyer son étrange voisine, Anna a passé quelques heures sur le pont avec les autres passagers. Les vagues, les mouettes et la vue sur le port derrière elle l'ont émue et l'ont poussée à se faire photographier.
 $room_2_scene_12_frame_2=La jeune fille a eu le temps de se promener dans tout le navire. Il semblait plus grand à l'intérieur qu'à l'extérieur, et les architectes avaient utilisé chaque mètre à bon escient.
 $room_2_scene_12_frame_3=Après avoir satisfait sa curiosité, Anna se rassembla dans sa chambre.
 
 $room_2_scene_13_frame_1=Tu ne te demandes pas ce qu'il y a dehors ?
-$room_2_scene_13_frame_2=Sarah tourna la page du livre qu'elle tenait. La pierre de la bague scintille sous la lampe.
+$room_2_scene_13_frame_2=Lilit tourna la page du livre qu'elle tenait. La pierre de la bague scintille sous la lampe.
 $room_2_scene_13_frame_3=Pas particulièrement. La mer est toujours la même.
-$room_2_scene_13_frame_4=Le regard de Sarah n'était pas bon, et Anna soupira.
+$room_2_scene_13_frame_4=Le regard de Lilit n'était pas bon, et Anna soupira.
 $room_2_scene_13_frame_5=Mon Dieu, est-ce que tu... est-ce que tu vas bien ? Regarde - complètement pâle !
-$room_2_scene_13_frame_6=Sarah haussa un sourcil, mais soupira lourdement après quelques secondes.
+$room_2_scene_13_frame_6=Lilit haussa un sourcil, mais soupira lourdement après quelques secondes.
 $room_2_scene_13_frame_7=J'ai le mal de mer. Je sais que le balancement ici est minimisé par toutes sortes de mécanismes, mais je suis sensible aux secousses du sol.
 $room_2_scene_13_frame_8=Il n'y a pas de honte à avoir ! Tu peux prendre des médicaments ou te distraire, ça te facilitera la tâche.
 
@@ -129,7 +129,7 @@ $room_2_scene_14_frame_2=Il y a quelque chose de mieux.
 $room_2_scene_14_frame_3=Elle m'a montré un sac en tissu qu'elle tenait sous son nez.
 $room_2_scene_14_frame_4=Gingembre, citron, cardamome. C'est ma grand-mère qui me l'a appris.
 $room_2_scene_14_frame_5=Tu n'as pas l'air de faire grand-chose de bon.
-$room_2_scene_14_frame_6=Sarah renifla, mais sans colère - elle n'en avait pas la force.
+$room_2_scene_14_frame_6=Lilit renifla, mais sans colère - elle n'en avait pas la force.
 
 $room_2_scene_15_frame_1=La voisine secoua la tête d'un air fatigué.
 $room_2_scene_15_frame_2=Cela ne sert à rien. Même dans mon sommeil, j'ai l'impression qu'il n'y a pas de soutien fiable.
@@ -138,7 +138,7 @@ $room_2_scene_15_frame_2=Cela ne sert à rien. Même dans mon sommeil, j'ai l'im
 $room_2_scene_16_frame_1=
 $room_2_scene_16_frame_2=
 
-$room_2_scene_17_frame_1=Sarah montre le livre du doigt.
+$room_2_scene_17_frame_1=Lilit montre le livre du doigt.
 $room_2_scene_17_frame_2=Les lettres sautent devant vos yeux ! Est-ce une façon de se distraire ?
 $room_2_scene_17_frame_3=Je vais vous montrer quelque chose...
 $room_2_scene_17_frame_4=Anna sort son smartphone et tente d'ouvrir une nouvelle photo du port et des oiseaux.
@@ -153,35 +153,35 @@ $room_2_scene_18_frame_2=Oh, je me souviens ! La brochure dit que vous pouvez de
 $room_2_scene_18_frame_3=Ok, roomie. Essayons.
 $room_2_scene_18_frame_4=Bien qu'il y ait un casino à bord, les employés n'avaient qu'un jeu de cartes. 
 $room_2_scene_18_frame_5=Au bout d'une heure, Anna regrettait déjà d'avoir suggéré un tel divertissement - la fille n'avait pas gagné une seule partie dont elle se souvenait.
-$room_2_scene_18_frame_6=Mais le visage de Sarah était à nouveau rouge et les symptômes du mal de mer s'étaient estompés.
+$room_2_scene_18_frame_6=Mais le visage de Lilit était à nouveau rouge et les symptômes du mal de mer s'étaient estompés.
 $room_2_scene_18_frame_7=Et une fois de plus, tu vas pouvoir réaliser mon souhait ! Voyons voir...
 $room_2_scene_18_frame_8=Anna poussa un semblant de gémissement.
 
 $room_2_scene_19_frame_1=Comment fais-tu ? Tu es quoi, une sorcière ?
 $room_2_scene_19_frame_2=Les mots sont sortis plus vite qu'Anna n'a pu les penser.
-$room_2_scene_19_frame_3=Sarah se mit à rire. Quelque chose a subtilement changé dans son regard, cependant.
+$room_2_scene_19_frame_3=Lilit se mit à rire. Quelque chose a subtilement changé dans son regard, cependant.
 $room_2_scene_19_frame_4=Quelque chose a la chance d'être une sorcière ?
 
 $room_2_scene_20_frame_1=J'ai fait un vœu ! Marcher sur le paquebot avec mon animal dans les bras !
 $room_2_scene_20_frame_2=Anna a ramassé un pot d'aconites. Il s'est avéré étonnamment volumineux.
 $room_2_scene_20_frame_3=Je ne jouerai définitivement plus après ça !
 $room_2_scene_20_frame_4=Allez, allez, allez !
-$room_2_scene_20_frame_5=Sarah ouvrit la porte en face d'elle et Anna franchit le seuil.
+$room_2_scene_20_frame_5=Lilit ouvrit la porte en face d'elle et Anna franchit le seuil.
 $room_2_scene_20_frame_6=Son pied est immédiatement parti de côté. La jeune fille oscille, essayant de garder l'équilibre sur le sol mouillé, mais elle échoue et s'envole vers le sol.
 $room_2_scene_20_frame_7=Aïe !
 $room_2_scene_20_frame_8=La main était douloureuse. Le pot était miraculeusement intact.
 $room_2_scene_20_frame_9=On entendit des bruits de pas dans le couloir. Anna eut le temps de voir deux garçons s'enfuir par derrière.
-$room_2_scene_20_frame_10=Sarah s'en rendit compte immédiatement.
+$room_2_scene_20_frame_10=Lilit s'en rendit compte immédiatement.
 $room_2_scene_20_frame_11=Vous êtes venus avec le mal, vous serez remboursés deux fois !
 $room_2_scene_20_frame_12=A ce moment-là, l'inattendu se produisit. Les garçons, comme si une force les avait poussés, perdirent leur élan et tombèrent sur le sol, formant un tas. 
-$room_2_scene_20_frame_13=Les yeux de Sarah se sont illuminés de rouge et se sont immédiatement éteints.
+$room_2_scene_20_frame_13=Les yeux de Lilit se sont illuminés de rouge et se sont immédiatement éteints.
 $room_2_scene_20_frame_14=Elle souleva Anna d'un seul coup et intercepta la fleur malencontreuse. Les filles étaient de retour dans la chambre, la porte claqua.
 
 $room_2_scene_21_frame_1=Quelle coïncidence ! Un karma instantané, hein ?
 $room_2_scene_21_frame_2=Au matin, Anna ne vit aucune trace de sa compagne de voyage dans la cabine - ni elle, ni ses bagages, ni l'étrange fleur en pot.
 $room_2_scene_21_frame_3=rêve. Ce n'est qu'un rêve.
 
-$room_2_scene_22_frame_1=Anna regarde Sarah de tous ses yeux.
+$room_2_scene_22_frame_1=Anna regarde Lilit de tous ses yeux.
 $room_2_scene_22_frame_2=Bonne supposition, n'est-ce pas ?
 $room_2_scene_22_frame_3=Si tu peux donc...
 
@@ -197,5 +197,5 @@ $room_2_scene_24_frame_2=Nous devons d'abord tester votre potentiel.
 
 $room_2_scene_25_frame_1=Vous êtes ma dernière chance !
 $room_2_scene_25_frame_2=C'est pour ça que je n'aime pas les doublures. Plus de mendiants !
-$room_2_scene_25_frame_3=Les yeux de Sarah sont redevenus rouges. Anna se couvrit le visage avec la paume de sa main, mais n'eut pas le temps de faire quoi que ce soit.
+$room_2_scene_25_frame_3=Les yeux de Lilit sont redevenus rouges. Anna se couvrit le visage avec la paume de sa main, mais n'eut pas le temps de faire quoi que ce soit.
 $room_2_scene_25_frame_4=Room_2_scene_25_frame_4=Le monde s'estompa.

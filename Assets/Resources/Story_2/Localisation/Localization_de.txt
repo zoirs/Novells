@@ -61,7 +61,7 @@ $room_2_scene_6_frame_4=Das Mädchen winkte mit ihrer beringten Hand, ohne sich 
 $room_2_scene_6_frame_5=Eine Liste mit Namen hängt an der Wand im Korridor.
 $room_2_scene_6_frame_6=Oh, wirklich?
 $room_2_scene_6_frame_7=Ich kann manchmal so geistesabwesend sein... Wie heißt du?
-$room_2_scene_6_frame_8=Nennen Sie mich... Sarah.
+$room_2_scene_6_frame_8=Nennen Sie mich... Lilit.
 $room_2_scene_6_frame_9=Die Pause war Anna nicht entgangen. Aber es gab nichts zu tun - nicht, um sie mit Fragen zu löchern.
 $room_2_scene_6_frame_10=Sie war seltsam!
 
@@ -104,18 +104,18 @@ $room_2_scene_11_frame_8=Дельфин. Dood.
 $room_2_scene_11_frame_9=Bad luck. Een van de passagiers is in moeilijkheden.
 $room_2_scene_11_frame_10=Een onvriendelijke buurman verscheen zo plotseling dat Anna ineenkromp. Ze ging echter helemaal op in het tafereel in de haven en keek bezorgd toe alsof de dood van de dolfijn haar persoonlijk had geraakt.
 $room_2_scene_11_frame_11=Вы уверены?
-$room_2_scene_11_frame_12=Lees erover. Trouwens, laten we voor “jij” gaan - gewoon Sarah
+$room_2_scene_11_frame_12=Lees erover. Trouwens, laten we voor “jij” gaan - gewoon Lilit
 
 $room_2_scene_12_frame_1=Niet in de buurt van haar vreemde buurvrouw te willen zijn, bracht Anna een paar uur door op het dek met de andere passagiers. De golven, de meeuwen en het uitzicht op de haven achter haar roerden haar ziel en smeekten om gefotografeerd te worden.
 $room_2_scene_12_frame_2=Het meisje had de tijd om over het hele schip te lopen. Het leek van binnen groter dan van buiten, en de architecten hadden elke meter verstandig gebruikt.
 $room_2_scene_12_frame_3=Na haar nieuwsgierigheid bevredigd te hebben, ging Anna terug naar haar kamer.
 
 $room_2_scene_13_frame_1=Vraag je je niet af wat er buiten is?
-$room_2_scene_13_frame_2=Sarah sloeg de bladzijde om van het boek dat ze vasthield. De steen van de ring fonkelde onder de lamp.
+$room_2_scene_13_frame_2=Lilit sloeg de bladzijde om van het boek dat ze vasthield. De steen van de ring fonkelde onder de lamp.
 $room_2_scene_13_frame_3=Niet bijzonder. De zee is altijd hetzelfde.
-$room_2_scene_13_frame_4=Sarahs blik was niet goed, en Anna ahhed.
+$room_2_scene_13_frame_4=Lilits blik was niet goed, en Anna ahhed.
 $room_2_scene_13_frame_5=Mijn God, ben je... ben je in orde? Kijk - helemaal bleek!
-$room_2_scene_13_frame_6=Sarah trok een wenkbrauw op, maar zuchtte zwaar na een paar seconden.
+$room_2_scene_13_frame_6=Lilit trok een wenkbrauw op, maar zuchtte zwaar na een paar seconden.
 $room_2_scene_13_frame_7=Ik word zeeziek. Ik weet dat het schommelen hier geminimaliseerd wordt door allerlei mechanismen, maar ik ben gevoelig voor grondtrillingen.
 $room_2_scene_13_frame_8=Het is geen schande! Je kunt wat medicijnen nemen of jezelf afleiden, dat maakt het makkelijker.
 
@@ -129,7 +129,7 @@ $room_2_scene_14_frame_2=Er is iets beters.
 $room_2_scene_14_frame_3=Ze liet me een stoffen zakje zien dat ze onder haar neus hield.
 $room_2_scene_14_frame_4=Gember, citroen, kardemom. Mijn oma heeft het me geleerd.
 $room_2_scene_14_frame_5=Je ziet er niet uit alsof je veel goed doet.
-$room_2_scene_14_frame_6=Sarah snoof, maar zonder woede - ze had er de kracht niet voor.
+$room_2_scene_14_frame_6=Lilit snoof, maar zonder woede - ze had er de kracht niet voor.
 
 $room_2_scene_15_frame_1=De buurvrouw schudde vermoeid haar hoofd.
 $room_2_scene_15_frame_2=Het helpt niet. Zelfs in mijn slaap heb ik het gevoel dat er geen betrouwbare steun is.
@@ -138,7 +138,7 @@ $room_2_scene_15_frame_2=Het helpt niet. Zelfs in mijn slaap heb ik het gevoel d
 $room_2_scene_16_frame_1=
 $room_2_scene_16_frame_2=
 
-$room_2_scene_17_frame_1=Sarah zeigte auf das Buch.
+$room_2_scene_17_frame_1=Lilit zeigte auf das Buch.
 $room_2_scene_17_frame_2=Die Buchstaben springen dir also vor die Augen! Ist das eine Art, sich ablenken zu lassen?
 $room_2_scene_17_frame_3=Lass mich dir etwas zeigen...
 $room_2_scene_17_frame_4=Anna zückte ihr Smartphone und versuchte, einen neuen Schnappschuss vom Hafen und den Vögeln zu öffnen.
@@ -153,35 +153,35 @@ $room_2_scene_18_frame_2=Oh, ich erinnere mich! In der Broschüre steht, dass ma
 $room_2_scene_18_frame_3=Okay, Mitbewohner. Versuchen wir's mal.
 $room_2_scene_18_frame_4=Obwohl es ein Casino an Bord gab, hatten die Arbeiter ein Kartenspiel. 
 $room_2_scene_18_frame_5=Nach einer Stunde bedauerte Anna bereits, dass sie eine solche Unterhaltung vorgeschlagen hatte - das Mädchen hatte nicht ein einziges Spiel gewonnen, an das sie sich erinnern konnte.
-$room_2_scene_18_frame_6=Aber Sarahs Gesicht war wieder gerötet und ihre Symptome der Seekrankheit waren zurückgegangen.
+$room_2_scene_18_frame_6=Aber Lilits Gesicht war wieder gerötet und ihre Symptome der Seekrankheit waren zurückgegangen.
 $room_2_scene_18_frame_7=Und wieder einmal darfst du mir einen Wunsch erfüllen! Lass mich mal sehen...
 $room_2_scene_18_frame_8=Anna gab ein vorgetäuschtes Stöhnen von sich.
 
 $room_2_scene_19_frame_1=Wie machst du das nur? Was bist du, eine Hexe?
 $room_2_scene_19_frame_2=Die Worte kamen schneller heraus, als Anna sie zu Ende denken konnte.
-$room_2_scene_19_frame_3=Sarah lachte. Ihr Blick veränderte sich jedoch auf subtile Weise.
+$room_2_scene_19_frame_3=Lilit lachte. Ihr Blick veränderte sich jedoch auf subtile Weise.
 $room_2_scene_19_frame_4=Hat jemand das Glück, eine Hexe zu sein?
 
 $room_2_scene_20_frame_1=Ich habe mir etwas gewünscht! Geh auf dem Liner mit meinem Haustier in deinen Armen!
 $room_2_scene_20_frame_2=Anna hob einen Topf mit Eisenhut auf. Er erwies sich als erstaunlich sperrig.
 $room_2_scene_20_frame_3=Nach dem hier spiele ich bestimmt nicht mehr!
 $room_2_scene_20_frame_4=Давай-давай!
-$room_2_scene_20_frame_5=Sarah öffnete die Tür vor ihr, und Anna trat über die Schwelle.
+$room_2_scene_20_frame_5=Lilit öffnete die Tür vor ihr, und Anna trat über die Schwelle.
 $room_2_scene_20_frame_6= Ihr Fuß machte sofort einen Satz zur Seite. Das Mädchen schwankte und versuchte, das Gleichgewicht auf dem nassen Boden zu halten, aber es gelang ihr nicht und sie flog zu Boden.
 $room_2_scene_20_frame_7=Ай!
 $room_2_scene_20_frame_8=Die Hand war wund. Der Pott war wie durch ein Wunder noch intakt.
 $room_2_scene_20_frame_9=Fußstampfen war im Korridor zu hören. Anna hatte noch Zeit, zwei Jungen zu sehen, die hinten wegliefen.
-$room_2_scene_20_frame_10=Sarah wusste sofort Bescheid.
+$room_2_scene_20_frame_10=Lilit wusste sofort Bescheid.
 $room_2_scene_20_frame_11=Mit dem Bösen bist du gekommen, das wird dir doppelt heimgezahlt!
 $room_2_scene_20_frame_12=In diesem Moment geschah das Unerwartete. Die Jungen verloren, als ob sie von einer Kraft angestoßen worden wären, die Orientierung und fielen zu Boden, so dass sie sich aufstapelten. 
-$room_2_scene_20_frame_13=Sarahs Augen blitzten rot auf und gingen sofort aus.
+$room_2_scene_20_frame_13=Lilits Augen blitzten rot auf und gingen sofort aus.
 $room_2_scene_20_frame_14=Sie hob Anna mit einem Ruck auf die Beine und fing die unglückliche Blume ab. Die Mädchen waren wieder im Zimmer, die Tür knallte zu.
 
 $room_2_scene_21_frame_1=Was für ein Zufall! Sofortiges Karma, was?
 $room_2_scene_21_frame_2=Am Morgen sah Anna in der Kabine keine Spur von ihrer Reisegefährtin - nicht sie, nicht ihr Gepäck, nicht die seltsame Topfblume.
 $room_2_scene_21_frame_3=Сон. Nur ein Traum.
 
-$room_2_scene_22_frame_1=Anna sah Sarah mit ihren ganzen Augen an.
+$room_2_scene_22_frame_1=Anna sah Lilit mit ihren ganzen Augen an.
 $room_2_scene_22_frame_2=Gut geraten, oder?
 $room_2_scene_22_frame_3=Wenn du das kannst...
 
@@ -197,5 +197,5 @@ $room_2_scene_24_frame_2=Wir müssen zuerst dein Potenzial testen.
 
 $room_2_scene_25_frame_1=Du bist meine letzte Chance!
 $room_2_scene_25_frame_2=Das ist der Grund, warum ich keine Liner mag. Mehr Bettler!
-$room_2_scene_25_frame_3=Sarahs Augen wurden wieder rot. Anna bedeckte ihr Gesicht mit der Handfläche, aber sie hatte keine Zeit, etwas zu tun.
+$room_2_scene_25_frame_3=Lilits Augen wurden wieder rot. Anna bedeckte ihr Gesicht mit der Handfläche, aber sie hatte keine Zeit, etwas zu tun.
 $room_2_scene_25_frame_4=Die Welt verschwamm in und aus.

@@ -7,6 +7,7 @@ public class InfoDialogController : MonoBehaviour {
     [SerializeField] private TextLocalized body;
 
     public class Factory : PlaceholderFactory<InfoDialogParam, InfoDialogController> { }
+    public class FactoryPrivacy : PlaceholderFactory<InfoDialogParam, InfoDialogController> { }
 
     public void Init(InfoDialogParam param) {
         if (body != null)

@@ -93,6 +93,7 @@ public class OptionDialogController : MonoBehaviour {
         {
             PlayerPrefs.DeleteKey(PlayerPrefsUtils.STORY_PREFIX + i);
         }
+        PlayerPrefs.DeleteKey(PlayerPrefsUtils.CLUE);
     }
     
     public void ReloadScene() {

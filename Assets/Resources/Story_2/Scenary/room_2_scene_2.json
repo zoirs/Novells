@@ -84,11 +84,13 @@
       "buttons": [
         {
           "caption": "$story.btn.anna.see.things",
-          "type": "room_2_scene_4"
+          "type": "room_2_scene_4",
+          "clue": 2
         },
         {
           "caption": "$story.btn.anna.take.things.apart",
-          "type": "room_2_scene_3"
+          "type": "room_2_scene_3",
+          "clue": 1
         }
       ]
     }

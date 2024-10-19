@@ -178,19 +178,23 @@
       "buttons": [
         {
           "caption": "$story.btn.anna.2_5.1",
-          "type": "room_2_scene_6"
+          "type": "room_2_scene_6",
+          "clue": 2
         },
         {
           "caption": "$story.btn.anna.2_5.2",
-          "type": "room_2_scene_7"
+          "type": "room_2_scene_7",
+          "clue": 4
         },
         {
           "caption": "$story.btn.anna.2_5.3",
-          "type": "room_2_scene_8"
+          "type": "room_2_scene_8",
+          "clue": 2
         },
         {
           "caption": "$story.btn.anna.2_5.4",
-          "type": "room_2_scene_9"
+          "type": "room_2_scene_9",
+          "clue": 4
         }
       ]
     }

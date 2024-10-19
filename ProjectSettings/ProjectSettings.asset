@@ -842,7 +842,7 @@ PlayerSettings:
     Build: 0
     Collab: 0
     Game Performance: 0
-    Purchasing: 1
+    Purchasing: 0
     UDP: 0
     UNet: 1
     Unity Ads: 0
@@ -865,10 +865,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: bbeaf615-95f3-4d0f-b920-c583f5da6b9e
+  cloudProjectId: 0c318e16-e2a3-405d-80dc-26a129d98ea6
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: RailwayPuzzle
+  projectName: Shadow of Magic
   organizationId: zoirs
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

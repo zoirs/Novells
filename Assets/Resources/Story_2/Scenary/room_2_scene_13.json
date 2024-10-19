@@ -98,20 +98,23 @@
       "buttons": [
         {
           "caption": "$story.btn.anna.2_13.1",
-          "type": "room_2_scene_14"
+          "type": "room_2_scene_14",
+          "clue": 1
         },
         {
           "caption": "$story.btn.anna.2_13.2",
-          "type": "room_2_scene_15"
+          "type": "room_2_scene_15",
+          "clue": 1
         },
         {
           "caption": "$story.btn.anna.2_13.3",
-          "type": "room_2_scene_16"
+          "type": "room_2_scene_16",
+          "clue": 1
         },
         {
           "caption": "$story.btn.anna.2_13.4",
           "type": "room_2_scene_17",
-          "clue": 1
+          "clue": 2
         }
       ]
     }

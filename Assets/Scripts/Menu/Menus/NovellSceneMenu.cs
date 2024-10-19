@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using MenuSystemWithZenject;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.UI;
 using Zenject;
 
@@ -19,7 +20,7 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
     [Inject] private DialogManager _dialogManager;
     
     private static readonly string STORY_PREFIX = "Story_";
-    private int current = 0;
+    private int clueCount = 0;
     private int lastScene;
 
 
@@ -29,6 +30,10 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
         if (PlayerPrefs.HasKey(PlayerPrefsUtils.STORY_PREFIX + story))
         {
             scene = PlayerPrefs.GetInt(PlayerPrefsUtils.STORY_PREFIX + story);
+        }
+        if (PlayerPrefs.HasKey(PlayerPrefsUtils.CLUE))
+        {
+            clueCount = PlayerPrefs.GetInt(PlayerPrefsUtils.CLUE);
         }
 
         LoadNext(story, scene,0, true);
@@ -63,11 +68,13 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
         animator.SetTrigger(frame.sceneType.GetTrigger());
         Debug.Log("heroName " + heroName + " speech: " + frame.text);
         _bubleSpeech.SetText(story, heroName, frame.text, () => {ShowButtons(story, scene, frameIndex,frame.buttons);});
-        if (lastScene != scene) {
-            clue.SetText(current, 4);
-            lastScene = scene;
-        }
+        // if (lastScene != scene) {
+            clue.SetText(clueCount, 8);
+            // lastScene = scene;
+        // }
         PlayerPrefs.SetInt(PlayerPrefsUtils.STORY_PREFIX + story, scene);
+        AnalyticsEvent.LevelComplete(story * 1000 + scene);
+        AnalyticsEvent.Custom(PlayerPrefsUtils.STORY_PREFIX + story, new Dictionary<string, object> {{"scene", scene}});
     }
 
     private void ShowButtons(int room, int scene, int frameIndex, List<ButtonDto> frameButtons) {
@@ -88,7 +95,8 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
                 _factory.Create(new NextFrameBtnParam(() => LoadNext(room, scene, frameIndex + 1, true),buttonCaption));
             }
 
-            string nextFrame = "ClueFrame".Equals(button.type) ? button.clueFrame[current] : button.type;
+            int index = clueCount - 4 < 0 ? 0 : clueCount - 4;
+            string nextFrame = "ClueFrame".Equals(button.type) ? button.clueFrame[index] : button.type;
             
             if (nextFrame.StartsWith("room_") && nextFrame.Contains("_scene_")) {
                 int parseSceneIndex = nextFrame.IndexOf("_scene_", StringComparison.Ordinal);
@@ -101,7 +109,8 @@ public class NovellSceneMenu : Menu<NovellSceneMenu> {
 
                 _factory.Create(new NextFrameBtnParam(() => {
                     LoadNext(Convert.ToInt32(roomIndex), Convert.ToInt32(sceneIndex), 0, true);
-                    current = current + button.clue;
+                    clueCount += button.clue;
+                    PlayerPrefs.SetInt(PlayerPrefsUtils.CLUE, clueCount);
                 }, buttonCaption));
             }
         }
