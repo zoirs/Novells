@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 169657421}
   - component: {fileID: 169657420}
   - component: {fileID: 169657418}
+  - component: {fileID: 169657422}
   m_Layer: 0
   m_Name: SceneContext
   m_TagString: Untagged
@@ -205,6 +206,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &169657422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169657417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0408e273d441af954d8926578d73f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!850595691 &765079634
 LightingSettings:
   m_ObjectHideFlags: 0
