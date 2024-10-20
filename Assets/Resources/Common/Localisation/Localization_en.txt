@@ -8,7 +8,7 @@ $clue=Clue
 $dlg.info.close=Close
 $dlg.info.header=Info
 $dlg.info.body=By asking the right questions the hero begins to suspect something. The more suspicions accumulate - the more they will affect the plot.
-$dlg.info.about=Hi, I am the author and developer of this short story. This game I developed alone, so the story is not very long yet. I plan to add new chapters and stories regularly. If you have any ideas or wishes, on what theme or about which characters to make a sequel, I will be glad to your suggestions. You can send them to my email listed on the game page in the Play Market. Thank you for your support and inspiration!
+$dlg.info.about=Hi, I am the author and developer of this short story. This game I developed alone, so the story is not very long yet. I plan to add new chapters and stories regularly. If you have ideas or wishes, on what theme or about which characters to make a sequel - I will be glad to your suggestions. You can send them to my mail, specified on the game page in Play Market. Thank you for your support and inspiration!
 $dlg.info.privacy=You confirm that you have read the privacy settings and data processing policy and express your full consent to their terms.
 
 $menu.part_1=A mysterious traveling companion
