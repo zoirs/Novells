@@ -9,7 +9,10 @@ $dlg.info.close=Fermer
 $dlg.info.header=Info
 $dlg.info.body=En posant les bonnes questions, le héros commence à avoir des soupçons. Plus les soupçons s'accumulent, plus ils affecteront l'intrigue.
 $dlg.info.about=Bonjour, je suis l'auteur et le développeur de cette novella. J'ai développé ce jeu seul, donc l'histoire n'est pas encore très longue. Je prévois d'ajouter régulièrement de nouveaux chapitres et de nouvelles histoires. Si vous avez des idées ou des souhaits sur le thème ou les personnages sur lesquels faire une suite, je serai heureux d'avoir vos suggestions. Vous pouvez les envoyer à mon adresse mail, spécifiée sur la page du jeu dans Play Market. Merci pour votre soutien et votre inspiration !
-$dlg.info.privacy=Vous confirmez que vous avez lu les paramètres de confidentialité et la politique de traitement des données et que vous en acceptez pleinement les termes.
+
+$dlg.privacy.text=Vous confirmez que vous avez lu les paramètres de confidentialité et la politique de traitement des données et que vous en acceptez pleinement les termes.
+$dlg.privacy.read=Lire
+$dlg.privacy.agree=Je suis d'accord
 
 $menu.part_1=Un mystérieux compagnon de voyage
 $menu.part_1.time=11 minutes

@@ -9,7 +9,10 @@ $dlg.info.close=Schließen
 $dlg.info.header=Info
 $dlg.info.body=Durch das Stellen der richtigen Fragen beginnt der Held, einen Verdacht zu haben. Je mehr Verdachtsmomente sich häufen, desto mehr werden sie die Handlung beeinflussen.
 $dlg.info.about=Hallo, ich bin der Autor und Entwickler dieser Novelle. Dieses Spiel habe ich alleine entwickelt, daher ist die Geschichte noch nicht sehr lang. Ich plane, regelmäßig neue Kapitel und Geschichten hinzuzufügen. Wenn ihr Ideen oder Wünsche habt, über welches Thema oder welche Charaktere ich eine Fortsetzung machen soll, freue ich mich über eure Vorschläge. Ihr könnt sie an meine Mailadresse schicken, die auf der Spielseite im Play Market angegeben ist. Ich danke euch für eure Unterstützung und Inspiration!
-$dlg.info.privacy=Sie bestätigen, dass Sie die Einstellungen zum Schutz der Privatsphäre und die Richtlinien zur Datenverarbeitung gelesen haben und erklären sich mit deren Bedingungen einverstanden.
+
+$dlg.privacy.text=Sie bestätigen, dass Sie die Einstellungen zum Schutz der Privatsphäre und die Richtlinien zur Datenverarbeitung gelesen haben und erklären sich mit deren Bedingungen einverstanden.
+$dlg.privacy.read=Lesen Sie
+$dlg.privacy.agree=Ich stimme zu
 
 $menu.part_1=Ein geheimnisvoller Reisebegleiter
 $menu.part_1.time=11 Minuten

@@ -82,7 +82,7 @@ public class GameInstaller : MonoInstaller {
         Container.BindFactory<InfoDialogParam, InfoDialogController, InfoDialogController.Factory>()
             .FromMethod(CreateHelpDialog);
         
-        Container.BindFactory<InfoDialogParam, InfoDialogController, InfoDialogController.FactoryPrivacy>()
+        Container.BindFactory<PrivacyDialogParam, PrivacyDialogController, PrivacyDialogController.Factory>()
             .FromMethod(CreatePrivacyDialog);
 
 
@@ -130,10 +130,10 @@ public class GameInstaller : MonoInstaller {
         return controller;
     }
     
-    InfoDialogController CreatePrivacyDialog(DiContainer subContainer, InfoDialogParam createParam) {
+    PrivacyDialogController CreatePrivacyDialog(DiContainer subContainer, PrivacyDialogParam createParam) {
         GameObject startMenu = GameObject.Find("StartMenu(Clone)");
-        InfoDialogController controller =
-            subContainer.InstantiatePrefabForComponent<InfoDialogController>(prefabsUI.InfoDialog,
+        PrivacyDialogController controller =
+            subContainer.InstantiatePrefabForComponent<PrivacyDialogController>(prefabsUI.PrivacyDialog,
                 startMenu.transform);
         controller.Init(createParam);
         return controller;

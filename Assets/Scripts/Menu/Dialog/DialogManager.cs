@@ -9,7 +9,7 @@ public class DialogManager {
     // [Inject] readonly PurchaseDialogController.Factory purchaseDialogFactory;
     [Inject] readonly OptionDialogController.Factory optionDialogFactory;
     [Inject] readonly InfoDialogController.Factory infoDialogController;
-    [Inject] readonly InfoDialogController.FactoryPrivacy privacyDialogController;
+    [Inject] readonly PrivacyDialogController.Factory privacyDialogController;
     [Inject] readonly GameSettingsInstaller.GameSetting _setting;
     [Inject] readonly GameController gameController;
 
@@ -20,9 +20,9 @@ public class DialogManager {
         infoDialogController.Create(new InfoDialogParam("$dlg.info.body", () => { }));
     }
     
-    public void CollectPrivacyDialog(UnityAction unityAction)
+    public void CollectPrivacyDialog(UnityAction agree, UnityAction read)
     {
-        privacyDialogController.Create(new InfoDialogParam("$dlg.info.privacy", unityAction));
+        privacyDialogController.Create(new PrivacyDialogParam("$dlg.privacy.text", agree, read));
     }
     
     public void OpenAboutDialog() {

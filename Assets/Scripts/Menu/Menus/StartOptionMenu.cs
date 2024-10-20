@@ -36,6 +36,11 @@ public class StartOptionMenu : StartMenu
                 Debug.Log("Agree privacy dialog");
                 AnalyticsService.Instance.StartDataCollection();
                 PlayerPrefs.SetInt(PlayerPrefsUtils.PRIVACY_AGREE, 1);
+            }, () =>
+            {
+                Application.OpenURL("market://details?id=" + Application.identifier);
+                Debug.Log("read");
+                
             });
         }
     }
