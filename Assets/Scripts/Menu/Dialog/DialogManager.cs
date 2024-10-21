@@ -9,6 +9,7 @@ public class DialogManager {
     // [Inject] readonly PurchaseDialogController.Factory purchaseDialogFactory;
     [Inject] readonly OptionDialogController.Factory optionDialogFactory;
     [Inject] readonly InfoDialogController.Factory infoDialogController;
+    [Inject] readonly AboutMeDialogController.Factory aboutMeDialogController;
     [Inject] readonly PrivacyDialogController.Factory privacyDialogController;
     [Inject] readonly GameSettingsInstaller.GameSetting _setting;
     [Inject] readonly GameController gameController;
@@ -26,7 +27,9 @@ public class DialogManager {
     }
     
     public void OpenAboutDialog() {
-        infoDialogController.Create(new InfoDialogParam("$dlg.info.about", () => {gameController.GoToMenu(); }));
+        aboutMeDialogController.Create(new AboutMeDialogParam("$dlg.info.about",
+            () => { gameController.GoToMenu(); },
+            () => { Application.OpenURL("market://details?id=" + Application.identifier); }));
     }
 
     public void CongradulationDialog(int wagonCount, int railwayLength, int reward) {

@@ -29,7 +29,7 @@ $room_2_scene_3_frame_6=Instinctively, she grabbed the items and shoved them bac
 $room_2_scene_3_frame_7=How embarrassing! What if someone had walked in?
 $room_2_scene_3_frame_8=I still haven't seen my cabin mate.
 
-$room_2_scene_4_frame_1=Suitcase, basket, bag, bag... Gosh, it's like my traveling companion is moving here for life!
+$room_2_scene_4_frame_1=Suitcase, basket, bag... Gosh, it's like my traveling companion is moving here for life!
 $room_2_scene_4_frame_2=I guess he loves flights - there's a lot of stickers. Some of them look old. Maybe he collects flights?
 $room_2_scene_4_frame_3=What's this?
 $room_2_scene_4_frame_4=Anna stepped closer, and a strange symbol appeared on the side of the suitcase. Several petals entering one into the other.
@@ -152,8 +152,8 @@ $room_2_scene_18_frame_1=Thank you for trying to help. Usually nothing helps me.
 $room_2_scene_18_frame_2=Oh, I remember! The brochure says you can ask for board games in the room. Would that distract you?
 $room_2_scene_18_frame_3=Okay, roomie. Let's give it a try.
 $room_2_scene_18_frame_4=Although there was a casino on board, the workers had a deck of cards. 
-$room_2_scene_18_frame_5=After an hour, Anna was already regretting to herself that she had suggested such an entertainment - the girl had not won a single game that she could remember.
-$room_2_scene_18_frame_6=But Lilit's face was once again flushed and her symptoms of seasickness had receded.
+$room_2_scene_18_frame_5=An hour later, Anna was already regretting offering such entertainment. She had lost every game they had played.
+$room_2_scene_18_frame_6=At least Lilit's face looked better and the symptoms of seasickness receded.
 $room_2_scene_18_frame_7=And once again you get to fulfill my wish! Let me see...
 $room_2_scene_18_frame_8=Anna gave a pretend groan.
 
@@ -181,7 +181,7 @@ $room_2_scene_21_frame_1=What a coincidence! Instant karma, huh?
 $room_2_scene_21_frame_2=In the morning Anna saw no trace of her traveling companion in the cabin-not her, not her luggage, not the strange potted flower.
 $room_2_scene_21_frame_3=Dream. Just a dream.
 
-$room_2_scene_22_frame_1=Anna looked at Lilit with all eyes.
+$room_2_scene_22_frame_1=Anna looked at Lilith with wide-open eyes.
 $room_2_scene_22_frame_2=Good guess, right?
 $room_2_scene_22_frame_3=If you can so...
 

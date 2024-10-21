@@ -152,8 +152,8 @@ $room_2_scene_18_frame_1=Merci d'avoir essayé de m'aider. En général, rien ne
 $room_2_scene_18_frame_2=Oh, je me souviens ! La brochure dit que vous pouvez demander des jeux de société dans la chambre. Cela vous distrairait-il ?
 $room_2_scene_18_frame_3=Ok, roomie. Essayons.
 $room_2_scene_18_frame_4=Bien qu'il y ait un casino à bord, les employés n'avaient qu'un jeu de cartes. 
-$room_2_scene_18_frame_5=Au bout d'une heure, Anna regrettait déjà d'avoir suggéré un tel divertissement - la fille n'avait pas gagné une seule partie dont elle se souvenait.
-$room_2_scene_18_frame_6=Mais le visage de Lilit était à nouveau rouge et les symptômes du mal de mer s'étaient estompés.
+$room_2_scene_18_frame_5=Une heure plus tard, Anna regrettait déjà d'avoir proposé un tel divertissement. Elle avait perdu toutes les parties qu'ils avaient jouées.
+$room_2_scene_18_frame_6=Au moins, le visage de Lilith a meilleure mine et les symptômes du mal de mer s'estompent.
 $room_2_scene_18_frame_7=Et une fois de plus, tu vas pouvoir réaliser mon souhait ! Voyons voir...
 $room_2_scene_18_frame_8=Anna poussa un semblant de gémissement.
 
@@ -181,7 +181,7 @@ $room_2_scene_21_frame_1=Quelle coïncidence ! Un karma instantané, hein ?
 $room_2_scene_21_frame_2=Au matin, Anna ne vit aucune trace de sa compagne de voyage dans la cabine - ni elle, ni ses bagages, ni l'étrange fleur en pot.
 $room_2_scene_21_frame_3=rêve. Ce n'est qu'un rêve.
 
-$room_2_scene_22_frame_1=Anna regarde Lilit de tous ses yeux.
+$room_2_scene_22_frame_1=Anna regarde Lilith avec des yeux écarquillés.
 $room_2_scene_22_frame_2=Bonne supposition, n'est-ce pas ?
 $room_2_scene_22_frame_3=Si tu peux donc...
 

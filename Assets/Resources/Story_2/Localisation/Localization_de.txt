@@ -152,8 +152,8 @@ room_2_scene_18_frame_1=Danke, dass du versucht hast zu helfen. Normalerweise hi
 $room_2_scene_18_frame_2=Oh, ich erinnere mich! In der Broschüre steht, dass man im Zimmer nach Brettspielen fragen kann. Würde dich das ablenken?
 $room_2_scene_18_frame_3=Okay, Mitbewohner. Versuchen wir's mal.
 $room_2_scene_18_frame_4=Obwohl es ein Casino an Bord gab, hatten die Arbeiter ein Kartenspiel. 
-$room_2_scene_18_frame_5=Nach einer Stunde bedauerte Anna bereits, dass sie eine solche Unterhaltung vorgeschlagen hatte - das Mädchen hatte nicht ein einziges Spiel gewonnen, an das sie sich erinnern konnte.
-$room_2_scene_18_frame_6=Aber Lilits Gesicht war wieder gerötet und ihre Symptome der Seekrankheit waren zurückgegangen.
+$room_2_scene_18_frame_5=Eine Stunde später bedauerte Anna bereits, dass sie diese Unterhaltung angeboten hatte. Sie hatte jedes Spiel, das sie gespielt hatten, verloren.
+$room_2_scene_18_frame_6=Wenigstens sah Liliths Gesicht besser aus und die Symptome der Seekrankheit ließen nach.
 $room_2_scene_18_frame_7=Und wieder einmal darfst du mir einen Wunsch erfüllen! Lass mich mal sehen...
 $room_2_scene_18_frame_8=Anna gab ein vorgetäuschtes Stöhnen von sich.
 
@@ -165,10 +165,10 @@ $room_2_scene_19_frame_4=Hat jemand das Glück, eine Hexe zu sein?
 $room_2_scene_20_frame_1=Ich habe mir etwas gewünscht! Geh auf dem Liner mit meinem Haustier in deinen Armen!
 $room_2_scene_20_frame_2=Anna hob einen Topf mit Eisenhut auf. Er erwies sich als erstaunlich sperrig.
 $room_2_scene_20_frame_3=Nach dem hier spiele ich bestimmt nicht mehr!
-$room_2_scene_20_frame_4=Давай-давай!
+$room_2_scene_20_frame_4=Komm schon, komm schon!
 $room_2_scene_20_frame_5=Lilit öffnete die Tür vor ihr, und Anna trat über die Schwelle.
 $room_2_scene_20_frame_6= Ihr Fuß machte sofort einen Satz zur Seite. Das Mädchen schwankte und versuchte, das Gleichgewicht auf dem nassen Boden zu halten, aber es gelang ihr nicht und sie flog zu Boden.
-$room_2_scene_20_frame_7=Ай!
+$room_2_scene_20_frame_7=Autsch!
 $room_2_scene_20_frame_8=Die Hand war wund. Der Pott war wie durch ein Wunder noch intakt.
 $room_2_scene_20_frame_9=Fußstampfen war im Korridor zu hören. Anna hatte noch Zeit, zwei Jungen zu sehen, die hinten wegliefen.
 $room_2_scene_20_frame_10=Lilit wusste sofort Bescheid.
@@ -181,7 +181,7 @@ $room_2_scene_21_frame_1=Was für ein Zufall! Sofortiges Karma, was?
 $room_2_scene_21_frame_2=Am Morgen sah Anna in der Kabine keine Spur von ihrer Reisegefährtin - nicht sie, nicht ihr Gepäck, nicht die seltsame Topfblume.
 $room_2_scene_21_frame_3=Сон. Nur ein Traum.
 
-$room_2_scene_22_frame_1=Anna sah Lilit mit ihren ganzen Augen an.
+$room_2_scene_22_frame_1=Anna sah Lilith mit weit aufgerissenen Augen an.
 $room_2_scene_22_frame_2=Gut geraten, oder?
 $room_2_scene_22_frame_3=Wenn du das kannst...
 

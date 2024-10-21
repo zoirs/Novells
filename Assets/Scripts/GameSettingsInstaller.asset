@@ -19,6 +19,8 @@ MonoBehaviour:
       type: 3}
     InfoDialog: {fileID: 8295717289151871043, guid: dc640ceab35d3244e80b5322579ea64f,
       type: 3}
+    PrivacyDialog: {fileID: 9030241061677666657, guid: 00e1358cbe14bf841933b50c66cff6e6,
+      type: 3}
     nextFramePrefab: {fileID: 5411179428438364978, guid: 88263aff8222d814e91053940a9ec1b7,
       type: 3}
   audioMicSetting:

@@ -14,6 +14,9 @@ $dlg.privacy.text=Sie bestätigen, dass Sie die Einstellungen zum Schutz der Pri
 $dlg.privacy.read=Lesen Sie
 $dlg.privacy.agree=Ich stimme zu
 
+$dlg.about.tomenu=Schließen
+$dlg.about.rate=Hinterlassen Sie einen Kommentar
+
 $menu.part_1=Ein geheimnisvoller Reisebegleiter
 $menu.part_1.time=11 Minuten
 
